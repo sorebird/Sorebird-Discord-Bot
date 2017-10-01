@@ -24,10 +24,8 @@ bot.on('message', function(message) {
     }else if(message.content == '!thwump'){
         message.channel.sendFile('https://gbf.wiki/images/5/57/Stamp122.png');
     }else if(message.content == '!help'){
-        message.channel.sendMessage('```Currently available commands:\n\nGBF emotes:\n!thwump, !heyo, !siero, !pffft, !machovee, !huh, !hi, !heregoes, !hurray, !awesome, !obliged, !goodwork, !thanks, !giveup, !drool, !gratz, !crushed, !nice, !zzz, !???, !wobble, !bop, !please, !sup, !nope, !untz, !bebopboo, !tehe, !jkpls, !cutielicious, !wiggle,, !letmehelp, !ok, !aww, !yummy, !noo, !itson, !done, !hmph !stopplz, !phalanx, !what, !fail, !sigh, !qt, !canihelp, !chomp, !salute, !humph, !followme, !neversurrender, !thanksforwaiting, !aye, !notgood, !letsgo, !wink, !bully, !meow, !bam, !gong, !yikes, !calmdown' +
+        message.channel.sendMessage('```Currently available commands:\n\nGBF emotes:\n!thwump, !heyo, !siero, !pffft, !machovee, !huh, !hi, !heregoes, !hurray, !awesome, !obliged, !goodwork, !thanks, !giveup, !drool, !gratz, !crushed, !nice, !zzz, !???, !wobble, !bop, !please, !sup, !nope, !untz, !bebopboo, !tehe, !jkpls, !cutielicious, !wiggle, !letmehelp, !ok, !aww, !yummy, !noo, !itson, !done, !hmph !stopplz, !phalanx, !what, !fail, !sigh, !qt, !canihelp, !chomp, !salute, !humph, !followme, !neversurrender, !thanksforwaiting, !aye, !notgood, !letsgo, !wink, !bully, !meow, !bam, !gong, !yikes, !calmdown, !sara, !cry !rainbow, !scamgacha, !clarisse, !shock, !creep, !despair, !rackam, !rackaam, !rackaaam, !rackaaaam, !legendofrackam, !soiya1, !soiya2, !soiya3' +
                                         '\n\nOther emotes:\n!sivangry, !sivhmm, !sivshock```');
-    }else if (String(s).match(/!saltroll.*/)) {
-        message.channel.sendMessage('Chirp? *Stares at you confused*');
     }else if (String(s).match(/kissu.*/)) {
         message.channel.sendFile('https://stickershop.line-scdn.net/stickershop/v1/sticker/15670572/android/sticker.png');
     }else if (String(s).match(/sorebird is annoying.*/)) {
@@ -172,9 +170,84 @@ bot.on('message', function(message) {
         message.channel.sendFile('https://gbf.wiki/images/a/aa/Stamp70.png');
     }else if(message.content == '!phalanx'){
         message.channel.sendFile('https://gbf.wiki/images/5/57/Stamp19.png');
+    }else if(message.content == '!clarisse'){
+        message.channel.sendFile('https://orig00.deviantart.net/1326/f/2017/274/3/0/claris_by_sorebird-dbp6a2i.png');
+    }else if(message.content == '!creep'){
+        message.channel.sendFile('https://orig00.deviantart.net/3910/f/2017/274/5/e/creep_by_sorebird-dbp6a2e.png');
+    }else if(message.content == '!cry'){
+        message.channel.sendFile('https://orig00.deviantart.net/0627/f/2017/274/2/e/cry_by_sorebird-dbp6a29.png');
+    }else if(message.content == '!despair'){
+        message.channel.sendFile('https://orig00.deviantart.net/959a/f/2017/274/3/d/despair_by_sorebird-dbp6a27.png');
+    }else if(message.content == '!shock'){
+        message.channel.sendFile('https://orig00.deviantart.net/9543/f/2017/274/d/a/shock_by_sorebird-dbp6a13.png');
+    }else if(message.content == '!rainbow'){
+        message.channel.sendFile('https://orig00.deviantart.net/fcf5/f/2017/274/3/b/rainbow_by_sorebird-dbp6a1o.png');
+    }else if(message.content == '!scamgacha'){
+        message.channel.sendFile('https://orig00.deviantart.net/5fa3/f/2017/274/8/2/rip_by_sorebird-dbp6a1f.png');
+    }else if(message.content == '!sara'){
+        message.channel.sendFile('https://orig00.deviantart.net/8e66/f/2017/274/9/4/sara_by_sorebird-dbp6a16.png');
+    }else if(message.content == '!rackam'){
+        message.channel.sendFile('https://gbf.wiki/images/4/45/Stamp32.png');
+    }else if(message.content == '!rackaam'){
+        message.channel.sendFile('https://gbf.wiki/images/a/a1/Stamp33.png');
+    }else if(message.content == '!rackaaam'){
+        message.channel.sendFile('https://gbf.wiki/images/2/26/Stamp34.png');
+    }else if(message.content == '!rackaaaam'){
+        message.channel.sendFile('https://gbf.wiki/images/8/8e/Stamp35.png');
+    }else if(message.content == '!legendofrackam'){
+        message.channel.sendFile('https://gbf.wiki/images/4/4f/Stamp36.png');
+    }else if(message.content == '!luvya'){
+        message.channel.sendFile('https://gbf.wiki/images/2/22/Stamp158.png');
+    }else if(message.content == '!soiya1'){
+        message.channel.sendFile('https://gbf.wiki/images/2/26/Stamp13.png');
+    }else if(message.content == '!soiya2'){
+        message.channel.sendFile('https://gbf.wiki/images/6/6c/Stamp14.png');
+    }else if(message.content == '!soiya3'){
+        message.channel.sendFile('https://gbf.wiki/images/a/a4/Stamp15.png');
+    }else if (String(s).match(/!saltroll.*/)) {
+		var first = Math.random() * (1 - 100) + 1;
+		var second = Math.random() * (1 - 100) + 1;
+		var third = Math.random() * (1 - 100) + 1;
+		var fourth = Math.random() * (1 - 100) + 1;
+		var fifth = Math.random() * (1 - 100) + 1;
+		var sixth = Math.random() * (1 - 100) + 1;
+		var seventh = Math.random() * (1 - 100) + 1;
+		var eigth = Math.random() * (1 - 100) + 1;
+		var ninth = Math.random() * (1 - 100) + 1;
+		var tenth = Math.random() * (1 - 100) + 1;
+		
+		var rolls = new Array(first, second, third, fourth, fifth, sixth, seventh, eigth, ninth, tenth);
+		var rng;
+		
+		rolls.forEach((function (s, i, o) {
+			$ssr_rate = 6;
+			$sr_rate = 15;
+			$r_rate = 81;
+			
+			if(s <= 6){
+				if(s < 4){
+					rng.push("SSR character");
+				}else{
+					rng.push("SSR summon");
+				}
+			}else if(s > 6 && s < 12){
+				if(s < 10){
+					rng.push("SR character");
+				}else
+					rng.push("SR Summon");
+				}
+			}else{
+				if(s < 60){
+				rng.push("R character");
+				}else{
+					rng.push("R summon");
+				}
+			}
+			
+		});
+		
+        message.channel.sendMessage('You got these 10 items:\n' + rng.toString());
     }
-    
-
 });
 
 bot.login('MzYzNzk0MDU3MjI0Mzg4NjA4.DLGcww.SpYgjM2YtVISdxCEv_fKULI4Ow4');
