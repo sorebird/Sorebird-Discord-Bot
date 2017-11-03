@@ -225,7 +225,7 @@ bot.on('message', function(message) {
 	}else if(message.content == '!smile'){
         message.channel.sendFile('https://gbf.wiki/images/9/9e/Stamp171.png');
 	}else if(message.content == '!yipyuel'){
-        message.channel.sendFile('https://gbf.wiki/images/d/d3/Stamp177.png');
+        message.channel.sendFile('https://gbf.wiki/images/7/75/Stamp178.png');
 	}else if(message.content == '!yipsocie'){
         message.channel.sendFile('https://gbf.wiki/images/d/d3/Stamp177.png');
 	}else if(message.content == '!yugu'){
