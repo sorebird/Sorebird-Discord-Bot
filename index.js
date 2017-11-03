@@ -204,49 +204,6 @@ bot.on('message', function(message) {
         message.channel.sendFile('https://gbf.wiki/images/6/6c/Stamp14.png');
     }else if(message.content == '!soiya3'){
         message.channel.sendFile('https://gbf.wiki/images/a/a4/Stamp15.png');
-    }else if (String(s).match(/!saltroll.*/)) {
-		var first = Math.random() * (1 - 100) + 1;
-		var second = Math.random() * (1 - 100) + 1;
-		var third = Math.random() * (1 - 100) + 1;
-		var fourth = Math.random() * (1 - 100) + 1;
-		var fifth = Math.random() * (1 - 100) + 1;
-		var sixth = Math.random() * (1 - 100) + 1;
-		var seventh = Math.random() * (1 - 100) + 1;
-		var eigth = Math.random() * (1 - 100) + 1;
-		var ninth = Math.random() * (1 - 100) + 1;
-		var tenth = Math.random() * (1 - 100) + 1;
-		
-		var rolls = new Array(first, second, third, fourth, fifth, sixth, seventh, eigth, ninth, tenth);
-		var rng;
-		
-		rolls.forEach((function (s, i, o) {
-			$ssr_rate = 6;
-			$sr_rate = 15;
-			$r_rate = 81;
-			
-			if(s <= 6){
-				if(s < 4){
-					rng.push("SSR character");
-				}else{
-					rng.push("SSR summon");
-				}
-			}else if(s > 6 && s < 12){
-				if(s < 10){
-					rng.push("SR character");
-				}else
-					rng.push("SR Summon");
-				}
-			}else{
-				if(s < 60){
-				rng.push("R character");
-				}else{
-					rng.push("R summon");
-				}
-			}
-			
-		});
-		
-        message.channel.sendMessage('You got these 10 items:\n' + rng.toString());
     }
 });
 
