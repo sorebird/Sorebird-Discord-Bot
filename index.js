@@ -24,7 +24,7 @@ bot.on('message', function(message) {
     }else if(message.content == '!thwump'){
         message.channel.sendFile('https://gbf.wiki/images/5/57/Stamp122.png');
     }else if(message.content == '!help'){
-        message.channel.sendMessage('```Currently available commands:\n\nGBF emotes:\n!???, !awesome, !aww, !aye, !bam, !bebopboo, !bop, !bully, !calmdown, !canihelp, !chomp, !clarisse, !coughsblood, !creep, !crushed, !cry, !rainbow, !cutielicious, !dealwithit, !despair, !done, !drool, !emolily, !fail, !followme, !giveup, !growpls, !gong, !goodwork, !gratz, !heregoes, !heyo, !hi, !hmph, !stopplz, !huh, !humph, !hurray, !inhale, !itson, !jkpls, !legendofrackam, !letmehelp, !letmeleech, !letsgo, !machovee, !meow, !neversurrender, !nice, !noo, !nope, !notgood, !obliged, !ok, !pffft, !phalanx, !please, !pleaseunderstand, !qt, !rackaaaam, !rackaaam, !rackaam, !rackam, !salute, !sara, !scamgacha, !shock, !siero, !sigh, !smile, !soiya1, !soiya2, !soiya3, !striketime, !sup, !thwump, !tehe, !thanks, !thanksforwaiting, !untz, !virahuh, !vyrnpunch, !what, !wiggle, !wink, !wobble, !yikes, !yipsocie, !yipyuel, !yugu, !yummy, !zzz' +
+        message.channel.sendMessage('```Currently available commands:\n\nGBF emotes:\n!???, !awesome, !aww, !aye, !bam, !bebopboo, !bop, !bully, !calmdown, !canihelp, !chomp, !clarisse, !coughsblood, !creep, !crushed, !cry, !rainbow, !cutielicious, !dealwithit, !despair, !done, !drool, !emolily, !fail, !followme, !giveup, !growpls, !gong, !goodwork, !gratz, !heregoes, !hereigo, !heyo, !hi, !hmph, !stopplz, !huh, !humph, !hurray, !inhale, !itson, !jk, !jkpls, !legendofrackam, !letmehelp, !letmeleech, !letsgo, !machovee, !meow, !neversurrender, !nice, !noo, !nope, !notgood, !obliged, !ok, !ouch, !pffft, !phalanx, !please, !pleaseunderstand, !qt, !rackaaaam, !rackaaam, !rackaam, !rackam, !salute, !sara, !scamgacha, !shock, !siero, !sigh, !smile, !sturm?, !soiya1, !soiya2, !soiya3, !striketime, !sup, !thwump, !tehe, !thanks, !thanksforwaiting, !untz, !virahuh, !vyrnpunch, !what, !whee, !wiggle, !wink, !wobble, !yikes, !yipsocie, !yipyuel, !yugu, !yummy, !zzz' +
                                         '\n\nOther emotes:\n!sivangry, !sivhmm, !sivshock```');
     }else if (String(s).match(/kissu.*/)) {
         message.channel.sendFile('https://stickershop.line-scdn.net/stickershop/v1/sticker/15670572/android/sticker.png');
@@ -232,6 +232,16 @@ bot.on('message', function(message) {
         message.channel.sendFile('https://gbf.wiki/images/3/3f/Stamp180.png');
 	}else if(message.content == '!emolily'){
         message.channel.sendFile('https://orig00.deviantart.net/963d/f/2017/306/c/e/lily_by_sorebird-dbsi9wd.png');
+	}else if(message.content == '!whee'){
+        message.channel.sendFile('https://gbf.wiki/images/b/b6/Stamp128.png');
+	}else if(message.content == '!ouch'){
+        message.channel.sendFile('https://gbf.wiki/images/f/f7/Stamp52.png');
+	}else if(message.content == '!jk'){
+        message.channel.sendFile('https://gbf.wiki/images/4/4c/Stamp49.png');
+	}else if(message.content == '!sturm?'){
+        message.channel.sendFile('https://gbf.wiki/images/8/88/Stamp51.png');
+	}else if(message.content == '!hereigo'){
+        message.channel.sendFile('https://gbf.wiki/images/8/8a/Stamp124.png');
 	}
 
 });
