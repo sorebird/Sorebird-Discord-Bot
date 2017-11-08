@@ -8,7 +8,6 @@ bot.on('ready', () => {
 
 bot.on('message', function(message) {
     var s = message.content;
-
     if(message.content == 'sorebird'){
         message.channel.sendMessage('chirp');
     }else if (String(s).match(/ludicat.*/)) {
@@ -242,8 +241,11 @@ bot.on('message', function(message) {
         message.channel.sendFile('https://gbf.wiki/images/8/88/Stamp51.png');
 	}else if(message.content == '!hereigo'){
         message.channel.sendFile('https://gbf.wiki/images/8/8a/Stamp124.png');
+	}else if(message.content == '!nextst'){
+        message.channel.sendMessage('chirp');
+	}else if(message.content == '!jsttime'){
+        message.channel.sendMessage('chirp');
 	}
-
 });
 
-bot.login('MzYzNzk0MDU3MjI0Mzg4NjA4.DOBuOw.Vn9BXja2AYAGnQ9xZ1Nkb2nDxu0');
+bot.login('MzYzNzk0MDU3MjI0Mzg4NjA4.DOTyxA.AtQuz48uo7MT_b2E7IecceWJX9I');
