@@ -247,3 +247,5 @@ bot.on('message', function(message) {
         message.channel.sendMessage('chirp');
 	}
 });
+
+bot.login(process.env.BOT_TOKEN);
