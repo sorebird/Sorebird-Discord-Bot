@@ -247,5 +247,3 @@ bot.on('message', function(message) {
         message.channel.sendMessage('chirp');
 	}
 });
-
-bot.login('MzYzNzk0MDU3MjI0Mzg4NjA4.DOTyxA.AtQuz48uo7MT_b2E7IecceWJX9I');
