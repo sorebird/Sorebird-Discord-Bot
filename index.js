@@ -8,10 +8,10 @@ bot.on('ready', () => {
 
 bot.on('message', function(message) {
     var s = message.content;
-    if(message.content == 'sorebird'){
+    if(String(s).match(/sorebird.*/)){
         message.channel.sendMessage('chirp');
     }else if (String(s).match(/ludicat.*/)) {
-        message.channel.sendMessage('AGGRESSIVE CHIRPING');
+        message.channel.sendFile('https://cdn.discordapp.com/attachments/356371808842416130/394191656750022657/angrybirb.png');
     }else if (String(s).match(/rhyrhy.*/)) {
         message.channel.sendMessage('*blushu dies*');
     }else if(message.content == '!sivangry'){
@@ -23,8 +23,8 @@ bot.on('message', function(message) {
     }else if(message.content == '!thwump'){
         message.channel.sendFile('https://gbf.wiki/images/5/57/Stamp122.png');
     }else if(message.content == '!help'){
-        message.channel.sendMessage('```Currently available commands:\n\nGBF emotes:\n!???, !awesome, !aww, !aye, !bam, !bebopboo, !bop, !bully, !calmdown, !canihelp, !chomp, !clarisse, !coughsblood, !creep, !crushed, !cry, !rainbow, !cutielicious, !dealwithit, !despair, !done, !drool, !emolily, !fail, !followme, !giveup, !growpls, !gong, !goodwork, !gratz, !heregoes, !hereigo, !heyo, !hi, !hmph, !stopplz, !huh, !humph, !hurray, !inhale, !itson, !jk, !jkpls, !legendofrackam, !letmehelp, !letmeleech, !letsgo, !machovee, !meow, !neversurrender, !nice, !noo, !nope, !notgood, !obliged, !ok, !ouch, !pffft, !phalanx, !please, !pleaseunderstand, !qt, !rackaaaam, !rackaaam, !rackaam, !rackam, !salute, !sara, !scamgacha, !shock, !siero, !sigh, !smile, !sturm?, !soiya1, !soiya2, !soiya3, !striketime, !sup, !thwump, !tehe, !thanks, !thanksforwaiting, !untz, !virahuh, !vyrnpunch, !what, !whee, !wiggle, !wink, !wobble, !yikes, !yipsocie, !yipyuel, !yugu, !yummy, !zzz' +
-                                        '\n\nOther emotes:\n!sivangry, !sivhmm, !sivshock```');
+        message.channel.sendMessage('```Currently available commands:\n\nGBF emotes:\n!???, !awesome, !aww, !aye, !bam, !bebopboo, !bop, !bully, !calmdown, !canihelp, !chomp, !clarisse, !coughsblood, !creep, !crushed, !cry, !rainbow, !cutielicious, !dealwithit, !despair, !dickpick, !done, !drool, !emolily, !fail, !followme, !giveup, !growpls, !gogopowpow, !gong, !goodwork, !gratz, !heregoes, !hereigo, !heyo, !hi, !hmph, !stopplz, !huh, !humph, !hurray, !inhale, !itson, !jk, !jkpls, !legendofrackam, !letmehelp, !letmeleech, !letsgo, !kaguya, !machovee, !meow, !neversurrender, !nice, !notsiete, !noo, !nope, !notgood, !obliged, !ok, !ouch, !pffft, !phalanx, !please, !pleaseunderstand, !qt, !rackaaaam, !rackaaam, !rackaam, !rackam, !ripbea, !salute, !sara, !scamgacha, !shock, !siero, !sigh, !smile, !sturm?, !soiya1, !soiya2, !soiya3, !striketime, !sup, !thwump, !tehe, !tears, !thanks, !thanksforwaiting, !untz, !virahuh, !vyrnjade, !vyrnpunch, !what, !whee, !wheeze, !wiggle, !wink, !wobble, !yikes, !yipsocie, !yipyuel, !yugu, !yummy, !zeta, !zzz' +
+                                        '\n\nOther emotes:\n!angrybirb, !dedrhyrhy, !happysiv, !scaredludi, !sivangry, !sivhmm, !sivshock```');
     }else if (String(s).match(/kissu.*/)) {
         message.channel.sendFile('https://stickershop.line-scdn.net/stickershop/v1/sticker/15670572/android/sticker.png');
     }else if (String(s).match(/sorebird is annoying.*/)) {
@@ -245,6 +245,30 @@ bot.on('message', function(message) {
         message.channel.sendMessage('chirp');
 	}else if(message.content == '!jsttime'){
         message.channel.sendMessage('chirp');
+	}else if(message.content == '!dickpick'){
+        message.channel.sendFile('https://cdn.discordapp.com/attachments/364174595961389086/394245200249225236/23517475_1983184115304469_1305680920232120631_n.jpg');
+	}else if(message.content == '!notsiete'){
+        message.channel.sendFile('https://cdn.discordapp.com/attachments/364174595961389086/394245024872660993/23172379_262413200948763_6449796456933969007_n.jpg');
+	}else if(message.content == '!tears'){
+        message.channel.sendFile('https://cdn.discordapp.com/attachments/364174595961389086/393014867046563840/unknown.png');
+	}else if(message.content == '!scaredludi'){
+        message.channel.sendFile('https://cdn.discordapp.com/attachments/356371808842416130/394199526401114124/scaredludi.png');
+	}else if(message.content == '!dedrhyrhy'){
+        message.channel.sendFile('https://cdn.discordapp.com/attachments/356371808842416130/394208686576500747/dedrhyrhy.png');
+	}else if(message.content == '!happysiv'){
+        message.channel.sendFile('https://cdn.discordapp.com/attachments/356371808842416130/394191735154147359/happysiv.png');
+	}else if(message.content == '!angrybirb'){
+        message.channel.sendFile('https://cdn.discordapp.com/attachments/356371808842416130/394191656750022657/angrybirb.png');
+	}else if(message.content == '!wheeze'){
+        message.channel.sendFile('https://orig00.deviantart.net/bf68/f/2017/357/9/0/1513905101046_by_sorebird-dbxm5r9.jpg');
+	}else if(message.content == '!ripbea'){
+        message.channel.sendFile('https://orig00.deviantart.net/357c/f/2017/357/3/0/bea_by_sorebird-dbxm5tn.png');
+	}else if(message.content == '!kaguya'){
+        message.channel.sendFile('https://orig00.deviantart.net/df58/f/2017/357/a/0/kaguya_by_sorebird-dbxm5te.png');
+	}else if(message.content == '!vyrnjade'){
+        message.channel.sendFile('https://orig00.deviantart.net/e265/f/2017/357/a/9/1513976541393_by_sorebird-dbxm5ze.png');
+	}else if(message.content == '!zeta'){
+        message.channel.sendFile('https://orig00.deviantart.net/c069/f/2017/357/8/7/1512514569871_by_sorebird-dbxm5z0.jpg');
 	}
 });
 
