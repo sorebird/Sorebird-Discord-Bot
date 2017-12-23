@@ -12,8 +12,6 @@ bot.on('message', function(message) {
         message.channel.sendMessage('chirp');
     }else if (String(s).match(/ludicat.*/)) {
         message.channel.sendFile('https://cdn.discordapp.com/attachments/356371808842416130/394191656750022657/angrybirb.png');
-    }else if (String(s).match(/rhyrhy.*/)) {
-        message.channel.sendMessage('*blushu dies*');
     }else if(message.content == '!sivangry'){
         message.channel.sendMessage('chirp');
     }else if(message.content == '!sivhmm'){
@@ -24,7 +22,7 @@ bot.on('message', function(message) {
         message.channel.sendFile('https://gbf.wiki/images/5/57/Stamp122.png');
     }else if(message.content == '!help'){
         message.channel.sendMessage('```Currently available commands:\n\nGBF emotes:\n!???, !awesome, !aww, !aye, !bam, !bebopboo, !bop, !bully, !calmdown, !canihelp, !chomp, !clarisse, !coughsblood, !creep, !crushed, !cry, !rainbow, !cutielicious, !dealwithit, !despair, !dickpick, !done, !drool, !emolily, !fail, !followme, !giveup, !growpls, !gogopowpow, !gong, !goodwork, !gratz, !heregoes, !hereigo, !heyo, !hi, !hmph, !stopplz, !huh, !humph, !hurray, !inhale, !itson, !jk, !jkpls, !legendofrackam, !letmehelp, !letmeleech, !letsgo, !kaguya, !machovee, !meow, !neversurrender, !nice, !notsiete, !noo, !nope, !notgood, !obliged, !ok, !ouch, !pffft, !phalanx, !please, !pleaseunderstand, !qt, !rackaaaam, !rackaaam, !rackaam, !rackam, !ripbea, !salute, !sara, !scamgacha, !shock, !siero, !sigh, !smile, !sturm?, !soiya1, !soiya2, !soiya3, !striketime, !sup, !thwump, !tehe, !tears, !thanks, !thanksforwaiting, !untz, !virahuh, !vyrnjade, !vyrnpunch, !what, !whee, !wheeze, !wiggle, !wink, !wobble, !yikes, !yipsocie, !yipyuel, !yugu, !yummy, !zeta, !zzz' +
-                                        '\n\nOther emotes:\n!angrybirb, !dedrhyrhy, !happysiv, !scaredludi, !sivangry, !sivhmm, !sivshock```');
+                                        '\n\nOther emotes:\n!angrybirb, !dedrhyrhy, !happysiv, !poutvina, !scaredludi, !sivangry, !sivhmm, !sivshock```');
     }else if (String(s).match(/kissu.*/)) {
         message.channel.sendFile('https://stickershop.line-scdn.net/stickershop/v1/sticker/15670572/android/sticker.png');
     }else if (String(s).match(/sorebird is annoying.*/)) {
@@ -269,6 +267,8 @@ bot.on('message', function(message) {
         message.channel.sendFile('https://orig00.deviantart.net/e265/f/2017/357/a/9/1513976541393_by_sorebird-dbxm5ze.png');
 	}else if(message.content == '!zeta'){
         message.channel.sendFile('https://orig00.deviantart.net/c069/f/2017/357/8/7/1512514569871_by_sorebird-dbxm5z0.jpg');
+	}else if(message.content == '!poutvina'){
+        message.channel.sendFile('https://cdn.discordapp.com/attachments/363815644682256384/394251646299013120/poutvina.png');
 	}
 });
 
