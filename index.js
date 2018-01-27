@@ -21,7 +21,7 @@ bot.on('message', function(message) {
     }else if(message.content == '!thwump'){
         message.channel.sendFile('https://gbf.wiki/images/5/57/Stamp122.png');
     }else if(message.content == '!help'){
-        message.channel.sendMessage('```Currently available commands:\n\nGBF emotes:\n!???, !amazing, !awesome, !aww, !aye, !bam, !bebopboo, !bop, !bully, !calmdown, !canihelp, !chomp, !clarisse, !coughsblood, !creep, !crushed, !cry, !cutielicious, !dealwithit, !despair, !dickpick, !done, !drool, !emolily, !fail, !followme, !giveup, !growpls, !gogopowpow, !gong, !goodwork, !gratz, !happy, !heregoes, !hereigo, !heyo, !hi, !hmph, !stopplz, !huh, !humph, !hurray, !inhale, !itson, !jk, !jkpls, !katdespair, !legendofrackam, !letmehelp, !letmeleech, !letsgo, !kaguya, !machovee, !meow, !neversurrender, !nice, !notsiete, !noo, !nope, !notgood, !obliged, !ok, !ouch, !pffft, !phalanx, !please, !pleaseunderstand, !qt, !rackaaaam, !rackaaam, !rackaam, !rackam, !rainbow, !ripbea, !salute, !sara, !salty, !scamgacha, !shock, !siero, !sigh, !silvano, !smile, !smuggran !srszooey, !sturm?, !soiya1, !soiya2, !soiya3, !striketime, !sup, !thwump, !tehe, !tears, !thanks, !thanksforwaiting, !untz, !virahuh, !vyrnjade, !vyrnpunch, !what, !whee, !wheeze, !wiggle, !wink, !wobble, !yikes, !yipsocie, !yipyuel, !yugu, !yummy, !zeta, !zzz' +
+        message.channel.sendMessage('```Currently available commands:\n\nGBF emotes:\n!???, !amazing, !awesome, !aww, !aye, !bam, !bebopboo, !bop, !bully, !calmdown, !canihelp, !chomp, !clarisse, !coughsblood, !creep, !crushed, !cry, !cutielicious, !dealwithit, !despair, !dickpick, !djeanne, !djyes, !done, !drool, !emolily, !fail, !ferry, !followme, !giveup, !growpls, !gogopowpow, !gong, !goodwork, !gratz, !happy, !heregoes, !hereigo, !heyo, !hi, !hmph, !huh, !huhzoi, !huhsong, !humph, !hurray, !inhale, !itson, !jk, !jkpls, !katdespair, !legendofrackam, !letmehelp, !letmeleech, !letsgo, !kaguya, !machovee, !meow, !neversurrender, !nice, !nio, !notsiete, !noo, !nope, !notgood, !obliged, !ok, !ouch, !pffft, !phalanx, !percy, !pholia, !please, !pleaseunderstand, !qt, !rackaaaam, !rackaaam, !rackaam, !rackam, !rainbow, !ripbea, !salute, !sara, !salty, !scamgacha, !shock, !siero, !sigh, !silva, !silvano, !sip, !smile, !smuggran, !srszooey, !sturm?, !soiya1, !soiya2, !soiya3, !striketime, !sup, !thwump, !tehe, !tears, !thanks, !thanksforwaiting, !untz, !virahuh, !vyrnjade, !vyrnpunch, !what, !whee, !whylive, !wheeze, !wiggle, !wink, !wobble, !yikes, !yipsocie, !yipyuel, !yugu, !yummy, !zeta, !zzz' +
                                         '\n\nOther emotes:\n!angrybirb, !dedrhyrhy, !happysiv, !poutvina, !scaredludi, !sivangry, !sivhmm, !sivshock```');
     }else if (String(s).match(/kissu.*/)) {
         message.channel.sendFile('https://stickershop.line-scdn.net/stickershop/v1/sticker/15670572/android/sticker.png');
@@ -283,6 +283,28 @@ bot.on('message', function(message) {
 	message.channel.sendFile('https://orig00.deviantart.net/d61f/f/2018/024/7/1/katdespair_by_sorebird-dc115cq.png');
 	}else if(message.content == '!smuggran'){
 	message.channel.sendFile('https://orig00.deviantart.net/21b4/f/2018/024/0/9/1516816715885_by_sorebird-dc115lx.jpg');
+	}else if(message.content == '!djeanne'){
+	message.channel.sendFile('https://orig00.deviantart.net/1d72/f/2018/027/3/8/djeanne_by_sorebird-dc1axb3.png');
+	}else if(message.content == '!pholia'){
+	message.channel.sendFile('https://orig00.deviantart.net/e456/f/2018/027/1/f/pholia_by_sorebird-dc1axay.png');
+	}else if(message.content == '!djyes'){
+	message.channel.sendFile('https://orig00.deviantart.net/8e44/f/2018/027/8/d/djyes_by_sorebird-dc1axat.png');
+	}else if(message.content == '!nio'){
+	message.channel.sendFile('https://orig00.deviantart.net/73ee/f/2018/027/2/c/naniong_by_sorebird-dc1axap.png');
+	}else if(message.content == '!whylive'){
+	message.channel.sendFile('https://orig00.deviantart.net/7962/f/2018/027/1/2/whylive_by_sorebird-dc1axaa.png');
+	}else if(message.content == '!silva'){
+	message.channel.sendFile('https://orig00.deviantart.net/40fb/f/2018/027/2/1/silva_by_sorebird-dc1axak.png');
+	}else if(message.content == '!huhsong'){
+	message.channel.sendFile('https://orig00.deviantart.net/2508/f/2018/027/c/6/ehsong_by_sorebird-dc1axbv.png');
+	}else if(message.content == '!huhzoi'){
+	message.channel.sendFile('https://orig00.deviantart.net/0af2/f/2018/027/1/7/ehzoi_by_sorebird-dc1axbo.png');
+	}else if(message.content == '!sip'){
+	message.channel.sendFile('https://orig00.deviantart.net/8ad2/f/2018/027/1/5/sip_by_sorebird-dc1axb5.png');
+	}else if(message.content == '!ferry'){
+	message.channel.sendFile('https://orig00.deviantart.net/2204/f/2018/027/e/9/ohhh_by_sorebird-dc1axaf.png');
+	}else if(message.content == '!percy'){
+	message.channel.sendFile('https://orig00.deviantart.net/59ce/f/2018/027/d/e/percy_sexy_by_sorebird-dc1axc2.png');
 	}
 });
 
