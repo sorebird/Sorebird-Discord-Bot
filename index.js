@@ -428,7 +428,34 @@ bot.on('message', function(message) {
 		message.channel.sendFile('https://orig00.deviantart.net/76a6/f/2018/035/6/1/lmaoplebs_by_sena_nightsaber-dc25vmu.png');
 	}else if(message.content == '$lmaonoobs'){
 		message.channel.sendFile('https://orig00.deviantart.net/76a6/f/2018/035/6/1/lmaoplebs_by_sena_nightsaber-dc25vmu.png');
-	}	
+	}else if(message.content == '$kesssmile'){
+		message.channel.sendFile('https://orig00.deviantart.net/bf98/f/2018/035/7/5/kesssmile_by_sena_nightsaber-dc25vu8.png');
+	}else if(message.content == '$lol'){
+		message.channel.sendFile('https://orig00.deviantart.net/5ee7/f/2018/035/4/7/lol_by_sena_nightsaber-dc25w24.png');
+	}else if(message.content == '$codenameleong'){
+		message.channel.sendFile('https://orig00.deviantart.net/2cf8/f/2018/035/6/a/codenameleong_by_sena_nightsaber-dc260ox.png');
+	}else if(message.content == '$thischickenisraw'){
+		message.channel.sendFile('https://orig00.deviantart.net/dd91/f/2018/035/f/b/thischickenisraw_by_sena_nightsaber-dc2611o.png');
+	}else if(message.content == '$bueno'){
+		message.channel.sendFile('https://orig00.deviantart.net/06a6/f/2018/035/1/4/bueno_by_sena_nightsaber-dc261l4.png');
+	}else if(message.content == '$killthemall'){
+		message.channel.sendFile('https://orig00.deviantart.net/b4a9/f/2018/035/9/9/kill_by_sena_nightsaber-dc262ah.png');
+	}else if(message.content == '$illstabyouinthebutt'){
+		message.channel.sendFile('https://orig00.deviantart.net/d15a/f/2018/035/8/d/illstabyouinthebutt_by_sena_nightsaber-dc263iw.png');
+	}else if(message.content == '$bitchslap'){
+		message.channel.sendFile('https://orig00.deviantart.net/3673/f/2018/035/e/4/bitchslap_by_sena_nightsaber-dc26386.png');
+	}else if(message.content == '$lordsunsilk'){
+		message.channel.sendFile('https://orig00.deviantart.net/ca3d/f/2018/035/7/9/lordsunsilk_by_sena_nightsaber-dc263ki.png');
+	}else if(message.content == '$siriushmm'){
+		message.channel.sendFile('https://orig00.deviantart.net/f139/f/2018/035/8/8/siriushmm_by_sena_nightsaber-dc263zg.png');
+	}else if(message.content == '$tch'){
+		message.channel.sendFile('https://orig00.deviantart.net/28ef/f/2018/035/3/a/tch_by_sena_nightsaber-dc2649u.png');
+	}else if(message.content == '$havemercy'){
+		message.channel.sendFile('https://orig00.deviantart.net/e04f/f/2018/035/8/7/havemercy_by_sena_nightsaber-dc264lu.png');
+	}else if(message.content == '$imsorry'){
+		message.channel.sendFile('https://orig00.deviantart.net/2ced/f/2018/035/b/8/imsorry_by_sena_nightsaber-dc265rd.png');
+	}
+	
 });
 
 bot.login(process.env.BOT_TOKEN);
