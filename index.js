@@ -21,7 +21,7 @@ bot.on('message', function(message) {
     }else if(message.content == '!thwump'){
         message.channel.sendFile('https://gbf.wiki/images/5/57/Stamp122.png');
     }else if(message.content == '!help'){
-        message.channel.sendMessage('```Currently available commands listed here: <a href="https://sta.sh/0k9j1w8rivp">https://sta.sh/0k9j1w8rivp</a> ```');
+        message.channel.sendMessage('Currently available commands listed here: https://sta.sh/0k9j1w8rivp</a>');
     }else if (String(s).match(/kissu.*/)) {
         message.channel.sendFile('https://stickershop.line-scdn.net/stickershop/v1/sticker/15670572/android/sticker.png');
     }else if (String(s).match(/sorebird is annoying.*/)) {
