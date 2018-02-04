@@ -21,8 +21,7 @@ bot.on('message', function(message) {
     }else if(message.content == '!thwump'){
         message.channel.sendFile('https://gbf.wiki/images/5/57/Stamp122.png');
     }else if(message.content == '!help'){
-        message.channel.sendMessage('```Currently available commands:\n\nGBF emotes:\n!???, !amazing, !awesome, !aww, !aye, !bam, !bebopboo, !bop, !bully, !calmdown, !canihelp, !chomp, !clarisse, !coughsblood, !creep, !crushed, !cry, !cutielicious, !dealwithit, !despair, !dickpick, !djeanne, !djyes, !done, !drool, !emolily, !fail, !ferry, !followme, !giveup, !growpls, !gogopowpow, !gong, !goodwork, !gratz, !happy, !heregoes, !hereigo, !heyo, !hi, !hmph, !huh, !huhzoi, !huhsong, !humph, !hurray, !inhale, !itson, !jk, !jkpls, !katdespair, !legendofrackam, !letmehelp, !letmeleech, !letsgo, !kaguya, !machovee, !meow, !neversurrender, !nice, !nio, !notsiete, !noo, !nope, !notgood, !obliged, !ok, !ouch, !pffft, !phalanx, !percy, !pholia, !please, !pleaseunderstand, !qt, !rackaaaam, !rackaaam, !rackaam, !rackam, !rainbow, !ripbea, !salute, !sara, !salty, !scamgacha, !seox, !shock, !siero, !sigh, !silva, !silvano, !sip, !smile, !smuggran, !srszooey, !sturm?, !soiya1, !soiya2, !soiya3, !striketime, !sup, !thwump, !tehe, !tears, !thanks, !thanksforwaiting, !untz, !virahuh, !vyrnjade, !vyrnpunch, !what, !whee, !whylive, !wheeze, !wiggle, !wink, !wobble, !yikes, !yipsocie, !yipyuel, !yugu, !yummy, !zeta, !zzz' +
-                                        '\n\nOther emotes:\n!angrybirb, !dedrhyrhy, !happysiv, !poutvina, !scaredludi, !sivangry, !sivhmm, !sivshock```');
+        message.channel.sendMessage('```Currently available commands listed here: https://sta.sh/0k9j1w8rivp ```');
     }else if (String(s).match(/kissu.*/)) {
         message.channel.sendFile('https://stickershop.line-scdn.net/stickershop/v1/sticker/15670572/android/sticker.png');
     }else if (String(s).match(/sorebird is annoying.*/)) {
