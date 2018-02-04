@@ -307,7 +307,34 @@ bot.on('message', function(message) {
 	message.channel.sendFile('https://orig00.deviantart.net/59ce/f/2018/027/d/e/percy_sexy_by_sorebird-dc1axc2.png');
 	}else if(message.content == '!seox'){
 	message.channel.sendFile('https://orig00.deviantart.net/7155/f/2018/027/8/2/seox_by_sorebird-dc1aydo.jpg');
+	}else if(message.content == '!vermeil'){
+	message.channel.sendFile('https://cdn.discordapp.com/attachments/356371808842416130/407541786383351808/Clipboard14.png');
+	}else if(message.content == '!tomtom'){
+	message.channel.sendFile('https://cdn.discordapp.com/attachments/356371808842416130/407535476942176257/Clipboard13.png');
+	}else if(message.content == '!walder'){
+	message.channel.sendFile('https://cdn.discordapp.com/attachments/356371808842416130/407532758962012170/unknown.png');
+	}else if(message.content == '!lancey'){
+	message.channel.sendFile('https://cdn.discordapp.com/attachments/356371808842416130/407533337205538826/Clipboard11.png');
+	}else if(message.content == '!ayer'){
+	message.channel.sendFile('https://cdn.discordapp.com/attachments/356371808842416130/407531439442100234/unknown.png');
+	}else if(message.content == '!meditate'){
+	message.channel.sendFile('https://cdn.discordapp.com/attachments/356371808842416130/407527522637447170/unknown.png');
+	}else if(message.content == '!katrun'){
+	message.channel.sendFile('https://cdn.discordapp.com/attachments/356371808842416130/407525063366017024/Clipboard08.png');
+	}else if(message.content == '!lunalu'){
+	message.channel.sendFile('https://cdn.discordapp.com/attachments/356371808842416130/407524529011949569/unknown.png');
+	}else if(message.content == '!byesong'){
+	message.channel.sendFile('https://cdn.discordapp.com/attachments/356371808842416130/407524816661250050/unknown.png');
+	}else if(message.content == '!wth'){
+	message.channel.sendFile('https://cdn.discordapp.com/attachments/356371808842416130/407523189799780372/Clipboard06.png');
+	}else if(message.content == '!vyrnhug'){
+	message.channel.sendFile('https://cdn.discordapp.com/attachments/356371808842416130/407520939505352714/Clipboard04.png');
+	}else if(message.content == '!srslyria'){
+	message.channel.sendFile('https://cdn.discordapp.com/attachments/356371808842416130/407517947293335552/Clipboard02.png');
+	}else if(message.content == '!lucius'){
+	message.channel.sendFile('https://cdn.discordapp.com/attachments/356371808842416130/407514152249196556/Clipboard01.png');
 	}
+	
 });
 
 bot.login(process.env.BOT_TOKEN);
