@@ -22,6 +22,8 @@ bot.on('message', function(message) {
         message.channel.sendFile('https://gbf.wiki/images/5/57/Stamp122.png');
     }else if(message.content == '!help'){
         message.channel.sendMessage('** Currently available commands listed here: https://sta.sh/0k9j1w8rivp **');
+    }else if(message.content == '$help'){
+        message.channel.sendMessage('** Currently available GE commands listed here: https://sta.sh/01n1i5pzlsvx **');
     }else if (String(s).match(/kissu.*/)) {
         message.channel.sendFile('https://stickershop.line-scdn.net/stickershop/v1/sticker/15670572/android/sticker.png');
     }else if (String(s).match(/sorebird is annoying.*/)) {
@@ -332,7 +334,40 @@ bot.on('message', function(message) {
 	message.channel.sendFile('https://cdn.discordapp.com/attachments/356371808842416130/407517947293335552/Clipboard02.png');
 	}else if(message.content == '!lucius'){
 	message.channel.sendFile('https://cdn.discordapp.com/attachments/356371808842416130/407514152249196556/Clipboard01.png');
+	}else if(message.content == '$ohplease'){
+	message.channel.sendFile('https://orig00.deviantart.net/d250/f/2018/035/7/c/ohplease_by_sena_nightsaber-dc25j72.png');
+	}else if(message.content == '$whotalksshitabtme'){
+		message.channel.sendFile('https://orig00.deviantart.net/2594/f/2018/035/8/d/whotalksshitabtme_by_sena_nightsaber-dc25jfc.png');
+	}else if(message.content == '$na-nani'){
+		message.channel.sendFile('https://orig00.deviantart.net/de3b/f/2018/035/5/d/nani_by_sena_nightsaber-dc25jox.png');
+	}else if(message.content == '$boi'){
+		message.channel.sendFile('https://orig00.deviantart.net/fbf1/f/2018/035/b/0/boi_by_sena_nightsaber-dc25jw0.png');
+	}else if(message.content == '$amyhmm'){
+		message.channel.sendFile('https://orig00.deviantart.net/4e75/f/2018/035/2/f/amyhmm_by_sena_nightsaber-dc25k5y.png');
+	}else if(message.content == '$saduncle'){
+		message.channel.sendFile('https://orig00.deviantart.net/01fa/f/2018/035/2/6/sadcleavage_by_sena_nightsaber-dc25kee.png');
+	}else if(message.content == '$beautiful'){
+		message.channel.sendFile('https://orig00.deviantart.net/1d12/f/2018/035/4/0/beautiful_by_sena_nightsaber-dc25kub.png');
+	}else if(message.content == '$ohmyvaleron'){
+		message.channel.sendFile('https://orig00.deviantart.net/adb0/f/2018/035/8/d/ohmyvaleron_by_sena_nightsaber-dc25l10.png');
+	}else if(message.content == '$anissmile'){
+		message.channel.sendFile('https://orig00.deviantart.net/aaba/f/2018/035/1/e/anissmile_by_sena_nightsaber-dc25l1s.png');
+	}else if(message.content == '$angryrepublicannoises'){
+		message.channel.sendFile('https://orig00.deviantart.net/112f/f/2018/035/2/4/angryrepublicannoises_by_sena_nightsaber-dc25lg0.png');
+	}else if(message.content == '$angrysimonnoises'){
+		message.channel.sendFile('https://orig00.deviantart.net/112f/f/2018/035/2/4/angryrepublicannoises_by_sena_nightsaber-dc25lg0.png');
+	}else if(message.content == '$hellopolice'){
+		message.channel.sendFile('https://orig00.deviantart.net/43f2/f/2018/035/0/8/hellopolice_by_sena_nightsaber-dc25lp1.png');
+	}else if(message.content == '$imdrunk'){
+		message.channel.sendFile('https://orig00.deviantart.net/d001/f/2018/035/1/5/imdrunk_by_sena_nightsaber-dc25lx1.png');
+	}else if(message.content == '$hotuncle4racie'){
+		message.channel.sendFile('https://orig00.deviantart.net/a2d4/f/2018/035/0/8/hotuncle4racie_by_sena_nightsaber-dc25m1n.png');
+	}else if(message.content == '$angryvero'){
+		message.channel.sendFile('https://orig00.deviantart.net/1cbd/f/2018/035/e/f/angryvero_by_sena_nightsaber-dc25mc5.png');
+	}else if(message.content == '$omg'){
+		message.channel.sendFile('https://orig00.deviantart.net/fe83/f/2018/035/1/1/omg_by_sena_nightsaber-dc25mi6.png');
 	}
+
 	
 });
 
