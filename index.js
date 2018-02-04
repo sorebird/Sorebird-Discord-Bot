@@ -454,6 +454,32 @@ bot.on('message', function(message) {
 		message.channel.sendFile('https://orig00.deviantart.net/e04f/f/2018/035/8/7/havemercy_by_sena_nightsaber-dc264lu.png');
 	}else if(message.content == '$imsorry'){
 		message.channel.sendFile('https://orig00.deviantart.net/2ced/f/2018/035/b/8/imsorry_by_sena_nightsaber-dc265rd.png');
+	}else if(message.content == '!sorry'){
+		message.channel.sendFile('https://orig00.deviantart.net/8798/f/2018/035/5/e/stamp17_by_sorebird-dc267jk.png');
+	}else if(message.content == '!virathanks'){
+		message.channel.sendFile('https://orig00.deviantart.net/4da8/f/2018/035/e/d/stamp186_by_sorebird-dc267j8.png');
+	}else if(message.content == '!viragj'){
+		message.channel.sendFile('https://orig00.deviantart.net/881f/f/2018/035/5/9/stamp187_by_sorebird-dc267ir.png');
+	}else if(message.content == '!aidus'){
+		message.channel.sendFile('https://orig00.deviantart.net/6e12/f/2018/035/f/6/stamp181_by_sorebird-dc267fh.png');
+	}else if(message.content == '!thathurt'){
+		message.channel.sendFile('https://orig00.deviantart.net/cb82/f/2018/035/a/c/stamp192_by_sorebird-dc267ha.png');
+	}else if(message.content == '!stuffed'){
+		message.channel.sendFile('https://orig00.deviantart.net/4dc8/f/2018/035/b/0/stamp176_by_sorebird-dc267g6.png');
+	}else if(message.content == '!comeagain'){
+		message.channel.sendFile('https://orig00.deviantart.net/5599/f/2018/035/d/5/stamp174_by_sorebird-dc267gh.png');
+	}else if(message.content == '!djwelcome'){
+		message.channel.sendFile('https://orig00.deviantart.net/944a/f/2018/035/a/6/stamp173_by_sorebird-dc267fv.png');
+	}else if(message.content == '!viraok'){
+		message.channel.sendFile('https://orig00.deviantart.net/803d/f/2018/035/d/4/stamp191_by_sorebird-dc267gq.png');
+	}else if(message.content == '!viraphalanx'){
+		message.channel.sendFile('https://orig00.deviantart.net/6fa6/f/2018/035/4/f/stamp189_by_sorebird-dc267hy.png');
+	}else if(message.content == '!viradrool'){
+		message.channel.sendFile('https://orig00.deviantart.net/0d38/f/2018/035/1/6/stamp190_by_sorebird-dc267gz.png');
+	}else if(message.content == '!viraheaveho'){
+		message.channel.sendFile('https://orig00.deviantart.net/f337/f/2018/035/2/1/stamp188_by_sorebird-dc267ii.png');
+	}else if(message.content == '!virasup'){
+		message.channel.sendFile('https://orig00.deviantart.net/9b76/f/2018/035/6/a/stamp193_by_sorebird-dc267hp.png');
 	}
 	
 });
