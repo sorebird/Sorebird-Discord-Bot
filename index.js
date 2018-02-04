@@ -428,10 +428,7 @@ bot.on('message', function(message) {
 		message.channel.sendFile('https://orig00.deviantart.net/76a6/f/2018/035/6/1/lmaoplebs_by_sena_nightsaber-dc25vmu.png');
 	}else if(message.content == '$lmaonoobs'){
 		message.channel.sendFile('https://orig00.deviantart.net/76a6/f/2018/035/6/1/lmaoplebs_by_sena_nightsaber-dc25vmu.png');
-	]
-
-
-	
+	}	
 });
 
 bot.login(process.env.BOT_TOKEN);
