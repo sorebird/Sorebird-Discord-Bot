@@ -92,7 +92,7 @@ bot.on('message', function(message) {
     }else if(message.content == '!slap'){
         message.channel.sendFile('https://gbf.wiki/images/3/36/Stamp112.png');
     }else if(message.content == '!jkpls'){
-        message.channel.sendFile('https://orig00.deviantart.net/93d2/f/2017/273/3/2/21232022_1370649793030773_4452136225626623473_n_by_sorebird-dbp2iys.jpg');
+        message.channel.sendFile('https://orig00.deviantart.net/5ce0/f/2017/274/7/4/rose_by_sorebird-dbp6a1b.png');
     }else if(message.content == '!tehe'){
         message.channel.sendFile('https://gbf.wiki/images/0/08/Stamp142.png');
     }else if(message.content == '!cutielicious'){
