@@ -480,6 +480,16 @@ bot.on('message', function(message) {
 		message.channel.sendFile('https://orig00.deviantart.net/f337/f/2018/035/2/1/stamp188_by_sorebird-dc267ii.png');
 	}else if(message.content == '!virasup'){
 		message.channel.sendFile('https://orig00.deviantart.net/9b76/f/2018/035/6/a/stamp193_by_sorebird-dc267hp.png');
+	}else if(message.content == '$cry'){
+		message.channel.sendFile('https://orig00.deviantart.net/1737/f/2018/036/c/9/cry_by_sena_nightsaber-dc29e7b.png');
+	}else if(message.content == '$hug'){
+		message.channel.sendFile('https://orig00.deviantart.net/60e4/f/2018/036/a/2/hug_by_sena_nightsaber-dc29ebp.png');
+	}else if(message.content == '$ugu'){
+		message.channel.sendFile('https://orig00.deviantart.net/0594/f/2018/036/0/6/ugu_by_sena_nightsaber-dc29eeb.png');
+	}else if(message.content == '$angryludin'){
+		message.channel.sendFile('https://orig00.deviantart.net/70b4/f/2018/036/1/b/angryludin_by_sena_nightsaber-dc29ef5.png');
+	}else if(message.content == '$stalk'){
+		message.channel.sendFile('https://orig00.deviantart.net/9d5d/f/2018/036/4/4/stalk_by_sena_nightsaber-dc29egm.png');
 	}
 	
 });
