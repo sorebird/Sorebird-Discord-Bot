@@ -490,6 +490,14 @@ bot.on('message', function(message) {
 		message.channel.sendFile('https://orig00.deviantart.net/70b4/f/2018/036/1/b/angryludin_by_sena_nightsaber-dc29ef5.png');
 	}else if(message.content == '$stalk'){
 		message.channel.sendFile('https://orig00.deviantart.net/9d5d/f/2018/036/4/4/stalk_by_sena_nightsaber-dc29egm.png');
+	}else if(message.content == '$hailrnggod'){
+		message.channel.sendFile('https://orig00.deviantart.net/0f99/f/2018/036/0/8/hailrngod_by_sena_nightsaber-dc29ulw.png');
+	}else if(message.content == '$nyaa'){
+		message.channel.sendFile('https://orig00.deviantart.net/aed4/f/2018/036/e/d/nyaa_by_sena_nightsaber-dc29uo7.png');
+	}else if(message.content == '$orz'){
+		message.channel.sendFile('https://orig00.deviantart.net/f7ea/f/2018/036/a/5/orz_by_sena_nightsaber-dc29wvh.png');
+	}else if(message.content == '$yawn'){
+		message.channel.sendFile('https://orig00.deviantart.net/e058/f/2018/036/b/3/yawn_by_sena_nightsaber-dc29zat.png');
 	}
 	
 });
