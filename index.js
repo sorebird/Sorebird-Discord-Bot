@@ -498,6 +498,16 @@ bot.on('message', function(message) {
 		message.channel.sendFile('https://orig00.deviantart.net/f7ea/f/2018/036/a/5/orz_by_sena_nightsaber-dc29wvh.png');
 	}else if(message.content == '$yawn'){
 		message.channel.sendFile('https://orig00.deviantart.net/e058/f/2018/036/b/3/yawn_by_sena_nightsaber-dc29zat.png');
+	}else if(message.content == '$;_;'){
+		message.channel.sendFile('https://orig00.deviantart.net/32f6/f/2018/038/6/b/__by_sena_nightsaber-dc2gnxh.png');
+	}else if(message.content == '$whaat'){
+		message.channel.sendFile('https://orig00.deviantart.net/ded9/f/2018/038/0/c/whaat_by_sena_nightsaber-dc2gny7.png');
+	}else if(message.content == '$goodluck'){
+		message.channel.sendFile('https://orig00.deviantart.net/ad12/f/2018/038/4/e/goodluck_by_sena_nightsaber-dc2gu47.png');
+	}else if(message.content == '$holdit'){
+		message.channel.sendFile('https://orig00.deviantart.net/0c7d/f/2018/038/d/0/holdit_by_sena_nightsaber-dc2gu6j.png');
+	}else if(message.content == '$peace'){
+		message.channel.sendFile('https://orig00.deviantart.net/d0e9/f/2018/038/d/2/peace_by_sena_nightsaber-dc2gu5g.png');
 	}
 	
 });
