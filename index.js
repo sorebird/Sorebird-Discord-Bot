@@ -508,6 +508,8 @@ bot.on('message', function(message) {
 		message.channel.sendFile('https://orig00.deviantart.net/0c7d/f/2018/038/d/0/holdit_by_sena_nightsaber-dc2gu6j.png');
 	}else if(message.content == '$peace'){
 		message.channel.sendFile('https://orig00.deviantart.net/d0e9/f/2018/038/d/2/peace_by_sena_nightsaber-dc2gu5g.png');
+	}else if(message.content == '!naruplz'){
+		message.channel.sendFile('https://orig00.deviantart.net/6ed7/f/2018/055/b/a/narupls_by_sorebird-dc47cqy.png');
 	}
 	
 });
