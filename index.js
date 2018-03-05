@@ -516,7 +516,7 @@ bot.on('message', function(message) {
 		var n = selections.length;
 		var random = Math.round(Math.random() * (n - 1)) + 1;
 		
-		var result = selections[random - 1].trim();
+		var result = selections[random - 1];
 		
 		if(result == "Vyrn"){
 			message.channel.sendFile('https://cdn.discordapp.com/attachments/356371808842416130/407520939505352714/Clipboard04.png');
