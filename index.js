@@ -510,6 +510,13 @@ bot.on('message', function(message) {
 		message.channel.sendFile('https://orig00.deviantart.net/d0e9/f/2018/038/d/2/peace_by_sena_nightsaber-dc2gu5g.png');
 	}else if(message.content == '!naruplz'){
 		message.channel.sendFile('https://orig00.deviantart.net/6ed7/f/2018/055/b/a/narupls_by_sorebird-dc47cqy.png');
+	}else if (String(s).match(/!choose.*/)) {
+		var choice = s.replace("!choose", "");
+		var selections = choice.split(',');
+		var n = selections.length;
+		var random = Math.round(Math.random() * (n - 1)) + 1;
+
+		message.channel.sendMessage('chirp o vo/ '+selections[random - 1].trim());
 	}
 	
 });
