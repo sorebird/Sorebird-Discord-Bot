@@ -516,7 +516,7 @@ bot.on('message', function(message) {
 		var n = selections.length;
 		var random = Math.round(Math.random() * (n - 1)) + 1;
 
-		message.channel.sendMessage('chirp o vo/ '+selections[random - 1].trim());
+		message.channel.sendMessage('*chirp* o vo/ '+selections[random - 1].trim());
 	}
 	
 });
