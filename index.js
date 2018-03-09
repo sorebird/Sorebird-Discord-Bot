@@ -1,13 +1,6 @@
 const Discord = require('discord.js');
 const bot = new Discord.Client();
 
-var NOTIFY_CHANNEL;
-bot.on('ready', () => {
-    NOTIFY_CHANNEL = bot.channels.find('id', '366976227841540098'); // Channel to send notification
-});
-
-var schedule = require('node-schedule');
-
 //bot.setGame('!help for list of commands');
 bot.on('ready', () => {
     var channel = bot.channels.get("name", "general").id;
