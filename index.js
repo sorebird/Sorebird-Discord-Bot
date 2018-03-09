@@ -609,7 +609,7 @@ bot.on('message', function(message) {
 	}else if(message.content == '$dab' || message.content == '$dablord'){
 	message.channel.sendFile('https://orig00.deviantart.net/2cae/f/2018/067/e/9/dablord_by_sena_nightsaber-dc5axhl.png');
 	}else if (String(s).match(/sorebird.*/)) {
-	  var choice = "Hello I'm "+n+", chirp, ovo, I'm not a Bot!";
+	  var choice = "Hello I'm "+n+", chirp, ovo, I'm not a Bot!, please be nice to me, I like to bath, please feed me cookies";
 		var selections = choice.split(',');
 		var n = selections.length;
 		var random = Math.round(Math.random() * (n - 1)) + 1;
