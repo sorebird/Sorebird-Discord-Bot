@@ -10,9 +10,23 @@ bot.on('ready', () => {
     }else{
       bot.user.setGame("!help for commands");
     }
+	
+    var striketime = new Date(now.getFullYear(), now.getMonth(), now.getDate(), 24, 0, 0, 0) - now;
+    if (striketime < 0) {
+       striketime += 86400000;
+    }
+    setTimeout(function(){
+	    if(channel == '377906803985612800'){
+	    	var j = schedule.scheduleJob(rule, function() {
+			bot.channels.get("id", channel).sendMessage("Testing");
+	    	})
+    	    }
+    }, striketime);
 });
 
 bot.on('message', function(message) {
+    var channel = bot.channels.get("name", "general").id;
+    var channelname = bot.channels.get("id", "345648178147753986");
     var s = message.content;
     if(message.content == 'Sorebird'){
         message.channel.sendMessage('chirp');
@@ -609,7 +623,9 @@ bot.on('message', function(message) {
 	message.channel.sendFile('https://orig00.deviantart.net/bc55/f/2018/067/0/3/screenshot_20180208_145330_by_sorebird-dc5b2gd.jpg');
 	}else if(message.content == '$dab' || message.content == '$dablord'){
 	message.channel.sendFile('https://orig00.deviantart.net/2cae/f/2018/067/e/9/dablord_by_sena_nightsaber-dc5axhl.png');
-	}
+	}else if(message.content == '!getid'){
+        	message.channel.sendMessage('ID:'+channel+" Channel:"+channelname);
+        }
 	
 });
 
