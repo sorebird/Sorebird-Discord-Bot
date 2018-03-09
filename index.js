@@ -3,8 +3,12 @@ const bot = new Discord.Client();
 
 //bot.setGame('!help for list of commands');
 bot.on('ready', () => {
-  var channel = bot.channels.get('345648178147753986');
-  bot.user.setGame("!help for commands"+channel);
+  const channel = new Discord.Collection();
+  if (channel.has('409551202733260802')) {
+ 	bot.user.setGame("!help for commands");
+  }else{
+  	bot.user.setGame("!help for commands");
+  }
 });
 
 bot.on('message', function(message) {
