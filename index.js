@@ -4,8 +4,8 @@ const bot = new Discord.Client();
 //bot.setGame('!help for list of commands');
 bot.on('ready', () => {
   const channel = new Discord.Collection();
-  if (channel.has('409551202733260802')) {
- 	bot.user.setGame("!help for commands");
+  if (channel.has('409551202733260800')) {
+ 	bot.user.setGame("$help for commands");
   }else{
   	bot.user.setGame("!help for commands");
   }
