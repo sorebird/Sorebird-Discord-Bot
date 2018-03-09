@@ -17,18 +17,6 @@ bot.on('ready', () => {
     }else{
       bot.user.setGame("!help for commands");
     }
-    
-    var striketime = new Date(now.getFullYear(), now.getMonth(), now.getDate(), 24, 0, 0, 0) - now;
-    if (striketime < 0) {
-       striketime += 86400000;
-    }
-    setTimeout(function(){
-	    if(channel == '377906803985612800'){
-	    	var j = schedule.scheduleJob(rule, function() {
-			bot.channels.get("id", channel).sendMessage("Testing");
-	    	})
-    	    }
-    }, striketime);
 });
 
 bot.on('message', function(message) {
