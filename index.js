@@ -3,11 +3,7 @@ const bot = new Discord.Client();
 
 //bot.setGame('!help for list of commands');
 bot.on('ready', () => {
-  if (bot.channels.exists("name", "409551352998658054")) {
- 	bot.user.setGame("$help for commands");
-  }else{
-  	bot.user.setGame("!help for commands");
-  }
+   bot.user.setGame("!help for commands");
 });
 
 bot.on('message', function(message) {
