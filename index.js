@@ -3,8 +3,7 @@ const bot = new Discord.Client();
 
 //bot.setGame('!help for list of commands');
 bot.on('ready', () => {
-  const channel = new Discord.Collection();
-  if (channel.has('409551202733260800')) {
+  if (bot.channels.exists("name", "quest-help")) {
  	bot.user.setGame("$help for commands");
   }else{
   	bot.user.setGame("!help for commands");
