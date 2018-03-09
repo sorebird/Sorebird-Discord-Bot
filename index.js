@@ -526,7 +526,7 @@ bot.on('message', function(message) {
 		if(result == "Vyrn"){
 			message.channel.sendFile('https://cdn.discordapp.com/attachments/356371808842416130/407520939505352714/Clipboard04.png');
 		}else{
-			message.channel.sendMessage('*chirp* o vo/ '+result);
+			message.reply('*chirp* o vo/ '+result);
 		}
 	}else if(message.content == '!chakchak'){
 	message.channel.sendFile('https://orig00.deviantart.net/a4e8/f/2018/067/e/5/1520534191283_by_sorebird-dc5b103.jpg');
