@@ -615,8 +615,8 @@ bot.on('message', function(message) {
 		var random = Math.round(Math.random() * (n - 1)) + 1;
 		
 		var result = selections[random - 1];
-
-		message.channel.sendMessage(result);
+		var u = message.author.username;
+		message.channel.sendMessage(u+" "+result);
     	}
 	
 });
