@@ -3,25 +3,7 @@ const bot = new Discord.Client();
 
 //bot.setGame('!help for list of commands');
 bot.on('ready', () => {
-    var channel = bot.channels.get("name", "general").id;
-
-    if(channel == '409551202733260802'){
-      bot.user.setGame("$help for commands");
-    }else{
-      bot.user.setGame("!help for commands");
-    }
-	
-    var striketime = new Date(now.getFullYear(), now.getMonth(), now.getDate(), 24, 0, 0, 0) - now;
-    if (striketime < 0) {
-       striketime += 86400000;
-    }
-    setTimeout(function(){
-	    if(channel == '377906803985612800'){
-	    	var j = schedule.scheduleJob(rule, function() {
-			bot.channels.get("id", channel).sendMessage("Testing");
-	    	})
-    	    }
-    }, striketime);
+  bot.user.setGame("!help for commands");
 });
 
 bot.on('message', function(message) {
