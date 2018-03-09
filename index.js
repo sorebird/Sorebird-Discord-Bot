@@ -3,16 +3,16 @@ const bot = new Discord.Client();
 
 //bot.setGame('!help for list of commands');
 bot.on('ready', () => {
-  var n = bot.user.username;
   if (bot.channels.exists("name", "409551352998658054")) {
- 	bot.user.setGame("$help for commands"+n);
+ 	bot.user.setGame("$help for commands");
   }else{
-  	bot.user.setGame("!help for commands"+n);
+  	bot.user.setGame("!help for commands");
   }
 });
 
 bot.on('message', function(message) {
     var s = message.content;
+    var n = bot.user.username;
     if(message.content == 'Sorebird'){
         message.channel.sendMessage('chirp');
     }else if (String(s).match(/ludicat.*/)) {
@@ -608,7 +608,16 @@ bot.on('message', function(message) {
 	message.channel.sendFile('https://orig00.deviantart.net/bc55/f/2018/067/0/3/screenshot_20180208_145330_by_sorebird-dc5b2gd.jpg');
 	}else if(message.content == '$dab' || message.content == '$dablord'){
 	message.channel.sendFile('https://orig00.deviantart.net/2cae/f/2018/067/e/9/dablord_by_sena_nightsaber-dc5axhl.png');
-	}
+	}else if (String(s).match(/sorebird.*/)) {
+	  var choice = "Hello I'm "+n+", chirp, ovo, I'm not a Bot!";
+		var selections = choice.split(',');
+		var n = selections.length;
+		var random = Math.round(Math.random() * (n - 1)) + 1;
+		
+		var result = selections[random - 1];
+
+		message.channel.sendMessage(result);
+    	}
 	
 });
 
