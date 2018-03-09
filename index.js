@@ -3,7 +3,7 @@ const bot = new Discord.Client();
 
 //bot.setGame('!help for list of commands');
 bot.on('ready', () => {
-   bot.user.setGame("!help for commands");
+   bot.user.setGame("!help for commands ovo");
 });
 
 bot.on('message', function(message) {
@@ -609,10 +609,14 @@ bot.on('message', function(message) {
 		var selections = choice.split(',');
 		var n = selections.length;
 		var random = Math.round(Math.random() * (n - 1)) + 1;
-		
+		var random2 = Math.round(Math.random() * (10 - 1)) + 1;
 		var result = selections[random - 1];
+		if(random2 < 5){
 		var u = message.author.username;
-		message.reply(result);
+			message.reply(result);
+		}else{
+			message.reply('chirp');
+		}
     	}
 	
 });
