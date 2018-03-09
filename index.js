@@ -3,7 +3,8 @@ const bot = new Discord.Client();
 
 //bot.setGame('!help for list of commands');
 bot.on('ready', () => {
-  bot.user.setGame("!help for commands");
+  var channel = bot.channels.get('345648178147753986');
+  bot.user.setGame("!help for commands"+channel);
 });
 
 bot.on('message', function(message) {
