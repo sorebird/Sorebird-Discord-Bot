@@ -530,11 +530,11 @@ bot.on('message', function(message) {
 	message.channel.sendFile('https://orig00.deviantart.net/091f/f/2018/067/b/7/dxcbudgvqaas2vm_by_sorebird-dc5b10q.png');
 	}else if(message.content == '!KMRlmao'){
 	message.channel.sendFile('https://orig00.deviantart.net/2b35/f/2018/067/3/1/28468653_2039156589458083_2400986494849253376_n_by_sorebird-dc5b10g.jpg');
-	}else if(message.content == '!NKM'){
+	}else if(message.content == '!NKM' || essage.content == '!NKMR' ){
 	message.channel.sendFile('https://orig00.deviantart.net/6ad8/f/2018/067/f/8/unknown_by_sorebird-dc5b2g5.png');
-	}else if(message.content == '!NKMsad'){
+	}else if(message.content == '!NKMsad' || message.content == '!NKMRsad'){
 	message.channel.sendFile('https://orig00.deviantart.net/0fe8/f/2018/067/3/1/2018_03_04_18_47_36__by_sorebird-dc5b112.png');
-	}else if(message.content == '!NKMrly'){
+	}else if(message.content == '!NKMrly' || message.content == '!NKMRrly'){
 	message.channel.sendFile('https://orig00.deviantart.net/119c/f/2018/067/2/4/let_me_grind_in_peace_by_sorebird-dc5b11a.png');
 	}else if(message.content == '!onoscratch'){
 	message.channel.sendFile('https://orig00.deviantart.net/931f/f/2018/067/6/a/image_by_sorebird-dc5b11f.jpg');
@@ -601,7 +601,7 @@ bot.on('message', function(message) {
 	}else if(message.content == '!silence'){
 	message.channel.sendFile('https://orig00.deviantart.net/bc55/f/2018/067/0/3/screenshot_20180208_145330_by_sorebird-dc5b2gd.jpg');
 	}else if(message.content == '$prettyplease'){
-	message.channel.sendFile('https://orig00.deviantart.net/bc55/f/2018/067/0/3/screenshot_20180208_145330_by_sorebird-dc5b2gd.jpg');
+	message.channel.sendFile('https://orig00.deviantart.net/58ea/f/2018/067/d/0/prettyplease_by_sena_nightsaber-dc5axg1.png');
 	}else if(message.content == '$dab' || message.content == '$dablord'){
 	message.channel.sendFile('https://orig00.deviantart.net/2cae/f/2018/067/e/9/dablord_by_sena_nightsaber-dc5axhl.png');
 	}else if(message.content == '!holdit'){
@@ -620,8 +620,6 @@ bot.on('message', function(message) {
 	message.channel.sendFile('https://orig00.deviantart.net/6558/f/2018/072/e/3/tyre_by_sorebird-dc5slrc.jpg');
 	}else if(message.content == '!rippots'){
 	message.channel.sendFile('https://orig00.deviantart.net/3bff/f/2018/072/5/a/downloadfile_18_400x280_by_sorebird-dc5slqz.png');
-	}else if(message.content == '!manofculture'){
-	message.channel.sendFile('https://orig00.deviantart.net/8fc3/f/2018/072/7/a/18446754_1739919892689231_4131137197201494572_n_by_sorebird-dc5stys.jpg');
 	}else if(message.content == '!manofculture'){
 	message.channel.sendFile('https://orig00.deviantart.net/8fc3/f/2018/072/7/a/18446754_1739919892689231_4131137197201494572_n_by_sorebird-dc5stys.jpg');
 	}else if(message.content == '!callpolice'){
