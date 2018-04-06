@@ -530,7 +530,7 @@ bot.on('message', function(message) {
 	message.channel.sendFile('https://orig00.deviantart.net/091f/f/2018/067/b/7/dxcbudgvqaas2vm_by_sorebird-dc5b10q.png');
 	}else if(message.content == '!KMRlmao'){
 	message.channel.sendFile('https://orig00.deviantart.net/2b35/f/2018/067/3/1/28468653_2039156589458083_2400986494849253376_n_by_sorebird-dc5b10g.jpg');
-	}else if(message.content == '!NKM' || essage.content == '!NKMR' ){
+	}else if(message.content == '!NKM' || message.content == '!NKMR' ){
 	message.channel.sendFile('https://orig00.deviantart.net/6ad8/f/2018/067/f/8/unknown_by_sorebird-dc5b2g5.png');
 	}else if(message.content == '!NKMsad' || message.content == '!NKMRsad'){
 	message.channel.sendFile('https://orig00.deviantart.net/0fe8/f/2018/067/3/1/2018_03_04_18_47_36__by_sorebird-dc5b112.png');
