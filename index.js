@@ -645,7 +645,7 @@ bot.on('message', function(message) {
 	}else if(message.content == '!oi'){
 	message.channel.sendFile('https://orig00.deviantart.net/ed29/f/2018/099/b/7/oi_by_sorebird-dc8d4m3.png');
 	}else if(message.content == '!namekoblush'){
-	message.channel.sendFile('https://orig00.deviantart.net/ca10/f/2018/099/6/6/blush_by_sorebird-dc8d4lq.png');
+	message.channel.sendFile('https://orig00.deviantart.net/db18/f/2018/099/5/6/blush_by_sorebird-dc8da82.png');
 	}else if(message.content == '!nomcake'){
 	message.channel.sendFile('https://orig00.deviantart.net/75e5/f/2018/099/1/9/cake_by_sorebird-dc8d4k5.png');
 	}else if(message.content == '!blankstare'){
@@ -679,13 +679,13 @@ bot.on('message', function(message) {
 	}else if(message.content == '!vyrnsing3'){
 	message.channel.sendFile('https://orig00.deviantart.net/1357/f/2018/099/5/c/stamp198_by_sorebird-dc8d2bl.png');
 	}else if(message.content == '!vyrnwat'){
-	message.channel.sendFile('https://orig00.deviantart.net/f3e8/f/2018/099/8/9/sticker__1__by_sorebird-dc8d2dk.png');
+	message.channel.sendFile('https://orig00.deviantart.net/6bad/f/2018/099/f/a/sticker__1__by_sorebird-dc8da4w.png');
 	}else if(message.content == '!sneakaway'){
-	message.channel.sendFile('https://orig00.deviantart.net/1e4b/f/2018/099/f/7/sneakaway_by_sorebird-dc8d2ep.png');
+	message.channel.sendFile('https://orig00.deviantart.net/9ee0/f/2018/099/c/e/sneakaway_by_sorebird-dc8da59.png');
 	}else if(message.content == '!uhnice'){
-	message.channel.sendFile('https://orig00.deviantart.net/4889/f/2018/099/3/0/nice_by_sorebird-dc8d2e0.png');
+	message.channel.sendFile('https://orig00.deviantart.net/d2c0/f/2018/099/f/2/nice_by_sorebird-dc8da4q.png');
 	}else if(message.content == '!np'){
-	message.channel.sendFile('https://orig00.deviantart.net/2444/f/2018/099/0/d/np_by_sorebird-dc8d2ea.png');
+	message.channel.sendFile('https://orig00.deviantart.net/4360/f/2018/099/b/3/np_by_sorebird-dc8da5l.png');
 	}else if(message.content == '!veryhardbel'){
 	message.channel.sendFile('https://orig00.deviantart.net/d831/f/2018/099/7/1/1520535031195_by_sorebird-dc8d2cs.jpg');
 	}else if(message.content == '!bealaugh'){
