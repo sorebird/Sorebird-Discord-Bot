@@ -647,7 +647,7 @@ bot.on('message', function(message) {
 	}else if(message.content == '!namekoblush'){
 	message.channel.sendFile('https://orig00.deviantart.net/db18/f/2018/099/5/6/blush_by_sorebird-dc8da82.png');
 	}else if(message.content == '!nomcake'){
-	message.channel.sendFile('https://orig00.deviantart.net/75e5/f/2018/099/1/9/cake_by_sorebird-dc8d4k5.png');
+	message.channel.sendFile('https://orig00.deviantart.net/16dc/f/2018/099/1/5/cake_by_sorebird-dc8dc7c.png');
 	}else if(message.content == '!blankstare'){
 	message.channel.sendFile('https://orig00.deviantart.net/a653/f/2018/099/5/c/deadveeekunn_by_sorebird-dc8d4jp.jpg');
 	}else if(message.content == '!yey'){
