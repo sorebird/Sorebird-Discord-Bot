@@ -624,6 +624,72 @@ bot.on('message', function(message) {
 	message.channel.sendFile('https://orig00.deviantart.net/8fc3/f/2018/072/7/a/18446754_1739919892689231_4131137197201494572_n_by_sorebird-dc5stys.jpg');
 	}else if(message.content == '!callpolice'){
 	message.channel.sendFile('https://orig00.deviantart.net/d9f3/f/2018/072/a/5/27752074_574140259591239_5977405690976920483_n_by_sorebird-dc5su2m.jpg');
+	}else if(message.content == '!allgood'){
+	message.channel.sendFile('https://orig00.deviantart.net/3f75/f/2018/099/b/c/allgood_by_sorebird-dc8d4p2.png');
+	}else if(message.content == '!nani'){
+	message.channel.sendFile('https://orig00.deviantart.net/f70d/f/2018/099/0/5/nani_by_sorebird-dc8d4ov.jpg');
+	}else if(message.content == '!willlick'){
+	message.channel.sendFile('https://orig00.deviantart.net/5b05/f/2018/099/1/a/willlick_by_sorebird-dc8d4oj.png');
+	}else if(message.content == '!vyrncannon'){
+	message.channel.sendFile('https://orig00.deviantart.net/f48e/f/2018/099/9/5/veecannon_by_sorebird-dc8d4o4.jpg');
+	}else if(message.content == '!bunnyleech'){
+	message.channel.sendFile('https://orig00.deviantart.net/ea26/f/2018/099/b/b/bunnyleech_by_sorebird-dc8d4nu.jpg');
+	}else if(message.content == '!kaguyaleech'){
+	message.channel.sendFile('https://orig00.deviantart.net/ddb9/f/2018/099/8/b/kaguyaleech_by_sorebird-dc8d4ni.jpg');
+	}else if(message.content == '!petnameko'){
+	message.channel.sendFile('https://orig00.deviantart.net/b7e8/f/2018/099/8/d/petnameko_by_sorebird-dc8d4n2.png');
+	}else if(message.content == '!naruhodo'){
+	message.channel.sendFile('https://orig00.deviantart.net/0a58/f/2018/099/b/6/naruhodo_by_sorebird-dc8d4ms.png');
+	}else if(message.content == '!onegai'){
+	message.channel.sendFile('https://orig00.deviantart.net/7f4a/f/2018/099/2/0/onegai_by_sorebird-dc8d4mf.png');
+	}else if(message.content == '!oi'){
+	message.channel.sendFile('https://orig00.deviantart.net/ed29/f/2018/099/b/7/oi_by_sorebird-dc8d4m3.png');
+	}else if(message.content == '!namekoblush'){
+	message.channel.sendFile('https://orig00.deviantart.net/ca10/f/2018/099/6/6/blush_by_sorebird-dc8d4lq.png');
+	}else if(message.content == '!nomcake'){
+	message.channel.sendFile('https://orig00.deviantart.net/75e5/f/2018/099/1/9/cake_by_sorebird-dc8d4k5.png');
+	}else if(message.content == '!blankstare'){
+	message.channel.sendFile('https://orig00.deviantart.net/a653/f/2018/099/5/c/deadveeekunn_by_sorebird-dc8d4jp.jpg');
+	}else if(message.content == '!yey'){
+	message.channel.sendFile('https://orig00.deviantart.net/ebcc/f/2018/099/9/b/yey_by_sorebird-dc8d4gf.png');
+	}else if(message.content == '!ohmygod'){
+	message.channel.sendFile('https://orig00.deviantart.net/d6c0/f/2018/099/d/f/ohmygod_by_sorebird-dc8d4gl.png');
+	}else if(message.content == '!hahaha'){
+	message.channel.sendFile('https://orig00.deviantart.net/f0ca/f/2018/099/3/1/hahaha_by_sorebird-dc8d4gu.png');
+	}else if(message.content == '!pancake'){
+	message.channel.sendFile('https://orig00.deviantart.net/e9f0/f/2018/099/b/7/flat_by_sorebird-dc8d4h2.png');
+	}else if(message.content == '!sobbu'){
+	message.channel.sendFile('https://orig00.deviantart.net/1cc5/f/2018/099/2/3/as001397_13_by_sorebird-dc8d4kj.gif');
+	}else if(message.content == '!wat'){
+	message.channel.sendFile('https://orig00.deviantart.net/f0cd/f/2018/099/e/0/as000766_06_by_sorebird-dc8d4kw.gif');
+	}else if(message.content == '!imlate'){
+	message.channel.sendFile('https://orig00.deviantart.net/8380/f/2018/099/7/4/9913402_by_sorebird-dc8d4l0.gif');
+	}else if(message.content == '!blushu'){
+	message.channel.sendFile('https://orig00.deviantart.net/3771/f/2018/099/c/7/as000766_10_by_sorebird-dc8d4l8.gif');
+	}else if(message.content == '!goodnight'){
+	message.channel.sendFile('https://orig00.deviantart.net/447c/f/2018/099/8/0/5865791_by_sorebird-dc8d4lh.gif');
+	}else if(message.content == '!foryou'){
+	message.channel.sendFile('https://orig00.deviantart.net/3dfe/f/2018/099/7/c/cm7k_1472703779_4412_6754_by_sorebird-dc8d4ll.gif');
+	}else if(message.content == '!yesgood'){
+	message.channel.sendFile('https://orig00.deviantart.net/6637/f/2018/099/1/7/good_by_sorebird-dc8d815.png');
+	}else if(message.content == '!vyrnsing1'){
+	message.channel.sendFile('https://orig00.deviantart.net/ba34/f/2018/099/9/1/stamp196_by_sorebird-dc8d2cd.png');
+	}else if(message.content == '!vyrnsing2'){
+	message.channel.sendFile('https://orig00.deviantart.net/f5ba/f/2018/099/c/8/stamp197_by_sorebird-dc8d2bz.png');
+	}else if(message.content == '!vyrnsing3'){
+	message.channel.sendFile('https://orig00.deviantart.net/1357/f/2018/099/5/c/stamp198_by_sorebird-dc8d2bl.png');
+	}else if(message.content == '!vyrnwat'){
+	message.channel.sendFile('https://orig00.deviantart.net/f3e8/f/2018/099/8/9/sticker__1__by_sorebird-dc8d2dk.png');
+	}else if(message.content == '!sneakaway'){
+	message.channel.sendFile('https://orig00.deviantart.net/1e4b/f/2018/099/f/7/sneakaway_by_sorebird-dc8d2ep.png');
+	}else if(message.content == '!uhnice'){
+	message.channel.sendFile('https://orig00.deviantart.net/4889/f/2018/099/3/0/nice_by_sorebird-dc8d2e0.png');
+	}else if(message.content == '!np'){
+	message.channel.sendFile('https://orig00.deviantart.net/2444/f/2018/099/0/d/np_by_sorebird-dc8d2ea.png');
+	}else if(message.content == '!veryhardbel'){
+	message.channel.sendFile('https://orig00.deviantart.net/d831/f/2018/099/7/1/1520535031195_by_sorebird-dc8d2cs.jpg');
+	}else if(message.content == '!bealaugh'){
+	message.channel.sendFile('https://orig00.deviantart.net/6d0b/f/2018/099/0/3/385836621288964099_by_sorebird-dc8d8n3.png');
 	}else if (String(s).match(/sorebird.*/)) {
 	  var choice = "Hello I'm "+n+", chirp, ovo, I'm not a Bot!, please be nice to me, I like to bath, please feed me cookies";
 		var selections = choice.split(',');
