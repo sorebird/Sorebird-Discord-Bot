@@ -659,17 +659,19 @@ bot.on('message', function(message) {
 	}else if(message.content == '!pancake'){
 	message.channel.sendFile('https://orig00.deviantart.net/e9f0/f/2018/099/b/7/flat_by_sorebird-dc8d4h2.png');
 	}else if(message.content == '!sobbu'){
-	message.channel.sendFile('https://orig00.deviantart.net/1cc5/f/2018/099/2/3/as001397_13_by_sorebird-dc8d4kj.gif');
+	message.channel.sendFile('https://orig00.deviantart.net/37c9/f/2018/099/e/5/sobbu_by_sorebird-dc8dbqe.gif');
+	}else if(message.content == '!weeps'){
+	message.channel.sendFile('https://orig00.deviantart.net/eca7/f/2018/099/a/3/weeps_by_sorebird-dc8dbqh.gif');
 	}else if(message.content == '!wat'){
-	message.channel.sendFile('https://orig00.deviantart.net/f0cd/f/2018/099/e/0/as000766_06_by_sorebird-dc8d4kw.gif');
+	message.channel.sendFile('https://orig00.deviantart.net/729f/f/2018/099/4/2/wat_by_sorebird-dc8dbqy.gif');
 	}else if(message.content == '!imlate'){
-	message.channel.sendFile('https://orig00.deviantart.net/8380/f/2018/099/7/4/9913402_by_sorebird-dc8d4l0.gif');
+	message.channel.sendFile('https://orig00.deviantart.net/dd3a/f/2018/099/4/7/imlate_by_sorebird-dc8dbr4.gif');
 	}else if(message.content == '!blushu'){
-	message.channel.sendFile('https://orig00.deviantart.net/3771/f/2018/099/c/7/as000766_10_by_sorebird-dc8d4l8.gif');
+	message.channel.sendFile('https://orig00.deviantart.net/9144/f/2018/099/e/7/blushu_by_sorebird-dc8dbqn.gif');
 	}else if(message.content == '!goodnight'){
-	message.channel.sendFile('https://orig00.deviantart.net/447c/f/2018/099/8/0/5865791_by_sorebird-dc8d4lh.gif');
+	message.channel.sendFile('https://orig00.deviantart.net/c9b0/f/2018/099/c/7/goodnight_by_sorebird-dc8dbr3.gif');
 	}else if(message.content == '!foryou'){
-	message.channel.sendFile('https://orig00.deviantart.net/3dfe/f/2018/099/7/c/cm7k_1472703779_4412_6754_by_sorebird-dc8d4ll.gif');
+	message.channel.sendFile('https://orig00.deviantart.net/d5d4/f/2018/099/0/c/foryou_by_sorebird-dc8dbqt.gif');
 	}else if(message.content == '!yesgood'){
 	message.channel.sendFile('https://orig00.deviantart.net/6637/f/2018/099/1/7/good_by_sorebird-dc8d815.png');
 	}else if(message.content == '!vyrnsing1'){
