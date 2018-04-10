@@ -649,7 +649,7 @@ bot.on('message', function(message) {
 	}else if(message.content == '!nomcake'){
 	message.channel.sendFile('https://orig00.deviantart.net/16dc/f/2018/099/1/5/cake_by_sorebird-dc8dc7c.png');
 	}else if(message.content == '!blankstare'){
-	message.channel.sendFile('https://orig00.deviantart.net/a653/f/2018/099/5/c/deadveeekunn_by_sorebird-dc8d4jp.jpg');
+	message.channel.sendFile('https://orig00.deviantart.net/418f/f/2018/100/0/1/blankvyrn_by_sorebird-dc8gfkf.jpg');
 	}else if(message.content == '!yey'){
 	message.channel.sendFile('https://orig00.deviantart.net/ebcc/f/2018/099/9/b/yey_by_sorebird-dc8d4gf.png');
 	}else if(message.content == '!ohmygod'){
