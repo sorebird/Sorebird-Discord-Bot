@@ -699,13 +699,35 @@ bot.on('message', function(message) {
 		var random = Math.round(Math.random() * (n - 1)) + 1;
 		var random2 = Math.round(Math.random() * (10 - 1)) + 1;
 		var result = selections[random - 1];
-		if(random2 < 5){
+		if(random2 < 7){
 		var u = message.author.username;
 			message.reply(result);
 		}else{
 			message.reply('chirp');
 		}
-    	}
+    	}else if(message.content == '!katwut'){
+		message.channel.sendFile('https://orig00.deviantart.net/ebd5/f/2018/122/3/e/1523645603309_by_sorebird-dcage7i.jpg');
+	}else if(message.content == '!waitth9'){
+		message.channel.sendFile('https://orig00.deviantart.net/e747/f/2018/122/3/a/30706191_10211868486808663_2020887756078579712_n_by_sorebird-dcage79.jpg');
+	}else if(message.content == '!ferryhit'){
+		message.channel.sendFile('https://orig00.deviantart.net/336a/f/2018/122/e/0/1524690734956_by_sorebird-dcage6y.jpg');
+	}else if(message.content == '!KMReyes'){
+		message.channel.sendFile('https://orig00.deviantart.net/c5d6/f/2018/122/6/a/30729066_2487783688114525_3554642365184066015_n_by_sorebird-dcage6k.jpg');
+	}else if(message.content == '!vyrnshock'){
+		message.channel.sendFile('https://orig00.deviantart.net/2d0d/f/2018/122/4/c/30698022_350020905490080_6633791749921701888_n_by_sorebird-dcage68.jpg');
+	}else if(message.content == '!lalala'){
+		message.channel.sendFile('https://orig00.deviantart.net/6914/f/2018/122/7/8/1524690773917_by_sorebird-dcage5z.jpg');
+	}else if(message.content == '!dickpick2'){
+		message.channel.sendFile('https://orig00.deviantart.net/5ac9/f/2018/122/2/9/1523642297073_by_sorebird-dcage5r.jpg');
+	}else if(message.content == '!throwsalt'){
+		message.channel.sendFile('https://orig00.deviantart.net/bc37/f/2018/122/8/a/164971_by_sorebird-dcage5l.jpg');
+	}else if(message.content == '!yaygw'){
+		message.channel.sendFile('https://orig00.deviantart.net/615c/f/2018/122/1/e/yeygw_by_sorebird-dcage57.jpg');
+	}else if(message.content == '!vyrnchoke'){
+		message.channel.sendFile('https://orig00.deviantart.net/8bfe/f/2018/122/5/6/1523786125094_by_sorebird-dcage4z.png');
+	}else if(message.content == '!vyrnwut'){
+		message.channel.sendFile('https://orig00.deviantart.net/1dd1/f/2018/122/0/0/1523644896426_by_sorebird-dcage4s.jpg');
+	}
 	
 });
 
