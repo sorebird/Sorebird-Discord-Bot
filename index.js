@@ -725,8 +725,24 @@ bot.on('message', function(message) {
 		message.channel.sendFile('https://orig00.deviantart.net/615c/f/2018/122/1/e/yeygw_by_sorebird-dcage57.jpg');
 	}else if(message.content == '!vyrnchoke'){
 		message.channel.sendFile('https://orig00.deviantart.net/8bfe/f/2018/122/5/6/1523786125094_by_sorebird-dcage4z.png');
-	}else if(message.content == '!vyrnwut'){
-		message.channel.sendFile('https://orig00.deviantart.net/1dd1/f/2018/122/0/0/1523644896426_by_sorebird-dcage4s.jpg');
+	}else if(message.content == '!funfyay'){
+		message.channel.sendFile('https://orig00.deviantart.net/5e58/f/2018/138/5/3/f74447606f1378ac8b1ae5733e5c9cc5_by_sorebird-dcbvkrx.png');
+	}else if(message.content == '!headpat'){
+		message.channel.sendFile('https://orig00.deviantart.net/d43d/f/2018/138/1/5/unknown__2__by_sorebird-dcbvksb.png');
+	}else if(message.content == '!oktostare'){
+		message.channel.sendFile('https://orig00.deviantart.net/de29/f/2018/138/9/d/1525933759358_by_sorebird-dcbvksg.jpg');
+	}else if(message.content == '!funfyey'){
+		message.channel.sendFile('https://orig00.deviantart.net/9da0/f/2018/138/2/d/fiflul_by_sorebird-dcbvksm.jpg');
+	}else if(message.content == '!spitcoffee'){
+		message.channel.sendFile('https://orig00.deviantart.net/ccb8/f/2018/138/a/8/sandalpfft_by_sorebird-dcbvkt0.jpg');
+	}else if(message.content == '!hugfif'){
+		message.channel.sendFile('https://orig00.deviantart.net/b436/f/2018/138/2/b/e438e3ec05c65909d57f49db9aa3707b_by_sorebird-dcbvktc.png');
+	}else if(message.content == '!proudfif'){
+		message.channel.sendFile('https://orig00.deviantart.net/a58f/f/2018/138/f/d/63ac9d99fbab201fc90d1a08115836a5_by_sorebird-dcbvktj.png');
+	}else if(message.content == '!chikin'){
+		message.channel.sendFile('https://orig00.deviantart.net/8529/f/2018/138/3/f/chikin_by_sorebird-dcbvku9.jpg');
+	}else if(message.content == '!dontavoid'){
+		message.channel.sendFile('https://orig00.deviantart.net/0b36/f/2018/138/8/5/29597993_1821721274514353_5206856097742737357_n_by_sorebird-dcbvktz.jpg');
 	}
 	
 });
