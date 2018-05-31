@@ -269,7 +269,7 @@ bot.on('message', function(message) {
         message.channel.sendFile('https://orig00.deviantart.net/e265/f/2017/357/a/9/1513976541393_by_sorebird-dbxm5ze.png');
 	}else if(message.content == '!zeta'){
         message.channel.sendFile('https://orig00.deviantart.net/c069/f/2017/357/8/7/1512514569871_by_sorebird-dbxm5z0.jpg');
-	}else if(message.content == '!poutvina'){
+	}else if(message.content == '!poutvina' || message.content == '!vinapout'){
         message.channel.sendFile('https://cdn.discordapp.com/attachments/363815644682256384/394251646299013120/poutvina.png');
 	}else if(message.content == '!salty'){
 	message.channel.sendFile('https://cdn.discordapp.com/attachments/364174595961389086/393395814820478978/image.png');
@@ -562,7 +562,7 @@ bot.on('message', function(message) {
 	message.channel.sendFile('https://orig00.deviantart.net/651f/f/2018/067/3/6/stamp214_by_sorebird-dc5b0ua.png');
 	}else if(message.content == '!nod'){
 	message.channel.sendFile('https://orig00.deviantart.net/1b2c/f/2018/067/c/c/stamp213_by_sorebird-dc5b0um.png');
-	}else if(message.content == '!geeh'){
+	}else if(message.content == '!geeh' || message.content == '!mugeeh'){
 	message.channel.sendFile('https://orig00.deviantart.net/cfb8/f/2018/067/b/a/stamp195_by_sorebird-dc5b0v0.png');
 	}else if(message.content == '!beawink'){
 	message.channel.sendFile('https://orig00.deviantart.net/33b4/f/2018/067/f/5/stamp212_by_sorebird-dc5b0vc.png');
@@ -735,9 +735,9 @@ bot.on('message', function(message) {
 		message.channel.sendFile('https://orig00.deviantart.net/9da0/f/2018/138/2/d/fiflul_by_sorebird-dcbvksm.jpg');
 	}else if(message.content == '!spitcoffee'){
 		message.channel.sendFile('https://orig00.deviantart.net/ccb8/f/2018/138/a/8/sandalpfft_by_sorebird-dcbvkt0.jpg');
-	}else if(message.content == '!hugfif'){
+	}else if(message.content == '!hugfif' || message.content == '!hugfunf'){
 		message.channel.sendFile('https://orig00.deviantart.net/b436/f/2018/138/2/b/e438e3ec05c65909d57f49db9aa3707b_by_sorebird-dcbvktc.png');
-	}else if(message.content == '!proudfif'){
+	}else if(message.content == '!proudfif' || message.content == '!proudfunf'){
 		message.channel.sendFile('https://orig00.deviantart.net/a58f/f/2018/138/f/d/63ac9d99fbab201fc90d1a08115836a5_by_sorebird-dcbvktj.png');
 	}else if(message.content == '!chikin'){
 		message.channel.sendFile('https://orig00.deviantart.net/8529/f/2018/138/3/f/chikin_by_sorebird-dcbvku9.jpg');
