@@ -763,6 +763,8 @@ bot.on('message', function(message) {
 		message.channel.sendFile('https://orig00.deviantart.net/b2cb/f/2018/151/4/6/glitter_by_sorebird-dcd20jh.png');
 	}else if(message.content == '!niong'){
 		message.channel.sendFile('https://orig00.deviantart.net/fae0/f/2018/151/0/0/niong_by_sorebird-dcd20jb.png');
+	}else if(message.content == '!hellopolice'){
+		message.channel.sendFile('https://orig00.deviantart.net/7f95/f/2018/154/0/3/34302679_1078202778985790_384197404586409984_n_by_sorebird-dcdbl0e.jpg');
 	}
 	
 });
