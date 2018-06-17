@@ -765,6 +765,22 @@ bot.on('message', function(message) {
 		message.channel.sendFile('https://orig00.deviantart.net/fae0/f/2018/151/0/0/niong_by_sorebird-dcd20jb.png');
 	}else if(message.content == '!hellopolice'){
 		message.channel.sendFile('https://orig00.deviantart.net/7f95/f/2018/154/0/3/34302679_1078202778985790_384197404586409984_n_by_sorebird-dcdbl0e.jpg');
+	}else if(message.content == '!funfwow' || message.content == '!fifwow'){
+		message.channel.sendFile('https://orig00.deviantart.net/aa7b/f/2018/168/6/c/screen_shot_2018_06_12_at_7_27_22_pm_by_sorebird-dcenu0y.png');
+	}else if(message.content == '!cheersore'){
+		message.channel.sendFile('https://orig00.deviantart.net/20d0/f/2018/168/1/8/cheersoreillia1_by_sorebird-dcenu0l.png');
+	}else if(message.content == '!tlepilli'){
+		message.channel.sendFile('https://orig00.deviantart.net/6109/f/2018/168/7/3/tlepilli_by_sorebird-dcenu0c.png');
+	}else if(message.content == '!jin'){
+		message.channel.sendFile('https://orig00.deviantart.net/c9f4/f/2018/168/0/7/jinstare_by_sorebird-dcenu03.jpg');
+	}else if(message.content == '!dance'){
+		message.channel.sendFile('https://orig00.deviantart.net/258d/f/2018/168/e/2/1514654716901_by_sorebird-dcenu19.gif');
+	}else if(message.content == '!chikinyay'){
+		message.channel.sendFile('https://orig00.deviantart.net/00c8/f/2018/168/4/f/screenshot_20180608_110536_granblue_by_sorebird-dcenu1f.jpg');
+	}else if(message.content == '!deviltrigger'){
+		message.channel.sendFile('https://orig00.deviantart.net/9a82/f/2018/168/0/9/7ad_by_sorebird-dcenuo9.jpg');
+	}else if(message.content == '!motivated'){
+		message.channel.sendFile('https://orig00.deviantart.net/fa84/f/2018/168/2/3/d5d_by_sorebird-dcenuwb.jpg');
 	}
 	
 });
