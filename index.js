@@ -780,7 +780,7 @@ bot.on('message', function(message) {
 	}else if(message.content == '!deviltrigger'){
 		message.channel.sendFile('https://orig00.deviantart.net/9a82/f/2018/168/0/9/7ad_by_sorebird-dcenuo9.jpg');
 	}else if(message.content == '!motivated'){
-		message.channel.sendFile('https://orig00.deviantart.net/fa84/f/2018/168/2/3/d5d_by_sorebird-dcenuwb.jpg');
+		message.channel.sendFile('https://orig00.deviantart.net/3787/f/2018/168/b/0/d5d_by_sorebird-dcenv4g.jpg');
 	}
 	
 });
