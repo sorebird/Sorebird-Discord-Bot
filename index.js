@@ -781,6 +781,12 @@ bot.on('message', function(message) {
 		message.channel.sendFile('https://orig00.deviantart.net/9a82/f/2018/168/0/9/7ad_by_sorebird-dcenuo9.jpg');
 	}else if(message.content == '!motivated'){
 		message.channel.sendFile('https://orig00.deviantart.net/3787/f/2018/168/b/0/d5d_by_sorebird-dcenv4g.jpg');
+	}else if(message.content == '!korwawryy'){
+		message.channel.sendFile('https://orig00.deviantart.net/378c/f/2018/168/c/2/4383c10676d215197d28b70b8f2fa1ec_by_sorebird-dcenvp8.png');
+	}else if(message.content == '!urgh'){
+		message.channel.sendFile('https://orig00.deviantart.net/dbb2/f/2018/168/3/f/55c2314cb64ad7884fd3eec288e25b54_by_sorebird-dcenvpo.png');
+	}else if(message.content == '!veewut' || message.content == '!vyrnwut'){
+		message.channel.sendFile('https://orig00.deviantart.net/58f7/f/2018/168/b/d/vyrnwat_by_sorebird-dcenvr3.png');
 	}
 	
 });
