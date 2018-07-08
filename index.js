@@ -815,6 +815,10 @@ bot.on('message', function(message) {
 		message.channel.sendFile('https://orig00.deviantart.net/f819/f/2018/189/e/a/nocomment_by_sorebird-dcglxab.png');
 	}else if(message.content == '!smugcag'){
 		message.channel.sendFile('https://orig00.deviantart.net/58f9/f/2018/189/8/f/smugcag_by_sorebird-dcglxah.png');
+	}else if(message.content == '!scoldme'){
+		message.channel.sendFile('https://orig00.deviantart.net/cd73/f/2018/189/4/e/1531050049372_by_sorebird-dcgly75.jpg');
+	}else if(message.content == '!covereye'){
+		message.channel.sendFile('https://orig00.deviantart.net/28d0/f/2018/189/f/5/1531050066836_by_sorebird-dcgly7b.jpg');
 	}
 	
 });
