@@ -789,7 +789,7 @@ bot.on('message', function(message) {
 		message.channel.sendFile('https://orig00.deviantart.net/58f7/f/2018/168/b/d/vyrnwat_by_sorebird-dcenvr3.png');
 	}else if(message.content == '!omoshiroi'){
 		message.channel.sendFile('https://orig00.deviantart.net/d84e/f/2018/189/3/9/eahta_ii_by_sorebird-dcglx8i.png');
-	}else if(message.content == '!dante'){
+	}else if(message.content == '!feelsdante'){
 		message.channel.sendFile('https://orig00.deviantart.net/8288/f/2018/189/7/9/1529786051952_by_sorebird-dcglx8n.jpg');
 	}else if(message.content == '!boldgar'){
 		message.channel.sendFile('https://orig00.deviantart.net/ae79/f/2018/189/2/a/boldgar_by_sorebird-dcglx8v.png');
