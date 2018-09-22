@@ -871,7 +871,18 @@ bot.on('message', function(message) {
 			message.channel.sendFile('https://orig00.deviantart.net/6bea/f/2018/260/3/1/woof_by_sorebird-dcn2qmj.png');
 	}else if(message.content == '!zoerry'){
 			message.channel.sendFile('https://orig00.deviantart.net/1550/f/2018/260/7/a/zoerry_by_sorebird-dcn2qma.png');
+	}else if(message.content == '!wait'){
+		 message.channel.sendFile('https://orig00.deviantart.net/0086/f/2018/265/c/8/v_by_sorebird-dcniko6.gif');
+	}else if(message.content == '!danterose'){
+		 message.channel.sendFile('https://orig00.deviantart.net/6c76/f/2018/265/9/9/tumblr_nfv411sgm61syag2xo1_r4_400_by_sorebird-dcnikm0.gif');
+	}else if(message.content == '!coverears'){
+		 message.channel.sendFile('https://cdn.discordapp.com/attachments/482826784627359744/491864486249234433/FB_IMG_1537340062745.jpg');
+	}else if(message.content == '!leciathumbsup'){
+		 message.channel.sendFile('https://cdn.discordapp.com/attachments/482826784627359744/491840385203699713/image0.png');
+	}else if(message.content == '!cucomg'){
+		 message.channel.sendFile('https://cdn.discordapp.com/attachments/482826784627359744/492210729928359937/Screen_Shot_2018-09-20_at_3.49.35_pm.png');
 	}
+		 
 	
 });
 
