@@ -881,6 +881,12 @@ bot.on('message', function(message) {
 		 message.channel.sendFile('https://cdn.discordapp.com/attachments/482826784627359744/491840385203699713/image0.png');
 	}else if(message.content == '!cucomg'){
 		 message.channel.sendFile('https://cdn.discordapp.com/attachments/482826784627359744/492210729928359937/Screen_Shot_2018-09-20_at_3.49.35_pm.png');
+	}else if(message.content == '!gettingbigger'){
+		 message.channel.sendFile('https://orig00.deviantart.net/06fb/f/2018/266/a/e/gettingbigger_by_sorebird-dcnle7k.jpg');
+	}else if(message.content == '!written'){
+		 message.channel.sendFile('https://orig00.deviantart.net/3396/f/2018/266/0/2/written_by_sorebird-dcnldx0.jpg');
+	}else if(message.content == '!vstare'){
+		 message.channel.sendFile('https://orig00.deviantart.net/150b/f/2018/266/c/3/vpls_by_sorebird-dcnldx7.png');
 	}
 		 
 	
