@@ -920,7 +920,7 @@ bot.on('message', function(message) {
 	}else if(message.content == '!vyrnsweat'){
 		 message.channel.sendFile('https://cdn.discordapp.com/attachments/482826784627359744/507141839737061376/Screen_Shot_2018-10-31_at_9.38.08_pm.png');
 	}else if(message.content == '!freesalt'){
-		 message.channel.sendFile('https://cdn.discordapp.com/attachments/482826784627359744/507151876089970692/FB_IMG_1540984808708.jpg');
+		 message.channel.sendFile('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/intermediary/f/d4f5aea5-377c-4b1e-8a72-d8cb4e21de3f/dcr5pi1-62952dca-5d96-421e-bf7f-53457c84d196.jpg');
 	}else if(message.content == '!areyouok'){
 		 message.channel.sendFile('https://media.discordapp.net/attachments/482826784627359744/508649542091145232/0ae48a7861022cb26ddcaea9ae73192f.png');
 	}else if(message.content == '!katcooking2'){
