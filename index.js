@@ -526,10 +526,10 @@ bot.on('message', function(message) {
 		}
 	}else if (String(s).match(/!role.*/)) {
 		var choice = s.replace("!role", "");
-		message.reply('DEBUGGING '+choice);
-		
-		let role = message.guild.roles.find(role => role.name === choice);
-		message.reply('ROLE ID '+role.id);
+
+		let roleID = "459051783889616901";
+		let membersWithRole = message.guild.roles.get(roleID).members;
+		message.reply(`Got ${membersWithRole.size} members with that role.`);
 	}else if(message.content == '!chakchak'){
 	message.channel.sendFile('https://orig00.deviantart.net/a4e8/f/2018/067/e/5/1520534191283_by_sorebird-dc5b103.jpg');
 	}else if(message.content == '!KMRlol'){
