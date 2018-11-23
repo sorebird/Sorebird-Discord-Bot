@@ -525,8 +525,9 @@ bot.on('message', function(message) {
 			message.reply('*chirp* o vo/ '+result);
 		}
 	}else if (String(s).match(/!role.*/)) {
-		var choice = s.replace("!role ", "");
+		var choice = s.replace("!role", "");
 		
+		message.reply("+choice+");
 		let modRole = message.member.roles.find("name",choice).id;
 		    
 		message.reply(modRole);
