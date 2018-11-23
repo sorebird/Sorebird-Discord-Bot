@@ -530,6 +530,8 @@ bot.on('message', function(message) {
 		let role = message.guild.roles.find(role => role.name === choice);
 		let member = message.member;
 		
+		message.reply('DEBUGGING '+choice);
+		
 		if(message.member.roles.has(role.id)) {
 		  member.addRole(role).catch(console.error);
 		  message.reply('*chirp* Added role o vo/ '+choice);
