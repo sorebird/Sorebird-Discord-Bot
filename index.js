@@ -527,7 +527,9 @@ bot.on('message', function(message) {
 	}else if (String(s).match(/!role.*/)) {
 		var choice = s.replace("!role", "");
 
-		if(message.member.roles.find("name",choice)) {
+		let allowedRole = message.guild.roles.find("name",choice);
+		
+		if(message.member.roles.has(allowedRole.id)) {
 		message.reply('*chirp* Removed role o vo/ '+choice);
 		}else{
 		message.reply('*chirp* Added role o vo/ '+choice);
