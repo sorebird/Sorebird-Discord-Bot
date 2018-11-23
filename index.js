@@ -526,13 +526,20 @@ bot.on('message', function(message) {
 		}
 	}else if (String(s).match(/!role.*/)) {
 		var choice = s.replace("!role", "");
-
-		let allowedRole = message.guild.roles.find("name",choice);
+		var role = "";
 		
-		if(message.member.roles.has(allowedRole.id)) {
-		message.reply('*chirp* Removed role o vo/ '+choice);
-		}else{
-		message.reply('*chirp* Added role o vo/ '+choice);
+		switch(choice){
+			case "Jump Addict":
+				role = "459051783889616901";
+				break;	
+		}
+		
+		if(message.member.roles.has(role)) {
+		  message.member.addRole(role).catch(console.error);
+		  message.reply('*chirp* Added role o vo/ '+choice);
+		} else {
+		  message.member.removeRole(role).catch(console.error);
+		  message.reply('*chirp* Removed role o vo/ '+choice);
 		}
 	}else if(message.content == '!chakchak'){
 	message.channel.sendFile('https://orig00.deviantart.net/a4e8/f/2018/067/e/5/1520534191283_by_sorebird-dc5b103.jpg');
