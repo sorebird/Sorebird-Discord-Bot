@@ -524,12 +524,13 @@ bot.on('message', function(message) {
 		}else{
 			message.reply('*chirp* o vo/ '+result);
 		}
-	}else if (String(s).match(/!role.*/)) {
+	}else if (String(s).match(/!addrole.*/)) {
 		var choice = s.replace("!role", "");
 		choice = choice.trim();
 		
 		let modRole = message.member.roles.find("name",choice).id;
 		message.reply('*chirp* o vo/ '+modRole);
+		message.member.addRole(modRole);
 	}else if(message.content == '!chakchak'){
 	message.channel.sendFile('https://orig00.deviantart.net/a4e8/f/2018/067/e/5/1520534191283_by_sorebird-dc5b103.jpg');
 	}else if(message.content == '!KMRlol'){
