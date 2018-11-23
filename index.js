@@ -527,9 +527,11 @@ bot.on('message', function(message) {
 	}else if (String(s).match(/!role.*/)) {
 		var choice = s.replace("!role", "");
 
-		let roleID = "459051783889616901";
-		let membersWithRole = message.guild.roles.get(roleID).members;
-		message.reply(`Got ${membersWithRole.size} members with that role.`);
+		if(message.member.roles.find("name",choice)) {
+		message.reply('*chirp* Removed role o vo/ '+choice);
+		}else{
+		message.reply('*chirp* Added role o vo/ '+choice);
+		}
 	}else if(message.content == '!chakchak'){
 	message.channel.sendFile('https://orig00.deviantart.net/a4e8/f/2018/067/e/5/1520534191283_by_sorebird-dc5b103.jpg');
 	}else if(message.content == '!KMRlol'){
