@@ -526,8 +526,8 @@ bot.on('message', function(message) {
 		}
 	}else if (String(s).match(/!role.*/)) {
 		var choice = s.replace("!role", "");
+		choice = choice.trim();
 		
-		message.reply("'"+choice+"'");
 		let modRole = message.member.roles.find("name",choice).id;
 		    
 		message.reply(modRole);
