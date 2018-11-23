@@ -529,12 +529,13 @@ bot.on('message', function(message) {
 		choice = choice.trim();
 		message.reply('*chirp* o vo/ '+choice);
 		
-		let modRole = message.guild.roles.find("name",choice);
+		let modRole = message.guild.roles.find(r => r.name === choice);
+		let current = message.member;
 		
 		if(message.member.roles.has(modRole.id)){
-		  message.member.removeRole(modRole);
+		  current.removeRole(modRole);
 		}else{
-		  message.member.addRole(modRole);	  
+		  current.addRole(modRole);
 		}
 	}else if(message.content == '!chakchak'){
 	message.channel.sendFile('https://orig00.deviantart.net/a4e8/f/2018/067/e/5/1520534191283_by_sorebird-dc5b103.jpg');
