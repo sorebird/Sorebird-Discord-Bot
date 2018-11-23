@@ -534,7 +534,7 @@ bot.on('message', function(message) {
 				break;	
 		}
 		
-		if(message.member.roles.has(role)) {
+		if(message.member.roles.find("name",choice)) {
 		  message.member.removeRole(role);
 		  message.reply('*chirp* Removed role o vo/ '+choice);
 		} else {
