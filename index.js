@@ -524,6 +524,19 @@ bot.on('message', function(message) {
 		}else{
 			message.reply('*chirp* o vo/ '+result);
 		}
+	}else if (String(s).match(/!role.*/)) {
+		var choice = s.replace("!choose", "");
+
+		let role = message.guild.roles.find(role => role.name === choice);
+		let member = message.member;
+		
+		if(message.member.roles.has(role.id)) {
+		  member.addRole(role).catch(console.error);
+		  message.reply('*chirp* Added role o vo/ '+choice);
+		} else {
+		  member.removeRole(role).catch(console.error);
+		  message.reply('*chirp* Removed role o vo/ '+choice);
+		}
 	}else if(message.content == '!chakchak'){
 	message.channel.sendFile('https://orig00.deviantart.net/a4e8/f/2018/067/e/5/1520534191283_by_sorebird-dc5b103.jpg');
 	}else if(message.content == '!KMRlol'){
