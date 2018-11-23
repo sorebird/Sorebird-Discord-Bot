@@ -528,7 +528,7 @@ bot.on('message', function(message) {
 		var choice = s.replace("!addrole", "");
 		choice = choice.trim();
 		
-		let modRole = message.guild.roles.find("name",choice).id;
+		let modRole = message.guild.roles.find("name","Sorebird").id;
 		if(!modRole){
 		  message.reply('*chirp* o vo/ Role doesnt exist');
 		}else{
