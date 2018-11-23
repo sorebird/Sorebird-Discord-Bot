@@ -525,10 +525,9 @@ bot.on('message', function(message) {
 			message.reply('*chirp* o vo/ '+result);
 		}
 	}else if (String(s).match(/!role.*/)) {
-		var choice = s.replace("!role", "");
-		var role = "";
+		var choice = s.replace("!role ", "");
 		
-		let modRole = message.member.roles.find("name","Jump Addict").id;
+		let modRole = message.member.roles.find("name",choice).id;
 		    
 		message.reply(modRole);
 	}else if(message.content == '!chakchak'){
