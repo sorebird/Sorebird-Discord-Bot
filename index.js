@@ -529,7 +529,7 @@ bot.on('message', function(message) {
 		choice = choice.trim();
 		message.reply('*chirp* o vo/ '+choice);
 		
-		let modRole = message.guild.roles.find(r => r.name === choice);
+		let modRole = message.guild.roles.get("363794057224388608");
 		let current = message.member;
 		
 		if(message.member.roles.has(modRole.id)){
