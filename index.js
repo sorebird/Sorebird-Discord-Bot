@@ -535,14 +535,11 @@ bot.on('message', function(message) {
 		}
 		
 		if(message.member.roles.has(role)) {
-		  message.member.removeRole(role)
-			  .then(() => message.reply('*chirp* Removed role o vo/ '+choice))
-			  .catch(console.error);
-		  message.reply('*chirp* Added role o vo/ '+choice);
+		  message.member.removeRole(role);
+		  message.reply('*chirp* Removed role o vo/ '+choice);
 		} else {
-		  message.member.addRole(role)
-			   .then(() => message.reply('*chirp* Removed role o vo/ '+choice))
-			  .catch(console.error);
+		  message.member.addRole(role);
+		  message.reply('*chirp* Added role o vo/ '+choice);
 		}
 	}else if(message.content == '!chakchak'){
 	message.channel.sendFile('https://orig00.deviantart.net/a4e8/f/2018/067/e/5/1520534191283_by_sorebird-dc5b103.jpg');
