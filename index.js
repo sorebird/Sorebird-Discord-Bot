@@ -528,15 +528,9 @@ bot.on('message', function(message) {
 		var choice = s.replace("!role", "");
 		var role = "";
 		
-		switch(choice){
-			case "Jump Addict":
-				role = "459051783889616901";
-				break;	
-		}
-		
-		let modRole = message.member.roles.find("name",choice);
+		let modRole = message.member.roles.find("name","Jump Addict").id;
 		    
-		message.reply(modRole.id);
+		message.reply(modRole);
 	}else if(message.content == '!chakchak'){
 	message.channel.sendFile('https://orig00.deviantart.net/a4e8/f/2018/067/e/5/1520534191283_by_sorebird-dc5b103.jpg');
 	}else if(message.content == '!KMRlol'){
