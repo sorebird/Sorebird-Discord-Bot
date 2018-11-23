@@ -528,6 +528,8 @@ bot.on('message', function(message) {
 		var choice = s.replace("!role", "");
 		message.reply('DEBUGGING '+choice);
 		
+		let role = message.guild.roles.find(role => role.name === choice);
+		message.reply('ROLE ID '+role.id);
 	}else if(message.content == '!chakchak'){
 	message.channel.sendFile('https://orig00.deviantart.net/a4e8/f/2018/067/e/5/1520534191283_by_sorebird-dc5b103.jpg');
 	}else if(message.content == '!KMRlol'){
