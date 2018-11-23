@@ -534,13 +534,9 @@ bot.on('message', function(message) {
 				break;	
 		}
 		
-		if(message.member.roles.find("name",choice)) {
-		  message.member.removeRole(role);
-		  message.reply('*chirp* Removed role o vo/ '+choice);
-		} else {
-		  message.member.addRole(role);
-		  message.reply('*chirp* Added role o vo/ '+choice);
-		}
+		let modRole = message.member.roles.find("name",choice);
+		    
+		message.reply(modRole.id);
 	}else if(message.content == '!chakchak'){
 	message.channel.sendFile('https://orig00.deviantart.net/a4e8/f/2018/067/e/5/1520534191283_by_sorebird-dc5b103.jpg');
 	}else if(message.content == '!KMRlol'){
