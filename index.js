@@ -527,10 +527,12 @@ bot.on('message', function(message) {
 	}else if (String(s).match(/!addrole.*/)) {
 		var choice = s.replace("!addrole", "");
 		choice = choice.trim();
-		message.reply('*chirp* o vo/ '+choice);
+		
 		
 		let role = message.guild.roles.find(r => r.name == choice);
 
+		message.reply('*chirp* o vo/ '+role.id);
+		
 		if(message.member.roles.has(role.id)){
 		  message.member.removeRole(role);
 		}else{
