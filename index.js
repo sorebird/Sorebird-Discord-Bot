@@ -524,19 +524,19 @@ bot.on('message', function(message) {
 		}else{
 			message.reply('*chirp* o vo/ '+result);
 		}
-	}else if (String(s).match(/!addrole.*/)) {
-		var choice = s.replace("!addrole", "");
+	}else if (String(s).match(/!role.*/)) {
+		var choice = s.replace("!role", "");
 		choice = choice.trim();
 		
 		
 		let role = message.guild.roles.find(r => r.name == choice);
 
-		message.reply('*chirp* o vo/ '+role.id);
-		
 		if(message.member.roles.has(role.id)){
 		  message.member.removeRole(role);
+		  message.reply('*chirp* Removed o vo/ '+choice);	
 		}else{
 		  message.member.addRole(role);
+		  message.reply('*chirp* Added o vo/ '+choice);
 		}
 	}else if(message.content == '!chakchak'){
 	message.channel.sendFile('https://orig00.deviantart.net/a4e8/f/2018/067/e/5/1520534191283_by_sorebird-dc5b103.jpg');
