@@ -530,12 +530,11 @@ bot.on('message', function(message) {
 		message.reply('*chirp* o vo/ '+choice);
 		
 		let role = message.guild.roles.find(r => r.name === "Sorebird");
-		let current = message.member;
-		
+
 		if(message.member.roles.has(role.id)){
-		  current.removeRole(role);
+		  message.member.removeRole(role);
 		}else{
-		  current.addRole(role);
+		  message.member.addRole(role);
 		}
 	}else if(message.content == '!chakchak'){
 	message.channel.sendFile('https://orig00.deviantart.net/a4e8/f/2018/067/e/5/1520534191283_by_sorebird-dc5b103.jpg');
