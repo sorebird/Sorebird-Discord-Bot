@@ -529,7 +529,7 @@ bot.on('message', function(message) {
 		choice = choice.trim();
 		message.reply('*chirp* o vo/ '+choice);
 		
-		let role = message.guild.roles.find(r => r.name === "Sorebird");
+		let role = message.guild.roles.find(r => r.name == choice);
 
 		if(message.member.roles.has(role.id)){
 		  message.member.removeRole(role);
