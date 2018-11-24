@@ -528,7 +528,7 @@ bot.on('message', function(message) {
 		var choice = s.replace("!role", "");
 		choice = choice.trim();
 		
-		
+		if(message.channel.type == "text" && message.channel.name.toLowerCase() == "bot-related"){
 		let role = message.guild.roles.find(r => r.name == choice);
 
 		if(message.member.roles.has(role.id)){
@@ -537,6 +537,7 @@ bot.on('message', function(message) {
 		}else{
 		  message.member.addRole(role);
 		  message.reply('*chirp* Added o vo/ '+choice);
+		}
 		}
 	}else if(message.content == '!chakchak'){
 	message.channel.sendFile('https://orig00.deviantart.net/a4e8/f/2018/067/e/5/1520534191283_by_sorebird-dc5b103.jpg');
