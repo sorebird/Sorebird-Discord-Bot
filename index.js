@@ -529,15 +529,19 @@ bot.on('message', function(message) {
 		choice = choice.trim();
 		
 		if(message.channel.type == "text" && message.channel.name.toLowerCase() == "bot-related"){
-		let role = message.guild.roles.find(r => r.name == choice);
+			let role = message.guild.roles.find(r => r.name == choice);
 
-		if(message.member.roles.has(role.id)){
-		  message.member.removeRole(role);
-		  message.reply('*chirp* Removed o vo/ '+choice);	
-		}else{
-		  message.member.addRole(role);
-		  message.reply('*chirp* Added o vo/ '+choice);
-		}
+			if(choice != "Bots" && choice != "Members"){
+				if(message.member.roles.has(role.id)){
+				  message.member.removeRole(role);
+				  message.reply('*chirp* Removed o vo/ '+choice);	
+				}else{
+				  message.member.addRole(role);
+				  message.reply('*chirp* Added o vo/ '+choice);
+				}
+			}else{
+				message.reply("*chirp* You can't have this role... o v o "+choice);
+			}
 		}
 	}else if(message.content == '!chakchak'){
 	message.channel.sendFile('https://orig00.deviantart.net/a4e8/f/2018/067/e/5/1520534191283_by_sorebird-dc5b103.jpg');
@@ -832,7 +836,7 @@ bot.on('message', function(message) {
 		message.channel.sendFile('https://orig00.deviantart.net/58f9/f/2018/189/8/f/smugcag_by_sorebird-dcglxah.png');
 	}else if(message.content == '!scoldme'){
 		message.channel.sendFile('https://orig00.deviantart.net/cd73/f/2018/189/4/e/1531050049372_by_sorebird-dcgly75.jpg');
-	}else if(message.content == '!covereye'){
+	}else if(message.content == '!covereye' || message.content == '!coverseyes' || message.content == '!covereyes'){
 		message.channel.sendFile('https://orig00.deviantart.net/28d0/f/2018/189/f/5/1531050066836_by_sorebird-dcgly7b.jpg');
 	}else if(message.content == '!aegismerge'){
 		message.channel.sendFile('https://orig00.deviantart.net/d6c9/f/2018/260/a/0/aegismerge_by_sorebird-dcn2qpg.png');
