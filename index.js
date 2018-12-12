@@ -545,7 +545,7 @@ bot.on('message', function(message) {
 		}else{
 			message.reply("*chirp* You can't use this command... o v o");
 		}
-	}else if (String(s).match(/pepe.*/) || String(s).match(/pepe.*/)) {
+	}else if (String(s).match(/pepe.*/) || String(s).match(/peepo.*/)) {
 		message.channel.sendFile('https://cdn.discordapp.com/attachments/356371808842416130/394191656750022657/angrybirb.png');
 	}else if(message.content == '!chakchak'){
 	message.channel.sendFile('https://orig00.deviantart.net/a4e8/f/2018/067/e/5/1520534191283_by_sorebird-dc5b103.jpg');
