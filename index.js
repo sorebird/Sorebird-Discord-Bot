@@ -513,17 +513,24 @@ bot.on('message', function(message) {
 	}else if(message.content == '!naruplz'){
 		message.channel.sendFile('https://orig00.deviantart.net/6ed7/f/2018/055/b/a/narupls_by_sorebird-dc47cqy.png');
 	}else if (String(s).match(/!choose.*/)) {
-		var choice = s.replace("!choose", "");
-		var selections = choice.split(',');
-		var n = selections.length;
-		var random = Math.round(Math.random() * (n - 1)) + 1;
 		
-		var result = selections[random - 1];
-		
-		if(result == "Vyrn"){
-			message.channel.sendFile('https://cdn.discordapp.com/attachments/356371808842416130/407520939505352714/Clipboard04.png');
+		if (String(s).match(/gisla.*/)) {
+			message.reply('*chirp* o vo/ gisla');
+		}else if(String(s).match(/soreillia.*/)){
+			message.reply('*chirp* o vo/ soreillia');
 		}else{
-			message.reply('*chirp* o vo/ '+result);
+			var choice = s.replace("!choose", "");
+			var selections = choice.split(',');
+			var n = selections.length;
+			var random = Math.round(Math.random() * (n - 1)) + 1;
+
+			var result = selections[random - 1];
+
+			if(result == "Vyrn"){
+				message.channel.sendFile('https://cdn.discordapp.com/attachments/356371808842416130/407520939505352714/Clipboard04.png');
+			}else{
+				message.reply('*chirp* o vo/ '+result);
+			}
 		}
 	}else if (String(s).match(/!role.*/)) {
 		var choice = s.replace("!role", "");
