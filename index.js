@@ -8,6 +8,7 @@ bot.on('ready', () => {
 
 bot.on('message', function(message) {
     var s = message.content;
+
     var n = bot.user.username;
     if(message.content == 'Sorebird'){
         message.channel.sendMessage('chirp');
@@ -549,15 +550,15 @@ bot.on('message', function(message) {
 		message.channel.sendFile('https://cdn.discordapp.com/attachments/356371808842416130/394191656750022657/angrybirb.png');
 	}else if(message.content == '!chakchak'){
 	message.channel.sendFile('https://orig00.deviantart.net/a4e8/f/2018/067/e/5/1520534191283_by_sorebird-dc5b103.jpg');
-	}else if(message.content == '!KMRlol'){
+	}else if(message.content == '!KMRlol' || message.content == '!kmrlol'){
 	message.channel.sendFile('https://orig00.deviantart.net/091f/f/2018/067/b/7/dxcbudgvqaas2vm_by_sorebird-dc5b10q.png');
-	}else if(message.content == '!KMRlmao'){
+	}else if(message.content == '!KMRlmao' || message.content == '!kmrlmao'){
 	message.channel.sendFile('https://orig00.deviantart.net/2b35/f/2018/067/3/1/28468653_2039156589458083_2400986494849253376_n_by_sorebird-dc5b10g.jpg');
 	}else if(message.content == '!NKM' || message.content == '!NKMR' ){
 	message.channel.sendFile('https://orig00.deviantart.net/6ad8/f/2018/067/f/8/unknown_by_sorebird-dc5b2g5.png');
-	}else if(message.content == '!NKMsad' || message.content == '!NKMRsad'){
+	}else if(message.content == '!NKMsad' || message.content == '!NKMRsad' || message.content == '!nkmrsad'){
 	message.channel.sendFile('https://orig00.deviantart.net/0fe8/f/2018/067/3/1/2018_03_04_18_47_36__by_sorebird-dc5b112.png');
-	}else if(message.content == '!NKMrly' || message.content == '!NKMRrly'){
+	}else if(message.content == '!NKMrly' || message.content == '!NKMRrly' || message.content == '!nkmrly'){
 	message.channel.sendFile('https://orig00.deviantart.net/119c/f/2018/067/2/4/let_me_grind_in_peace_by_sorebird-dc5b11a.png');
 	}else if(message.content == '!onoscratch'){
 	message.channel.sendFile('https://orig00.deviantart.net/931f/f/2018/067/6/a/image_by_sorebird-dc5b11f.jpg');
@@ -976,6 +977,80 @@ bot.on('message', function(message) {
 		 message.channel.sendFile('https://cdn.discordapp.com/attachments/482826784627359744/517509608114487296/Screenshot_20181129-091745_Discord.jpg');
 	}else if(message.content == '!quatresigh'){
 		 message.channel.sendFile('https://cdn.discordapp.com/attachments/482826784627359744/517587451510915072/4.png');
+	}else if(message.content == '!spankins'){
+		 message.channel.sendFile('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/intermediary/f/d4f5aea5-377c-4b1e-8a72-d8cb4e21de3f/dcx89rr-b4013108-9bdd-43d5-bce4-8512953fc413.jpg');
+	}else if(message.content == '!sieteshock'){
+		 message.channel.sendFile('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/intermediary/f/d4f5aea5-377c-4b1e-8a72-d8cb4e21de3f/dcx89rl-02db3676-288d-4429-9968-15521d4123e9.jpg');
+	}else if(message.content == '!ononotbad'){
+		 message.channel.sendFile('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/intermediary/f/d4f5aea5-377c-4b1e-8a72-d8cb4e21de3f/dcx89re-a69bc170-544c-4cd7-a79f-45da1cd92dc6.png');
+	}else if(message.content == '!grimnir'){
+		 message.channel.sendFile('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/intermediary/f/d4f5aea5-377c-4b1e-8a72-d8cb4e21de3f/dcx89r1-e0d7e474-c80c-438b-9281-1f9cee06ebcd.jpg');
+	}else if(message.content == '!europa'){
+		 message.channel.sendFile('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/intermediary/f/d4f5aea5-377c-4b1e-8a72-d8cb4e21de3f/dcx89qg-021b6871-2bb3-4e2b-a93b-39b6d4ca3fc4.jpg');
+	}else if(message.content == '!shiva' || message.content == '!yabai'){
+		 message.channel.sendFile('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/intermediary/f/d4f5aea5-377c-4b1e-8a72-d8cb4e21de3f/dcx89qr-06403e30-f776-49ed-8f60-9592d2b3128e.png');
+	}else if(message.content == '!grimnir'){
+		 message.channel.sendFile('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/intermediary/f/d4f5aea5-377c-4b1e-8a72-d8cb4e21de3f/dcx89r1-e0d7e474-c80c-438b-9281-1f9cee06ebcd.jpg');
+	}else if(message.content == '!alexiel'){
+		 message.channel.sendFile('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/intermediary/f/d4f5aea5-377c-4b1e-8a72-d8cb4e21de3f/dcx89qa-e178503c-3202-428a-84e2-b073fe395e7a.jpg');
+	}else if(message.content == '!gotit'){
+		 message.channel.sendFile('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/intermediary/f/d4f5aea5-377c-4b1e-8a72-d8cb4e21de3f/dcx89py-b53212a8-4098-49a3-8197-1cd3506b2561.png');
+	}else if(message.content == '!rascallol'){
+		 message.channel.sendFile('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/intermediary/f/d4f5aea5-377c-4b1e-8a72-d8cb4e21de3f/dcx89pp-3136d864-d6a1-4aec-b8eb-288d17425af9.png');
+	}else if(message.content == '!rascalsigh'){
+		 message.channel.sendFile('https://orig00.deviantart.net/ecb8/f/2019/016/3/3/10f74e7e2624f7fefb1033e0dcc154b1_by_sorebird-dcx89pc.gif');
+	}else if(message.content == '!rascalpeek'){
+		 message.channel.sendFile('https://orig00.deviantart.net/54c9/f/2019/016/a/2/as002542_03_by_sorebird-dcx89p0.gif');
+	}else if(message.content == '!rascalshock'){
+		 message.channel.sendFile('https://orig00.deviantart.net/cceb/f/2019/016/7/4/09aa096998cbec71d426f8f3290c4c18_7_by_sorebird-dcx89ok.gif');
+	}else if(message.content == '!rascalflowers'){
+		 message.channel.sendFile('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/intermediary/f/d4f5aea5-377c-4b1e-8a72-d8cb4e21de3f/dcx89og-5b911079-09fe-49cd-bf2b-8a3949de36fd.png');
+	}else if(message.content == '!rascalwaa'){
+		 message.channel.sendFile('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/intermediary/f/d4f5aea5-377c-4b1e-8a72-d8cb4e21de3f/dcx89o4-5b5032dc-4738-44f7-84e8-77035d8c5ef6.png');
+	}else if(message.content == '!rascalnom'){
+		 message.channel.sendFile('https://orig00.deviantart.net/be35/f/2019/016/5/d/as000766_01_by_sorebird-dcx89nt.gif');
+	}else if(message.content == '!rascalheart'){
+		 message.channel.sendFile('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/intermediary/f/d4f5aea5-377c-4b1e-8a72-d8cb4e21de3f/dcx89nl-e016733a-61ed-4b89-8ff4-922d571cf573.png');
+	}else if(message.content == '!rascalcake'){
+		 message.channel.sendFile('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/intermediary/f/d4f5aea5-377c-4b1e-8a72-d8cb4e21de3f/dcx89nf-b4cf01db-f1a4-4b8e-9458-0ff106527ecf.png');
+	}else if(message.content == '!rascallolli'){
+		 message.channel.sendFile('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/intermediary/f/d4f5aea5-377c-4b1e-8a72-d8cb4e21de3f/dcx89n7-39c214c7-da15-498c-85be-c2d39d1dc42d.png');
+	}else if(message.content == '!rascalblushu'){
+		 message.channel.sendFile('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/intermediary/f/d4f5aea5-377c-4b1e-8a72-d8cb4e21de3f/dcx89n2-d6a08205-135d-4753-891f-d9ead01d2f7d.png');
+	}else if(message.content == '!rascallove'){
+		 message.channel.sendFile('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/intermediary/f/d4f5aea5-377c-4b1e-8a72-d8cb4e21de3f/dcx89mo-e27f9d1f-6a6c-4681-8a84-8af02cef57ca.png');
+	}else if(message.content == '!rascalcry'){
+		 message.channel.sendFile('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/intermediary/f/d4f5aea5-377c-4b1e-8a72-d8cb4e21de3f/dcx89me-fb403204-e8ad-4d07-9496-971de80c4f34.png');
+	}else if(message.content == '!popcorn'){
+		 message.channel.sendFile('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/intermediary/f/d4f5aea5-377c-4b1e-8a72-d8cb4e21de3f/dcx89m1-c045de76-a44a-4ccf-892a-2b2c07ea38c5.png');
+	}else if(message.content == '!waa'){
+		 message.channel.sendFile('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/intermediary/f/d4f5aea5-377c-4b1e-8a72-d8cb4e21de3f/dcx89la-c71668c8-de10-47b5-bd8b-e06096738fee.png');
+	}else if(message.content == '!djheart'){
+		 message.channel.sendFile('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/intermediary/f/d4f5aea5-377c-4b1e-8a72-d8cb4e21de3f/dcx89kq-850bb569-0fa3-4c94-9627-d5392df75003.jpg');
+	}else if(message.content == '!gisla'){
+		 message.channel.sendFile('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/intermediary/f/d4f5aea5-377c-4b1e-8a72-d8cb4e21de3f/dcx89kh-36d57cc8-5551-4017-9470-df73661b8f9e.jpg');
+	}else if(message.content == '!zetahuh'){
+		 message.channel.sendFile('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/intermediary/f/d4f5aea5-377c-4b1e-8a72-d8cb4e21de3f/dcx89k7-ac2dc712-54e4-4059-9744-c3e816aaf48b.png');
+	}else if(message.content == '!vyrnwink'){
+		 message.channel.sendFile('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/intermediary/f/d4f5aea5-377c-4b1e-8a72-d8cb4e21de3f/dcx89jz-74485789-d13f-48c7-8d6b-7dc0efa2dfab.png');
+	}else if(message.content == '!vyrnkiss'){
+		 message.channel.sendFile('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/intermediary/f/d4f5aea5-377c-4b1e-8a72-d8cb4e21de3f/dcx89jr-331d383f-daf0-4f7b-8434-d64938edb7b4.png');
+	}else if(message.content == '!beacry'){
+		 message.channel.sendFile('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/intermediary/f/d4f5aea5-377c-4b1e-8a72-d8cb4e21de3f/dcx89jl-d886d5cc-5419-4856-81fb-2de59daa66af.png');
+	}else if(message.content == '!takemyboldgar'){
+		 message.channel.sendFile('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/intermediary/f/d4f5aea5-377c-4b1e-8a72-d8cb4e21de3f/dcx89jd-2e058df1-7dcd-47f8-a3d1-a3b1be8dd161.png');
+	}else if(message.content == '!sietecake'){
+		 message.channel.sendFile('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/intermediary/f/d4f5aea5-377c-4b1e-8a72-d8cb4e21de3f/dcx89j5-8d781a92-787a-4e0e-b1d7-a662c8f12f3f.jpg');
+	}else if(message.content == '!jadedab'){
+		 message.channel.sendFile('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/intermediary/f/d4f5aea5-377c-4b1e-8a72-d8cb4e21de3f/dcx89iz-2cd0c524-f4f6-443d-a82f-dc2588d75bc8.png');
+	}else if(message.content == '!calldoctor'){
+		 message.channel.sendFile('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/intermediary/f/d4f5aea5-377c-4b1e-8a72-d8cb4e21de3f/dcx89iq-c44c2d15-f2ff-4aa8-ac52-66aa15bab790.png');
+	}else if(message.content == '!orchidsip'){
+		 message.channel.sendFile('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/intermediary/f/d4f5aea5-377c-4b1e-8a72-d8cb4e21de3f/dcx89ii-6ac5b27d-4119-4b4f-87cf-ffab2e040fab.png');
+	}else if(message.content == '!boldgarwhere'){
+		 message.channel.sendFile('https://cdn.discordapp.com/attachments/523387900377956352/524117419355013140/AngeryMao.gif');
+	}else if(message.content == '!byefrost'){
+		 message.channel.sendFile('https://i.imgur.com/yy0dgjs.mp4');
 	}
 });
 
