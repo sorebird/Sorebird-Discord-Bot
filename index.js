@@ -986,7 +986,7 @@ bot.on('message', function(message) {
 		 message.channel.sendFile('https://cdn.discordapp.com/attachments/482826784627359744/517587451510915072/4.png');
 	}else if(message.content == '!spankins'){
 		 message.channel.sendFile('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/intermediary/f/d4f5aea5-377c-4b1e-8a72-d8cb4e21de3f/dcx89rr-b4013108-9bdd-43d5-bce4-8512953fc413.jpg');
-	}else if(message.content == '!sieteshock'){
+	}else if(message.content == '!sieteded'){
 		 message.channel.sendFile('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/intermediary/f/d4f5aea5-377c-4b1e-8a72-d8cb4e21de3f/dcx89rl-02db3676-288d-4429-9968-15521d4123e9.jpg');
 	}else if(message.content == '!ononotbad'){
 		 message.channel.sendFile('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/intermediary/f/d4f5aea5-377c-4b1e-8a72-d8cb4e21de3f/dcx89re-a69bc170-544c-4cd7-a79f-45da1cd92dc6.png');
