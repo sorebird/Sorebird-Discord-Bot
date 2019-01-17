@@ -1052,7 +1052,7 @@ bot.on('message', function(message) {
 		 message.channel.sendFile('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/intermediary/f/d4f5aea5-377c-4b1e-8a72-d8cb4e21de3f/dcx89iz-2cd0c524-f4f6-443d-a82f-dc2588d75bc8.png');
 	}else if(message.content == '!calldoctor'){
 		 message.channel.sendFile('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/intermediary/f/d4f5aea5-377c-4b1e-8a72-d8cb4e21de3f/dcx89iq-c44c2d15-f2ff-4aa8-ac52-66aa15bab790.png');
-	}else if(message.content == '!orchidsip'){
+	}else if(message.content == '!orchidsip' ||message.content == '!orchidok'){
 		 message.channel.sendFile('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/intermediary/f/d4f5aea5-377c-4b1e-8a72-d8cb4e21de3f/dcx89ii-6ac5b27d-4119-4b4f-87cf-ffab2e040fab.png');
 	}else if(message.content == '!boldgarwhere'){
 		 message.channel.sendFile('https://cdn.discordapp.com/attachments/523387900377956352/524117419355013140/AngeryMao.gif');
