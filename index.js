@@ -1150,6 +1150,52 @@ bot.on('message', function(message) {
 	message.channel.sendFile('https://cdn.discordapp.com/attachments/544576495595683861/556480439569874954/Stamp241.png');
 	}else if(message.content == '!notwritten'){
 	message.channel.sendFile('https://cdn.discordapp.com/attachments/544576495595683861/556485601105412115/notwritten.jpg');
+	}else if(message.content == '!cagshock'){
+	message.channel.sendFile('https://cdn.discordapp.com/attachments/544576495595683861/580141715000786975/cagshock.png');
+	}else if(message.content == '!deadweight'){
+	message.channel.sendFile('https://cdn.discordapp.com/attachments/544576495595683861/580141717047738374/deadweight.jpg');
+	}else if(message.content == '!goldbarpls'){
+	message.channel.sendFile('https://cdn.discordapp.com/attachments/544576495595683861/580141720511971336/gbpls.png');
+	}else if(message.content == '!geohuh'){
+	message.channel.sendFile('https://cdn.discordapp.com/attachments/544576495595683861/580141721019482124/geohuh.png');
+	}else if(message.content == '!givepraise'){
+	message.channel.sendFile('https://cdn.discordapp.com/attachments/544576495595683861/580141724106489862/givepraise.png');
+	}else if(message.content == '!hottievyrn'){
+	message.channel.sendFile('https://cdn.discordapp.com/attachments/544576495595683861/580141726413619247/hottievyrn.png');
+	}else if(message.content == '!kmrgisla'){
+	message.channel.sendFile('https://cdn.discordapp.com/attachments/544576495595683861/580141728120700941/kmrgisla.jpg');
+	}else if(message.content == '!kmrjerry'){
+	message.channel.sendFile('https://cdn.discordapp.com/attachments/544576495595683861/580141731941580810/kmrjerry.png');
+	}else if(message.content == '!letmeslacc'){
+	message.channel.sendFile('https://cdn.discordapp.com/attachments/544576495595683861/580141733959172099/letmeslacc.png');
+	}else if(message.content == '!lucihuh'){
+	message.channel.sendFile('https://cdn.discordapp.com/attachments/544576495595683861/580141738262265925/luciwut.png');
+	}else if(message.content == '!mygoldbar'){
+	message.channel.sendFile('https://cdn.discordapp.com/attachments/544576495595683861/580142406574407710/mygoldbar.png');
+	}else if(message.content == '!myrainbow'){
+	message.channel.sendFile('https://cdn.discordapp.com/attachments/544576495595683861/580141758172758016/myrainbow.png');
+	}else if(message.content == '!nappls'){
+	message.channel.sendFile('https://cdn.discordapp.com/attachments/544576495595683861/580141765345148928/nappls.jpg');
+	}else if(message.content == '!nerohuh'){
+	message.channel.sendFile('https://cdn.discordapp.com/attachments/544576495595683861/580141772823461908/nerohuh.jpg');
+	}else if(message.content == '!nezhanod'){
+	message.channel.sendFile('https://cdn.discordapp.com/attachments/544576495595683861/580141776770433045/nezhanod.jpg');
+	}else if(message.content == '!ripfriday'){
+	message.channel.sendFile('https://cdn.discordapp.com/attachments/544576495595683861/580141781186772992/ripfriday.png');
+	}else if(message.content == '!saltpls'){
+	message.channel.sendFile('https://cdn.discordapp.com/attachments/544576495595683861/580141786438303765/saltpls.png');
+	}else if(message.content == '!shaocry'){
+	message.channel.sendFile('https://cdn.discordapp.com/attachments/544576495595683861/580141792100614144/shaocry.jpg');
+	}else if(message.content == '!shaoshock'){
+	message.channel.sendFile('https://cdn.discordapp.com/attachments/544576495595683861/580141800652668968/shaoshock.jpg');
+	}else if(message.content == '!sietesmile'){
+	message.channel.sendFile('https://cdn.discordapp.com/attachments/544576495595683861/580141806944256020/sietesmile.png');
+	}else if(message.content == '!slacc'){
+	message.channel.sendFile('https://cdn.discordapp.com/attachments/544576495595683861/580141820932128768/slack.jpg');
+	}else if(message.content == '!geosuffer'){
+	message.channel.sendFile('https://cdn.discordapp.com/attachments/544576495595683861/580141825734737930/suffer.jpeg');
+	}else if(message.content == '!motivationwot'){
+	message.channel.sendFile('https://cdn.discordapp.com/attachments/544576495595683861/580141832520859751/wot.jpg');
 	}
 });
 
