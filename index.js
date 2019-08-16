@@ -14,6 +14,8 @@ bot.on('message', function(message) {
         message.channel.sendMessage('chirp');
     }else if (String(s).match(/ludicat.*/)) {
         message.channel.sendFile('https://cdn.discordapp.com/attachments/356371808842416130/394191656750022657/angrybirb.png');
+    }else if (String(s).match(/fuck.*/) || String(s).match(/asshole.*/) || String(s).match(/dick.*/) || String(s).match(/bitch.*/)) {
+         message.channel.sendMessage('Sorebird says no swearing, so better stop it!');
     }else if(message.content == '!sivangry'){
         message.channel.sendMessage('chirp');
     }else if(message.content == '!sivhmm'){
