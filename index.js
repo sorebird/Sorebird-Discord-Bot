@@ -1260,7 +1260,7 @@ bot.on('message', function(message) {
 		message.channel.sendFile('https://cdn.discordapp.com/attachments/482826784627359744/602031209924788224/unknown.png');
 	}
 	else if(message.content == '!phosphorus'){
-		message.channel.sendFile('https://imgur.com/C96hB2S');
+		message.channel.sendFile('https://cdn.discordapp.com/attachments/544576495595683861/630117715893551114/phosphorus.gif');
 	}
 	else if(message.content == '!lokismile'){
 		message.channel.sendFile('https://cdn.discordapp.com/attachments/482826784627359744/605338817641054233/54564b09-cf2e-4001-b9f4-42ae7b95ffeb.png');
