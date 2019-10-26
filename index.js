@@ -1306,7 +1306,12 @@ bot.on('message', function(message) {
 	}
 	else if(message.content == '!pizzatime'){
 		message.channel.sendFile('https://66.media.tumblr.com/bd08cb7915bac9e27ee43bb5cf84f040/tumblr_pqlhmkujHV1r5lxoeo2_250.png');
+	}else if(message.content == '!30kpls'){
+		message.channel.sendFile('https://cdn.discordapp.com/attachments/482826784627359744/637172940688982016/30k_ahoy.png');
+	}else if(message.content == '!seoxok'){
+		message.channel.sendFile('https://pbs.twimg.com/media/EHGBi9QU0AEWezk.jpg');
 	}
+	
 });
 
 bot.login(process.env.BOT_TOKEN);
