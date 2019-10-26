@@ -1287,7 +1287,7 @@ bot.on('message', function(message) {
 		message.channel.sendFile('https://cdn.discordapp.com/attachments/482826784627359744/613633670959333377/unknown.png');
 	}
 	else if(message.content == '!nierplz'){
-		message.channel.sendFile('https://cdn.discordapp.com/emojis/620278213431787530.png?v=1');
+		message.channel.sendFile('https://cdn.discordapp.com/emojis/620278213431787530.png');
 	}
 	else if(message.content == '!stanthink'){
 		message.channel.sendFile('https://cdn.discordapp.com/attachments/482826784627359744/620511984147890176/unknown.png');
