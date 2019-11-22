@@ -535,7 +535,8 @@ bot.on('message', function(message) {
 			var s2 = selections[1];
 			var s3 = selections[2] * 10;
 		
-			var result = Math.sum(s1,s2,s3);
+			var result = 0;
+			result += s1 + s2 + s3;
 		
 			if(isNaN(result)){
 				message.reply('o v o please use this format "!spark set crystals,single ticket,10-draw"');
