@@ -526,6 +526,22 @@ bot.on('message', function(message) {
 			}else{
 				message.reply('*chirp* o vo/ '+result);
 			}
+	}else if (String(s).match(/!spark.*/)) {
+
+			var choice = s.replace("!spark set", "");
+			var selections = choice.split(',');
+			
+			var s1 = Math.floor(selections[0] / 300);
+			var s2 = selections[1];
+			var s3 = selections[2] * 10;
+		
+			var result = s1 + s2 + s3;
+		
+			if(isNaN(result)){
+				message.reply('o v o please use this format "!spark set crystals,single ticket,10-draw"');
+			}else{
+				message.reply('*chirp* o vo/ You have '+result+' draws!');
+			}
 	}else if (String(s).match(/!role.*/)) {
 		var choice = s.replace("!role", "");
 		choice = choice.trim();
