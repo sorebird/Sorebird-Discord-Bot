@@ -539,7 +539,6 @@ bot.on('message', function(message) {
 			result += parseInt(s1) + parseInt(s2) + parseInt(s3);
 		
 			if(isNaN(result)){
-				message.reply('o v o please use this format "!spark set crystals,single ticket,10-draw"');
 			}else{
 				message.reply('*chirp* o vo/ You have '+result+' draws!');
 			}
