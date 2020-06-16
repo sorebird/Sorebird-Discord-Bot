@@ -1344,7 +1344,18 @@ bot.on('message', function(message) {
 		message.channel.sendFile('https://cdn.discordapp.com/emojis/631713442923020308.png');
 	}else if(message.content == '!djohno'){
 		message.channel.sendFile('https://cdn.discordapp.com/attachments/482826784627359744/649188377190727701/FB_IMG_1574848958691.jpg');
+	}else if(message.content == '!facepalm'){
+		message.channel.sendFile('https://cdn.discordapp.com/emojis/722450262668608600.png');
+	}else if(message.content == '!danzai'){
+		message.channel.sendFile('https://cdn.discordapp.com/attachments/430196903905460224/722472849486643360/DANZAI.gif');
+	}else if(message.content == '!ssrplz'){
+		message.channel.sendFile('https://i.gyazo.com/ecb89109bcd5be5d6a1aa2d36e992def.png');
+	}else if(message.content == '!sieteshy'){
+		message.channel.sendFile('https://cdn.discordapp.com/attachments/482826784627359744/708560778575347743/20200509_070718.png');
+	}else if(message.content == '!caimsip'){
+		message.channel.sendFile('https://cdn.discordapp.com/attachments/482826784627359744/701152742948864070/caimsip.png');
 	}
+	
 	
 	
 });
