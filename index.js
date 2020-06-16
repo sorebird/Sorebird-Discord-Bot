@@ -1354,6 +1354,10 @@ bot.on('message', function(message) {
 		message.channel.sendFile('https://cdn.discordapp.com/attachments/482826784627359744/708560778575347743/20200509_070718.png');
 	}else if(message.content == '!caimsip'){
 		message.channel.sendFile('https://cdn.discordapp.com/attachments/482826784627359744/701152742948864070/caimsip.png');
+	}else if(message.content == '!steponme'){
+		message.channel.sendFile('https://cdn.discordapp.com/attachments/430196903905460224/722523490703507466/steponme.png');
+	}else if(message.content == '!luciosmile'){
+		message.channel.sendFile('https://cdn.discordapp.com/attachments/430196903905460224/722504561641652314/2.png');
 	}
 	
 	
