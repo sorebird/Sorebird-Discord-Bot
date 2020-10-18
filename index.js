@@ -1356,7 +1356,7 @@ bot.on('message', function(message) {
 		message.channel.sendFile('https://cdn.discordapp.com/attachments/430196903905460224/722523490703507466/steponme.png');
 	}else if(message.content == '!luciosmile'){
 		message.channel.sendFile('https://cdn.discordapp.com/attachments/430196903905460224/722504561641652314/2.png');
-	}else if(message.content == '!sandalstare'){
+	}else if(message.content == '!sandalsip'){
 		message.channel.sendFile('https://cdn.discordapp.com/attachments/482826784627359744/733282040828657664/Clipboard02.png');
 	}else if(message.content == '!beliallaugh'){
 		message.channel.sendFile('https://cdn.discordapp.com/attachments/482826784627359744/739335435414667285/EeXJdjbWsAACJul.png');
