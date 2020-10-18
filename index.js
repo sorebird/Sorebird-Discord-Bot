@@ -1360,6 +1360,14 @@ bot.on('message', function(message) {
 		message.channel.sendFile('https://cdn.discordapp.com/attachments/482826784627359744/733282040828657664/Clipboard02.png');
 	}else if(message.content == '!beliallaugh'){
 		message.channel.sendFile('https://cdn.discordapp.com/attachments/482826784627359744/739335435414667285/EeXJdjbWsAACJul.png');
+	}else if(message.content == '!tiredofbeingnice'){
+		message.channel.sendFile('https://cdn.discordapp.com/attachments/482826784627359744/767468649098379284/EeXJJ_oXoAQRTha.jpg');
+	}else if(message.content == '!luciodrink'){
+		message.channel.sendFile('https://cdn.discordapp.com/attachments/482826784627359744/767468651662016533/EeXJKp2XgAEn3CY.jpg');
+	}else if(message.content == '!vikalaoww'){
+		message.channel.sendFile('https://cdn.discordapp.com/attachments/482826784627359744/767468652604686366/EeXJKUBWAAEHoFG.jpg');
+	}else if(message.content == '!kolulunom'){
+		message.channel.sendFile('https://cdn.discordapp.com/attachments/482826784627359744/767468653717225528/EeXJLBwWkAICXPc.jpg');
 	}
 });
 
