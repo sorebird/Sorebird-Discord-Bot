@@ -563,8 +563,6 @@ bot.on('message', function(message) {
 		}else{
 			message.reply("*chirp* You can't use this command... o v o");
 		}
-	}else if (String(s).match(/pepe.*/) || String(s).match(/peepo.*/)) {
-		message.channel.sendFile('https://cdn.discordapp.com/attachments/356371808842416130/394191656750022657/angrybirb.png');
 	}else if(message.content == '!chakchak'){
 	message.channel.sendFile('https://orig00.deviantart.net/a4e8/f/2018/067/e/5/1520534191283_by_sorebird-dc5b103.jpg');
 	}else if(message.content == '!KMRlol' || message.content == '!kmrlol'){
@@ -1358,10 +1356,11 @@ bot.on('message', function(message) {
 		message.channel.sendFile('https://cdn.discordapp.com/attachments/430196903905460224/722523490703507466/steponme.png');
 	}else if(message.content == '!luciosmile'){
 		message.channel.sendFile('https://cdn.discordapp.com/attachments/430196903905460224/722504561641652314/2.png');
+	}else if(message.content == '!sandalstare'){
+		message.channel.sendFile('https://cdn.discordapp.com/attachments/482826784627359744/733282040828657664/Clipboard02.png');
+	}else if(message.content == '!beliallaugh'){
+		message.channel.sendFile('https://cdn.discordapp.com/attachments/482826784627359744/739335435414667285/EeXJdjbWsAACJul.png');
 	}
-	
-	
-	
 });
 
 bot.login(process.env.BOT_TOKEN);
