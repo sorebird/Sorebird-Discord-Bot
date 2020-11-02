@@ -547,10 +547,11 @@ bot.on('message', message => {
 		choice = choice.trim();
 		
 		if(message.channel.type == "text" && message.channel.name.toLowerCase() == "bot-related"){
+			message.reply('*chirp* o vo/ ' + choice);
+			/*
 			let role = message.guild.roles.cache.find(r => r.name === choice);
 			message.reply('*chirp* o vo/ ' + role.id);
-			
-			/*
+
 			if(choice != "Bots" && choice != "Members"){
 				if(message.member.roles.cache.has(role.id)){
 				  message.member.roles.remove(role).catch(console.error);
