@@ -1370,10 +1370,18 @@ bot.on('message', message => {
 		message.channel.send({files: ['https://cdn.discordapp.com/attachments/482826784627359744/767468653717225528/EeXJLBwWkAICXPc.jpg']});
 	}else if(message.content == '!trustcat'){
 		message.channel.send({files: ['https://cdn.discordapp.com/attachments/482826784627359744/772560185059049492/EltHkUHX0AECaoG_1.png']});
-	}else if(message.content == '!avatar'){
+	}else if(String(s).match(/!avatar.*/)){
 		if (!message.mentions.users.size) {
 			message.channel.send({files: [message.author.displayAvatarURL({ format: "png", dynamic: true })]});
 		}
+		
+		const avatarList = message.mentions.users.map(user => {
+			return `${user.username}'s avatar: <${user.displayAvatarURL({ format: "png", dynamic: true })}>`;
+		});
+
+		// send the entire array of strings as a message
+		// by default, discord.js will `.join()` the array with `\n`
+		message.channel.send(avatarList);
 	}
 });
 
