@@ -3,10 +3,10 @@ const bot = new Discord.Client();
 
 //bot.setGame('!help for list of commands');
 bot.on('ready', () => {
-   bot.user.setGame("!help for commands ovo");
+  bot.user.setActivity("!help for commands ovo");
 });
 
-bot.on('message', function(message) {
+bot.on('message', message => {
     var s = message.content.toLowerCase();
 
     var n = bot.user.username;
