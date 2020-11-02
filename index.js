@@ -1,4 +1,4 @@
-const Discord = require('discord.js-stable');
+const Discord = require('discord.js-stable/discord.js-stable');
 const bot = new Discord.Client();
 
 //bot.setGame('!help for list of commands');
