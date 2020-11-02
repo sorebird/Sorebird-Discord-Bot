@@ -1389,10 +1389,13 @@ bot.on('message', message => {
 		var selections = choice.split(',');
 		var n = selections.length;
 		var random = Math.round(Math.random() * (n - 1)) + 1;
-		var random2 = Math.round(Math.random() * (10 - 1)) + 1;
 		var result = selections[random - 1];
 
+		var res = s.replace("fuck", result);
 
+		message.delete();
+
+		message.channel.send('o vo/ *' + res + '*');
 	}
 });
 
