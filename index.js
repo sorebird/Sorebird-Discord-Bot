@@ -554,7 +554,7 @@ bot.on('message', message => {
 				  message.member.roles.remove(role).catch(console.error);
 				  message.reply('*chirp* Removed o vo/ '+choice);	
 				}else{
-				  message.member.roles.add(role);
+				  message.member.roles.add(role).catch(console.error);
 				  message.reply('*chirp* Added o vo/ '+choice);
 				}
 			}else{
