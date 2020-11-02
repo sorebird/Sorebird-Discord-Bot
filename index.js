@@ -23,7 +23,7 @@ bot.on('message', message => {
     }else if(message.content == '!thwump'){
        message.channel.send({files: ['https://gbf.wiki/images/5/57/Stamp122.png']});
     }else if(message.content == '!help'){
-        message.channel.send('** Currently available commands listed here: https://sta.sh/0k9j1w8rivp **');
+        message.channel.send('** Currently available commands listed here: https://sta.sh/0k9j1w8rivp and here https://sta.sh/01nrsa8glp5 **');
     }else if(message.content == '$help'){
         message.channel.send('** Currently available GE commands listed here: https://sta.sh/01n1i5pzlsvx **');
     }else if (String(s).match(/kissu.*/)) {
