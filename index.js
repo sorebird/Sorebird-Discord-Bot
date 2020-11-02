@@ -1395,7 +1395,7 @@ bot.on('message', message => {
 
 		message.delete();
 
-		message.channel.send('o vo/ *' + res + '*');
+		message.channel.send('*chirp* o vo/ ' + res);
 	}
 });
 
