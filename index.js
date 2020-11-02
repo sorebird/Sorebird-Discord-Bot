@@ -1392,11 +1392,7 @@ bot.on('message', message => {
 		var random2 = Math.round(Math.random() * (10 - 1)) + 1;
 		var result = selections[random - 1];
 
-		s.replace("fuck", result);
-		
-		message.delete();
-		
-		message.channel.send('o vo/ *' + s + '*');
+
 	}
 });
 
