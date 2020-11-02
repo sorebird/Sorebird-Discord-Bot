@@ -1372,7 +1372,7 @@ bot.on('message', message => {
 		message.channel.send({files: ['https://cdn.discordapp.com/attachments/482826784627359744/772560185059049492/EltHkUHX0AECaoG_1.png']});
 	}else if(message.content == '!avatar'){
 		if (!message.mentions.users.size) {
-			message.channel.send(`Your avatar: <${message.author.displayAvatarURL({ format: "png", dynamic: true })}>`);
+			message.channel.send({files: [message.author.displayAvatarURL({ format: "png", dynamic: true })]});
 		}
 	}
 });
