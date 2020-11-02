@@ -1372,7 +1372,7 @@ bot.on('message', function(message) {
 		message.channel.sendFile('https://cdn.discordapp.com/attachments/482826784627359744/772560185059049492/EltHkUHX0AECaoG_1.png');
 	}else if(message.content == '!avatar'){
 		if (!message.mentions.users.size) {
-			return message.reply('you need to tag a user');
+			return message.channel.send('Your avatar: <${message.author.displayAvatarURL({ format: "png", dynamic: true })}>');
 		}
 	}
 });
