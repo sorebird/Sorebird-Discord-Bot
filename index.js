@@ -1385,7 +1385,7 @@ bot.on('message', message => {
 		// by default, discord.js will `.join()` the array with `\n`
 		//message.channel.send(avatarList);
 	}else if(String(s).match(/fuck.*/)){
-		var choice = "mango, banana, pear, grape, apple, melon, gooseberry, guava, grapefruit, orange, cucumber";
+		var choice = "mango, banana, pear, grape, apple, melon, gooseberry, guava, grapefruit, orange, cucumber, faa-san";
 		var selections = choice.split(',');
 		var n = selections.length;
 		var random = Math.round(Math.random() * (n - 1)) + 1;
