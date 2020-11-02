@@ -547,14 +547,14 @@ bot.on('message', message => {
 		choice = choice.trim();
 		
 		if(message.channel.type == "text" && message.channel.name.toLowerCase() == "bot-related"){
-			let role = message.guild.roles.cache.find(r => r.name === choice);
+			let role = message.guild.roles.cache.find(r => r.name == choice);
 
 			if(choice != "Bots" && choice != "Members"){
 				if(message.member.roles.cache.has(role.id)){
-				  message.member.removeRole(role).catch(console.error);
+				  message.member.roles.remove(role).catch(console.error);
 				  message.reply('*chirp* Removed o vo/ '+choice);	
 				}else{
-				  message.member.addRole(role);
+				  message.member.roles.add(role);
 				  message.reply('*chirp* Added o vo/ '+choice);
 				}
 			}else{
