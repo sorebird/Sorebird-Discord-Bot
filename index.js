@@ -8,7 +8,8 @@ bot.on('ready', () => {
 
 bot.on('message', message => {
     var s = message.content.toLowerCase();
-
+    var msg = message.content;
+	
     var n = bot.user.username;
     if(message.content == 'sorebird'){
         message.channel.send('chirp');
@@ -543,15 +544,14 @@ bot.on('message', message => {
 				message.reply('*chirp* o vo/ You have '+result+' draws!');
 			}
 	}else if (String(s).match(/!role.*/)) {
-		var choice = s.replace("!role", "");
+		var choice = msg.replace("!role", "");
 		choice = choice.trim();
 		
 		if(message.channel.type == "text" && message.channel.name.toLowerCase() == "bot-related"){
-			message.reply('*chirp* o vo/ ' + choice);
-			/*
 			let role = message.guild.roles.cache.find(r => r.name === choice);
 			message.reply('*chirp* o vo/ ' + role.id);
-
+			
+			/*
 			if(choice != "Bots" && choice != "Members"){
 				if(message.member.roles.cache.has(role.id)){
 				  message.member.roles.remove(role).catch(console.error);
