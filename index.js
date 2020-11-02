@@ -11,11 +11,11 @@ bot.on('message', message => {
 
     var n = bot.user.username;
     if(message.content == 'sorebird'){
-        message.channel.sendMessage('chirp');
+        message.channel.send('chirp');
     }else if (String(s).match(/ludicat.*/)) {
         message.channel.sendFile('https://cdn.discordapp.com/attachments/356371808842416130/394191656750022657/angrybirb.png');
     }else if(message.content == '!sivangry'){
-        message.channel.sendMessage('chirp');
+        message.channel.send('chirp');
     }else if(message.content == '!sivhmm'){
         message.channel.sendFile('https://cdn.discordapp.com/attachments/388529685652439045/554989457493852161/siv4_by_sorebird-dbp2cq5.png');
     }else if(message.content == '!sivshock'){
@@ -23,9 +23,9 @@ bot.on('message', message => {
     }else if(message.content == '!thwump'){
         message.channel.sendFile('https://gbf.wiki/images/5/57/Stamp122.png');
     }else if(message.content == '!help'){
-        message.channel.sendMessage('** Currently available commands listed here: https://sta.sh/0k9j1w8rivp **');
+        message.channel.send('** Currently available commands listed here: https://sta.sh/0k9j1w8rivp **');
     }else if(message.content == '$help'){
-        message.channel.sendMessage('** Currently available GE commands listed here: https://sta.sh/01n1i5pzlsvx **');
+        message.channel.send('** Currently available GE commands listed here: https://sta.sh/01n1i5pzlsvx **');
     }else if (String(s).match(/kissu.*/)) {
         message.channel.sendFile('https://stickershop.line-scdn.net/stickershop/v1/sticker/15670572/android/sticker.png');
     }else if (String(s).match(/sorebird is annoying.*/)) {
@@ -243,9 +243,9 @@ bot.on('message', message => {
 	}else if(message.content == '!hereigo'){
         message.channel.sendFile('https://gbf.wiki/images/8/8a/Stamp124.png');
 	}else if(message.content == '!nextst'){
-        message.channel.sendMessage('chirp');
+        message.channel.send('chirp');
 	}else if(message.content == '!jsttime'){
-        message.channel.sendMessage('chirp');
+        message.channel.send('chirp');
 	}else if(message.content == '!dickpick'){
         message.channel.sendFile('https://cdn.discordapp.com/attachments/364174595961389086/394245200249225236/23517475_1983184115304469_1305680920232120631_n.jpg');
 	}else if(message.content == '!notsiete'){
