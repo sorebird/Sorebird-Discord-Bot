@@ -14,8 +14,6 @@ deploy/
 .vscode/
 docs/
 
-webpack/
-
 # NPM ignore
 .eslintrc.json
 .gitattributes
@@ -24,3 +22,5 @@ webpack/
 webpack.config.js
 .github/
 test/
+tsconfig.json
+tslint.json
