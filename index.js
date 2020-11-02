@@ -1207,7 +1207,7 @@ bot.on('message', message => {
 	}else if(message.content == '!slacc'){
 	message.channel.send({files: ['https://cdn.discordapp.com/attachments/544576495595683861/580141820932128768/slack.jpg']});
 	}else if(message.content == '!geosuffer'){
-	message.channel.send({files: ['https://cdn.discordapp.com/attachments/544576495595683861/580141825734737930/suffer.jpeg');
+	message.channel.send({files: ['https://cdn.discordapp.com/attachments/544576495595683861/580141825734737930/suffer.jpeg']});
 	}else if(message.content == '!motivationwot'){
 	message.channel.send({files: ['https://cdn.discordapp.com/attachments/544576495595683861/580141832520859751/wot.jpg']});
 	}else if(message.content == '!whew'){
