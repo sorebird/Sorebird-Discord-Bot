@@ -7,10 +7,10 @@ bot.on('ready', () => {
 });
 
 bot.on('message', function(message) {
-    var s = message.content;
+    var s = message.content.toLowerCase();
 
     var n = bot.user.username;
-    if(message.content == 'Sorebird'){
+    if(message.content == 'sorebird'){
         message.channel.sendMessage('chirp');
     }else if (String(s).match(/ludicat.*/)) {
         message.channel.sendFile('https://cdn.discordapp.com/attachments/356371808842416130/394191656750022657/angrybirb.png');
