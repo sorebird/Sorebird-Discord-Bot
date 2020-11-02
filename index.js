@@ -547,7 +547,7 @@ bot.on('message', message => {
 		choice = choice.trim();
 		
 		if(message.channel.type == "text" && message.channel.name.toLowerCase() == "bot-related"){
-			let role = message.guild.roles.cache.find(r => r.name == choice);
+			let role = message.guild.roles.cache.find(r => r.name === choice);
 
 			if(choice != "Bots" && choice != "Members"){
 				if(message.member.roles.cache.has(role.id)){
