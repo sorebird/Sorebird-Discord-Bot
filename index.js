@@ -31,7 +31,7 @@ bot.on('message', message => {
     }else if (String(s).match(/sorebird is annoying.*/)) {
     message.channel.sendFile('https://stickershop.line-scdn.net/stickershop/v1/sticker/4801391/android/sticker.png');
     }else if(message.content == '!heyo'){
-        message.channel.sendFile('https://gbf.wiki/images/9/9f/Stamp110.png');
+        message.channel.send({files: ['https://gbf.wiki/images/9/9f/Stamp110.png']});
     }else if(message.content == '!siero'){
         message.channel.sendFile('https://gbf.wiki/images/0/0a/Stamp102.png');
     }else if(message.content == '!pffft'){
