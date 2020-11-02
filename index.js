@@ -1376,7 +1376,7 @@ bot.on('message', message => {
 		}
 		
 		const avatarList = message.mentions.users.map(user => {
-			return `${user.displayAvatarURL({ format: "png", dynamic: true })}`;
+			return user.displayAvatarURL({ format: "png", dynamic: true });
 		});
 
 		// send the entire array of strings as a message
