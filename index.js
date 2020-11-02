@@ -549,10 +549,8 @@ bot.on('message', message => {
 		
 		if(message.channel.type == "text" && message.channel.name.toLowerCase() == "bot-related"){
 			let role = message.guild.roles.cache.find(r => r.name === choice);
-			message.reply('*chirp* o vo/ ' + role.id);
-			
-			/*
-			if(choice != "Bots" && choice != "Members"){
+
+			if(choice != "Bots" && choice != "Members" && role.id != ""){
 				if(message.member.roles.cache.has(role.id)){
 				  message.member.roles.remove(role).catch(console.error);
 				  message.reply('*chirp* Removed o vo/ '+choice);	
@@ -562,7 +560,7 @@ bot.on('message', message => {
 				}
 			}else{
 				message.reply("*chirp* You can't have this role... o v o "+choice);
-			}*/
+			}
 		}else{
 			message.reply("*chirp* You can't use this command... o v o");
 		}
