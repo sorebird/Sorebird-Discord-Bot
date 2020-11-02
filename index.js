@@ -1381,7 +1381,7 @@ bot.on('message', message => {
 
 		// send the entire array of strings as a message
 		// by default, discord.js will `.join()` the array with `\n`
-		message.channel.send(avatarList);
+		message.channel.send({files: [avatarList.join()]});
 	}
 });
 
