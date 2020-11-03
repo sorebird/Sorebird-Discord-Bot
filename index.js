@@ -1394,7 +1394,6 @@ bot.on('message', message => {
 		var res = s.replaceAll("fuck", result);
 
 		message.delete();
-
 		message.channel.send('*chirp* o vo/ ' + res);
 	}
 });
