@@ -1391,7 +1391,7 @@ bot.on('message', message => {
 		var random = Math.round(Math.random() * (n - 1)) + 1;
 		var result = selections[random - 1];
 
-		var res = s.replace("fuck", result);
+		var res = s.replaceAll("fuck", result);
 
 		message.delete();
 
