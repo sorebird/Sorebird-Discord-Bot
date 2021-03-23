@@ -1371,6 +1371,60 @@ bot.on('message', message => {
 		message.channel.send({files: ['https://cdn.discordapp.com/attachments/482826784627359744/767468653717225528/EeXJLBwWkAICXPc.jpg']});
 	}else if(message.content == '!trustcat'){
 		message.channel.send({files: ['https://cdn.discordapp.com/attachments/482826784627359744/772560185059049492/EltHkUHX0AECaoG_1.png']});
+	}else if(message.content == '!ayayay'){
+		message.channel.send({files: ['https://cdn.discordapp.com/attachments/381772202862968832/824016802446442578/Stamp272.png']});
+	}else if(message.content == '!silvaah'){
+		message.channel.send({files: ['https://cdn.discordapp.com/attachments/381772202862968832/824016805831507988/Stamp273.png']});
+	}else if(message.content == '!avengeyou'){
+		message.channel.send({files: ['https://cdn.discordapp.com/attachments/381772202862968832/824016808763326536/Stamp274.png']});
+	}else if(message.content == '!grimnirgreat'){
+		message.channel.send({files: ['https://cdn.discordapp.com/attachments/381772202862968832/824016812899041320/Stamp275.png']});
+	}else if(message.content == '!trustlicat'){
+		message.channel.send({files: ['https://cdn.discordapp.com/attachments/381772202862968832/824016817092821008/Stamp276.png']});
+	}else if(message.content == '!gurgle'){
+		message.channel.send({files: ['https://cdn.discordapp.com/attachments/381772202862968832/824016821077409802/Stamp277.png']});
+	}else if(message.content == '!happyny'){
+		message.channel.send({files: ['https://cdn.discordapp.com/attachments/381772202862968832/824016825548800040/Stamp278.png']});
+	}else if(message.content == '!bash'){
+		message.channel.send({files: ['https://cdn.discordapp.com/attachments/381772202862968832/824016829633658920/Stamp279.png']});
+	}else if(message.content == '!likeyourstyle'){
+		message.channel.send({files: ['https://cdn.discordapp.com/attachments/381772202862968832/824016834336391248/Stamp280.png']});
+	}else if(message.content == '!imstuck'){
+		message.channel.send({files: ['https://cdn.discordapp.com/attachments/381772202862968832/824016842262708244/Stamp281.png']});
+	}else if(message.content == '!allowme'){
+		message.channel.send({files: ['https://cdn.discordapp.com/attachments/381772202862968832/824016848358080602/Stamp283.png']});
+	}else if(message.content == '!sowwy'){
+		message.channel.send({files: ['https://cdn.discordapp.com/attachments/381772202862968832/824016853554692136/Stamp284.png']});
+	}else if(message.content == '!smash'){	
+		message.channel.send({files: ['https://cdn.discordapp.com/attachments/381772202862968832/824016858725220433/Stamp286.png']});
+	}else if(message.content == '!awyeah'){	
+		message.channel.send({files: ['https://cdn.discordapp.com/attachments/381772202862968832/824016863758647376/Stamp287.png']});
+	}else if(message.content == '!myturn'){	
+		message.channel.send({files: ['https://cdn.discordapp.com/attachments/381772202862968832/824016872219475988/Stamp288.png']});
+	}else if(message.content == '!cometopapa'){	
+		message.channel.send({files: ['https://cdn.discordapp.com/attachments/381772202862968832/824016877910229052/Stamp289.png']});
+	}else if(message.content == '!cmere'){	
+		message.channel.send({files: ['https://cdn.discordapp.com/attachments/381772202862968832/824016882439946256/Stamp290.png']});
+	}else if(message.content == '!bearun'){	
+		message.channel.send({files: ['https://cdn.discordapp.com/attachments/381772202862968832/824016887184621630/Stamp291.png']});
+	}else if(message.content == '!cagsled'){	
+		message.channel.send({files: ['https://cdn.discordapp.com/attachments/381772202862968832/824016892225650728/Stamp292.png']});
+	}else if(message.content == '!seenthelight'){
+		message.channel.send({files: ['https://cdn.discordapp.com/attachments/381772202862968832/824016896201457725/Stamp293.png']});
+	}else if(message.content == '!yuelgo'){
+		message.channel.send({files: ['https://cdn.discordapp.com/attachments/381772202862968832/824016902137184296/Stamp294.png']});
+	}else if(message.content == '!unopower' || message.content == '!anrepower'){	
+		message.channel.send({files: ['https://cdn.discordapp.com/attachments/381772202862968832/824016907979325440/Stamp296.png']});
+	}else if(message.content == '!vajra'){	
+		message.channel.send({files: ['https://cdn.discordapp.com/attachments/381772202862968832/824016914169724951/Stamp297.png']});
+	}else if(message.content == '!robomi'){	
+		message.channel.send({files: ['https://cdn.discordapp.com/attachments/381772202862968832/824016918481469500/Stamp298.png']});
+	}else if(message.content == '!backupplan'){	
+		message.channel.send({files: ['https://cdn.discordapp.com/attachments/381772202862968832/824016924274982952/Stamp299.png']});
+	}else if(message.content == '!kumbhira'){
+		message.channel.send({files: ['https://cdn.discordapp.com/attachments/381772202862968832/824016930204811264/Stamp300.png']});
+	}else if(message.content == '!imdead'){
+		message.channel.send({files: ['https://cdn.discordapp.com/attachments/381772202862968832/824016936038826034/Stamp301.png']});
 	}else if(String(s).match(/!avatar.*/)){
 		if (!message.mentions.users.size) {
 			message.channel.send({files: [message.author.displayAvatarURL({ format: "png", dynamic: true })]});
