@@ -1425,6 +1425,30 @@ bot.on('message', message => {
 		message.channel.send({files: ['https://cdn.discordapp.com/attachments/381772202862968832/824016930204811264/Stamp300.png']});
 	}else if(message.content == '!imdead'){
 		message.channel.send({files: ['https://cdn.discordapp.com/attachments/381772202862968832/824016936038826034/Stamp301.png']});
+	}else if(message.content == '!funeral'){
+		message.channel.send({files: ['https://cdn.discordapp.com/attachments/482826784627359744/794328625003626536/b93c5cdf2f3979c3a18fa35877bddb7b.png']});
+	}else if(message.content == '!naruknife'){
+		message.channel.send({files: ['https://cdn.discordapp.com/attachments/482826784627359744/810459422027546655/EuBDDHsVkAINVty.png']});
+	}else if(message.content == '!beardance'){
+		message.channel.send({files: ['https://cdn.discordapp.com/attachments/381772202862968832/824025150747443251/ezgif.com-resize.gif']});
+	}else if(message.content == '!bearyey'){
+		message.channel.send({files: ['https://cdn.discordapp.com/attachments/381772202862968832/824025739841503323/ezgif.com-resize_1.gif']});
+	}else if(message.content == '!bearhide'){
+		message.channel.send({files: ['https://cdn.discordapp.com/attachments/381772202862968832/824026049054113792/ezgif.com-resize_2.gif']});
+	}else if(message.content == '!bearrun'){
+		message.channel.send({files: ['https://cdn.discordapp.com/attachments/381772202862968832/824026498264072192/ezgif.com-resize_4.gif']});
+	}else if(message.content == '!bearhappy'){
+		message.channel.send({files: ['https://cdn.discordapp.com/attachments/381772202862968832/824026950699712533/ezgif.com-resize_5.gif']});
+	}else if(message.content == '!bearnom'){
+		message.channel.send({files: ['https://cdn.discordapp.com/attachments/381772202862968832/824027268396482630/ezgif.com-resize_6.gif']});
+	}else if(message.content == '!bearbow'){
+		message.channel.send({files: ['https://cdn.discordapp.com/attachments/381772202862968832/824026318869626890/ezgif.com-resize_3.gif']});
+	}else if(message.content == '!bearbutt'){
+		message.channel.send({files: ['https://cdn.discordapp.com/attachments/381772202862968832/824027849614426122/ezgif.com-resize_8.gif']});
+	}else if(message.content == '!bearflyaway'){
+		message.channel.send({files: ['https://cdn.discordapp.com/attachments/381772202862968832/824028431955132436/ezgif.com-resize_10.gif']});
+	}else if(message.content == '!beardance2'){
+		message.channel.send({files: ['https://cdn.discordapp.com/attachments/381772202862968832/824023278850015274/5ab608d2a09a7e51a9cb0a543eb24116.gif']});
 	}else if(String(s).match(/!avatar.*/)){
 		if (!message.mentions.users.size) {
 			message.channel.send({files: [message.author.displayAvatarURL({ format: "png", dynamic: true })]});
