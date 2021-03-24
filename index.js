@@ -1473,6 +1473,26 @@ bot.on('message', message => {
 
 		message.delete();
 		message.channel.send("*chirp* o v o " + res);
+	}else if(message.content == '!bearcry'){
+		message.channel.send({files: ['https://cdn.discordapp.com/attachments/381772202862968832/824418957645316137/bearcry.gif']});
+	}else if(message.content == '!beardespair'){
+		message.channel.send({files: ['https://cdn.discordapp.com/attachments/381772202862968832/824418959963979807/beardespair.gif']});
+	}else if(message.content == '!beareat'){
+		message.channel.send({files: ['https://cdn.discordapp.com/attachments/381772202862968832/824418962296930353/beareat.gif']});
+	}else if(message.content == '!bearflail'){
+		message.channel.send({files: ['https://cdn.discordapp.com/attachments/381772202862968832/824418964583088168/bearflail.gif']});
+	}else if(message.content == '!bearhappy'){
+		message.channel.send({files: ['https://cdn.discordapp.com/attachments/381772202862968832/824418966851813376/bearhappy.gif']});
+	}else if(message.content == '!bearjump'){
+		message.channel.send({files: ['https://cdn.discordapp.com/attachments/381772202862968832/824418968496111646/bearjump.gif']});
+	}else if(message.content == '!bearlaydown'){
+		message.channel.send({files: ['https://cdn.discordapp.com/attachments/381772202862968832/824418969443106826/bearlaydown.gif']});
+	}else if(message.content == '!bearsleep'){
+		message.channel.send({files: ['https://cdn.discordapp.com/attachments/381772202862968832/824418973978329148/bearsleep.gif']});
+	}else if(message.content == '!bearsit'){
+		message.channel.send({files: ['https://cdn.discordapp.com/attachments/381772202862968832/824418970453934080/bearsit.gif']});
+	}else if(message.content == '!bearponder'){
+		message.channel.send({files: ['https://cdn.discordapp.com/attachments/381772202862968832/824418973025042453/bearsitting.gif']});
 	}
 });
 
