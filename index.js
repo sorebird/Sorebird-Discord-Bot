@@ -1493,6 +1493,8 @@ bot.on('message', message => {
 		message.channel.send({files: ['https://cdn.discordapp.com/attachments/381772202862968832/824418970453934080/bearsit.gif']});
 	}else if(message.content == '!bearponder'){
 		message.channel.send({files: ['https://cdn.discordapp.com/attachments/381772202862968832/824418973025042453/bearsitting.gif']});
+	}else if(message.content == '!europabonito'){
+		message.channel.send({files: ['https://cdn.discordapp.com/attachments/482826784627359744/824050403125231626/ezgif.com-resize_12.gif']});
 	}
 });
 
