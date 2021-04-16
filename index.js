@@ -1495,45 +1495,45 @@ bot.on('message', message => {
 		message.channel.send({files: ['https://cdn.discordapp.com/attachments/381772202862968832/824418973025042453/bearsitting.gif']});
 	}else if(message.content == '!europabonito'){
 		message.channel.send({files: ['https://cdn.discordapp.com/attachments/482826784627359744/824050403125231626/ezgif.com-resize_12.gif']});
-	}else if(message.content == '!sorebird_urgh'){
+	}else if(message.content == '!s_urgh'){
 		message.channel.send({files: ['https://raw.githubusercontent.com/sorebird/Sorebird-Discord-Bot/master/emote/sorebird_urgh.png']});
-	}else if(message.content == '!sorebird_wave'){
+	}else if(message.content == '!s_wave'){
 		message.channel.send({files: ['https://raw.githubusercontent.com/sorebird/Sorebird-Discord-Bot/master/emote/sorebird_wave.png']});
-	}else if(message.content == '!sorebird_amazed'){
+	}else if(message.content == '!s_amazed'){
 		message.channel.send({files: ['https://raw.githubusercontent.com/sorebird/Sorebird-Discord-Bot/master/emote/sorebird_amazed.png']});
-	}else if(message.content == '!sorebird_angry'){
+	}else if(message.content == '!s_angry'){
 		message.channel.send({files: ['https://raw.githubusercontent.com/sorebird/Sorebird-Discord-Bot/master/emote/sorebird_angry.png']});
-	}else if(message.content == '!sorebird_blush'){
+	}else if(message.content == '!s_blush'){
 		message.channel.send({files: ['https://raw.githubusercontent.com/sorebird/Sorebird-Discord-Bot/master/emote/sorebird_blush.png']});
-	}else if(message.content == '!sorebird_coffee'){
+	}else if(message.content == '!s_coffee'){
 		message.channel.send({files: ['https://raw.githubusercontent.com/sorebird/Sorebird-Discord-Bot/master/emote/sorebird_coffee.png']});
-	}else if(message.content == '!sorebird_cool'){
+	}else if(message.content == '!s_cool'){
 		message.channel.send({files: ['https://raw.githubusercontent.com/sorebird/Sorebird-Discord-Bot/master/emote/sorebird_cool.png']});
-	}else if(message.content == '!sorebird_cry'){
+	}else if(message.content == '!s_cry'){
 		message.channel.send({files: ['https://raw.githubusercontent.com/sorebird/Sorebird-Discord-Bot/master/emote/sorebird_cry.png']});
-	}else if(message.content == '!sorebird_despair'){
+	}else if(message.content == '!s_despair'){
 		message.channel.send({files: ['https://raw.githubusercontent.com/sorebird/Sorebird-Discord-Bot/master/emote/sorebird_despair.png']});
-	}else if(message.content == '!sorebird_gaebulg'){
+	}else if(message.content == '!s_gaebulg'){
 		message.channel.send({files: ['https://raw.githubusercontent.com/sorebird/Sorebird-Discord-Bot/master/emote/sorebird_gaebulg.png']});
-	}else if(message.content == '!sorebird_gift'){
+	}else if(message.content == '!s_gift'){
 		message.channel.send({files: ['https://raw.githubusercontent.com/sorebird/Sorebird-Discord-Bot/master/emote/sorebird_gift.png']});
-	}else if(message.content == '!sorebird_gisla'){
+	}else if(message.content == '!s_gisla'){
 		message.channel.send({files: ['https://raw.githubusercontent.com/sorebird/Sorebird-Discord-Bot/master/emote/sorebird_gisla.png']});
-	}else if(message.content == '!sorebird_heart'){
+	}else if(message.content == '!s_heart'){
 		message.channel.send({files: ['https://raw.githubusercontent.com/sorebird/Sorebird-Discord-Bot/master/emote/sorebird_heart.png']});
-	}else if(message.content == '!sorebird_hide'){
+	}else if(message.content == '!s_hide'){
 		message.channel.send({files: ['https://raw.githubusercontent.com/sorebird/Sorebird-Discord-Bot/master/emote/sorebird_hide.png']});
-	}else if(message.content == '!sorebird_huh'){
+	}else if(message.content == '!s_huh'){
 		message.channel.send({files: ['https://raw.githubusercontent.com/sorebird/Sorebird-Discord-Bot/master/emote/sorebird_huh.png']});
-	}else if(message.content == '!sorebird_nom'){
+	}else if(message.content == '!s_nom'){
 		message.channel.send({files: ['https://raw.githubusercontent.com/sorebird/Sorebird-Discord-Bot/master/emote/sorebird_nom.png']});
-	}else if(message.content == '!sorebird_pet'){
+	}else if(message.content == '!s_pet'){
 		message.channel.send({files: ['https://raw.githubusercontent.com/sorebird/Sorebird-Discord-Bot/master/emote/sorebird_pet.png']});
-	}else if(message.content == '!sorebird_pout'){
+	}else if(message.content == '!s_pout'){
 		message.channel.send({files: ['https://raw.githubusercontent.com/sorebird/Sorebird-Discord-Bot/master/emote/sorebird_pout.png']});
-	}else if(message.content == '!sorebird_sleep'){
+	}else if(message.content == '!s_sleep'){
 		message.channel.send({files: ['https://raw.githubusercontent.com/sorebird/Sorebird-Discord-Bot/master/emote/sorebird_sleep.png']});
-	}else if(message.content == '!sorebird_thonk'){
+	}else if(message.content == '!s_thonk'){
 		message.channel.send({files: ['https://raw.githubusercontent.com/sorebird/Sorebird-Discord-Bot/master/emote/sorebird_thonk.png']});
 	}
 });
