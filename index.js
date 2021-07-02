@@ -1504,7 +1504,7 @@ bot.on('message', message => {
 	}else if(message.content == '!s_angry'){
 		message.channel.send({files: ['https://raw.githubusercontent.com/sorebird/Sorebird-Discord-Bot/master/emote/sorebird_angry.png']});
 	}else if(message.content == '!s_blush'){
-		message.channel.send({files: ['https://raw.githubusercontent.com/sorebird/Sorebird-Discord-Bot/master/emote/sorebird_blush.png']});
+		message.channel.send({files: ['https://raw.githubusercontent.com/sorebird/Sorebird-Discord-Bot/master/emote/sorebird_blush.gif']});
 	}else if(message.content == '!s_coffee'){
 		message.channel.send({files: ['https://raw.githubusercontent.com/sorebird/Sorebird-Discord-Bot/master/emote/sorebird_coffee.png']});
 	}else if(message.content == '!s_cool'){
