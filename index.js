@@ -1528,7 +1528,7 @@ bot.on('message', message => {
 	}else if(message.content == '!s_nom'){
 		message.channel.send({files: ['https://raw.githubusercontent.com/sorebird/Sorebird-Discord-Bot/master/emote/sorebird_nom.png']});
 	}else if(message.content == '!s_pet'){
-		message.channel.send({files: ['https://raw.githubusercontent.com/sorebird/Sorebird-Discord-Bot/master/emote/sorebird_pet.png']});
+		message.channel.send({files: ['https://raw.githubusercontent.com/sorebird/Sorebird-Discord-Bot/master/emote/sorebird_pet.gif']});
 	}else if(message.content == '!s_pout'){
 		message.channel.send({files: ['https://raw.githubusercontent.com/sorebird/Sorebird-Discord-Bot/master/emote/sorebird_pout.png']});
 	}else if(message.content == '!s_sleep'){
