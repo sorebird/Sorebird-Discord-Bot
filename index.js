@@ -1510,7 +1510,7 @@ bot.on('message', message => {
 	}else if(message.content == '!s_cool'){
 		message.channel.send({files: ['https://raw.githubusercontent.com/sorebird/Sorebird-Discord-Bot/master/emote/sorebird_cool.png']});
 	}else if(message.content == '!s_cry'){
-		message.channel.send({files: ['https://raw.githubusercontent.com/sorebird/Sorebird-Discord-Bot/master/emote/sorebird_cry.png']});
+		message.channel.send({files: ['https://raw.githubusercontent.com/sorebird/Sorebird-Discord-Bot/master/emote/sorebird_cry.gif']});
 	}else if(message.content == '!s_despair'){
 		message.channel.send({files: ['https://raw.githubusercontent.com/sorebird/Sorebird-Discord-Bot/master/emote/sorebird_despair.png']});
 	}else if(message.content == '!s_gaebulg'){
