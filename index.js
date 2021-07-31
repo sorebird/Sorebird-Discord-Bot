@@ -1470,9 +1470,10 @@ bot.on('message', message => {
 		var result = selections[random - 1];
 
 		var res = s.replace(/fuck/g, result);
-
+		
+		message.reply("*chirp* o v o " + res);
+		
 		message.delete();
-		message.channel.send("*chirp* o v o " + res);
 	}else if(message.content == '!bearcry'){
 		message.channel.send({files: ['https://cdn.discordapp.com/attachments/381772202862968832/824418957645316137/bearcry.gif']});
 	}else if(message.content == '!beardespair'){
