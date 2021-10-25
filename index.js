@@ -1324,7 +1324,7 @@ bot.on('message', message => {
 	}else if(message.content == '!30kpls'){
 		message.channel.send({files: ['https://cdn.discordapp.com/attachments/482826784627359744/637172940688982016/30k_ahoy.png']});
 	}else if(message.content == '!seoxok'){
-		message.channel.send({files: ['https://pbs.twimg.com/media/EHGBi9QU0AEWezk.jpg']});
+		message.channel.send({files: ['https://media.discordapp.net/attachments/622317509659590667/866434513013440512/EHGBi9QU0AEWezk.jpg']});
 	}else if(message.content == '!unfaithful'){
 		message.channel.send({files: ['https://cdn.discordapp.com/attachments/482826784627359744/684676150437740554/image0.jpg']});
 	}else if(message.content == '!veekachu'){
