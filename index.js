@@ -733,13 +733,13 @@ bot.on('message', message => {
 	}else if(message.content == '!bealaugh'){
 	message.channel.send({files: ['https://orig00.deviantart.net/6d0b/f/2018/099/0/3/385836621288964099_by_sorebird-dc8d8n3.png']});
 	}else if (String(s).match(/sorebird.*/)) {
-	  var choice = "Hello I'm "+n+", chirp, ovo, I'm not a Bot!, please be nice to me, I like to bath, please feed me cookies";
+	  var choice = "Hello I'm "+n+", chirp, ovo, I'm not a Bot!, please be nice to me, I like to bath, please feed me cookies, how are you today";
 		var selections = choice.split(',');
 		var n = selections.length;
 		var random = Math.round(Math.random() * (n - 1)) + 1;
 		var random2 = Math.round(Math.random() * (10 - 1)) + 1;
 		var result = selections[random - 1];
-		if(random2 < 7){
+		if(random2 < n){
 		var u = message.author.username;
 			message.reply(result);
 		}else{
@@ -1474,18 +1474,6 @@ bot.on('message', message => {
 		message.reply("*chirp* o v o " + res);
 		
 		message.delete();
-	}else if(String(s).match(/die.*/)){
-		var choice = "mango, banana, pear, grape, apple, melon, gooseberry, guava, grapefruit, orange, cucumber, pizza";
-		var selections = choice.split(',');
-		var n = selections.length;
-		var random = Math.round(Math.random() * (n - 1)) + 1;
-		var result = selections[random - 1];
-
-		var res = s.replace(/die/g, result);
-		
-		message.reply("*chirp* o v o " + res);
-		
-		message.delete();
 	}else if(message.content == '!bearcry'){
 		message.channel.send({files: ['https://cdn.discordapp.com/attachments/381772202862968832/824418957645316137/bearcry.gif']});
 	}else if(message.content == '!beardespair'){
@@ -1548,6 +1536,18 @@ bot.on('message', message => {
 		message.channel.send({files: ['https://raw.githubusercontent.com/sorebird/Sorebird-Discord-Bot/master/emote/sorebird_sleep.png']});
 	}else if(message.content == '!s_thonk'){
 		message.channel.send({files: ['https://raw.githubusercontent.com/sorebird/Sorebird-Discord-Bot/master/emote/sorebird_thonk.png']});
+	}else if(String(s).match(/die.*/)){
+		var choice = "mango, banana, pear, grape, apple, melon, gooseberry, guava, grapefruit, orange, cucumber, pizza";
+		var selections = choice.split(',');
+		var n = selections.length;
+		var random = Math.round(Math.random() * (n - 1)) + 1;
+		var result = selections[random - 1];
+
+		var res = s.replace(/die/g, result);
+		
+		message.reply("*chirp* o v o " + res);
+		
+		message.delete();
 	}
 });
 
