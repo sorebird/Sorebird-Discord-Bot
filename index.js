@@ -1474,6 +1474,18 @@ bot.on('message', message => {
 		message.reply("*chirp* o v o " + res);
 		
 		message.delete();
+	}else if(String(s).match(/die.*/)){
+		var choice = "mango, banana, pear, grape, apple, melon, gooseberry, guava, grapefruit, orange, cucumber, pizza";
+		var selections = choice.split(',');
+		var n = selections.length;
+		var random = Math.round(Math.random() * (n - 1)) + 1;
+		var result = selections[random - 1];
+
+		var res = s.replace(/die/g, result);
+		
+		message.reply("*chirp* o v o " + res);
+		
+		message.delete();
 	}else if(message.content == '!bearcry'){
 		message.channel.send({files: ['https://cdn.discordapp.com/attachments/381772202862968832/824418957645316137/bearcry.gif']});
 	}else if(message.content == '!beardespair'){
