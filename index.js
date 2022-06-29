@@ -1536,18 +1536,6 @@ bot.on('message', message => {
 		message.channel.send({files: ['https://raw.githubusercontent.com/sorebird/Sorebird-Discord-Bot/master/emote/sorebird_sleep.png']});
 	}else if(message.content == '!s_thonk'){
 		message.channel.send({files: ['https://raw.githubusercontent.com/sorebird/Sorebird-Discord-Bot/master/emote/sorebird_thonk.png']});
-	}else if(String(s).match(/die.*/)){
-		var choice = "mango, banana, pear, grape, apple, melon, gooseberry, guava, grapefruit, orange, cucumber, pizza";
-		var selections = choice.split(',');
-		var n = selections.length;
-		var random = Math.round(Math.random() * (n - 1)) + 1;
-		var result = selections[random - 1];
-
-		var res = s.replace(/die/g, result);
-		
-		message.reply("*chirp* o v o " + res);
-		
-		message.delete();
 	}
 });
 
