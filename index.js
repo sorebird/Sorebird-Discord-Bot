@@ -24,7 +24,7 @@ bot.on('message', message => {
     }else if(message.content == '!thwump'){
        message.channel.send({files: ['https://gbf.wiki/images/5/57/Stamp122.png']});
     }else if(message.content == '!help'){
-        message.channel.send('** Currently available GBF commands listed here: https://sta.sh/0k9j1w8rivp and here https://sta.sh/01nrsa8glp5 **');
+        message.channel.send('** Currently available TTLI commands: https://bit.ly/3AdIAsj & GBF commands listed here: https://sta.sh/0k9j1w8rivp and here https://sta.sh/01nrsa8glp5 **');
     }else if(message.content == '$help'){
         message.channel.send('** Currently available GE commands listed here: https://sta.sh/01n1i5pzlsvx **');
     }else if (String(s).match(/kissu.*/)) {
@@ -1542,8 +1542,6 @@ bot.on('message', message => {
 		message.channel.send({files: ['https://raw.githubusercontent.com/sorebird/Sorebird-Discord-Bot/master/emote/no hornknee.png']});
 	}else if(message.content == ';noice'){
 		message.channel.send({files: ['https://raw.githubusercontent.com/sorebird/Sorebird-Discord-Bot/master/emote/noice.png']});
-	}else if(message.content == ';pantsoff'){
-		message.channel.send({files: ['https://raw.githubusercontent.com/sorebird/Sorebird-Discord-Bot/master/emote/pants off.jpg']});
 	}else if(message.content == ';pantsoff'){
 		message.channel.send({files: ['https://raw.githubusercontent.com/sorebird/Sorebird-Discord-Bot/master/emote/pants off.png']});
 	}else if(message.content == ';salt'){
