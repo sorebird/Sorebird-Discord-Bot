@@ -24,7 +24,7 @@ bot.on('message', message => {
     }else if(message.content == '!thwump'){
        message.channel.send({files: ['https://gbf.wiki/images/5/57/Stamp122.png']});
     }else if(message.content == '!help'){
-        message.channel.send('** Currently available commands listed here: https://sta.sh/0k9j1w8rivp and here https://sta.sh/01nrsa8glp5 **');
+        message.channel.send('** Currently available GBF commands listed here: https://sta.sh/0k9j1w8rivp and here https://sta.sh/01nrsa8glp5 **');
     }else if(message.content == '$help'){
         message.channel.send('** Currently available GE commands listed here: https://sta.sh/01n1i5pzlsvx **');
     }else if (String(s).match(/kissu.*/)) {
@@ -1536,6 +1536,62 @@ bot.on('message', message => {
 		message.channel.send({files: ['https://raw.githubusercontent.com/sorebird/Sorebird-Discord-Bot/master/emote/sorebird_sleep.png']});
 	}else if(message.content == '!s_thonk'){
 		message.channel.send({files: ['https://raw.githubusercontent.com/sorebird/Sorebird-Discord-Bot/master/emote/sorebird_thonk.png']});
+	}else if(message.content == ';man2'){
+		message.channel.send({files: ['https://raw.githubusercontent.com/sorebird/Sorebird-Discord-Bot/master/emote/man2.png']});
+	}else if(message.content == ';nohornknee'){
+		message.channel.send({files: ['https://raw.githubusercontent.com/sorebird/Sorebird-Discord-Bot/master/emote/no hornknee.png']});
+	}else if(message.content == ';noice'){
+		message.channel.send({files: ['https://raw.githubusercontent.com/sorebird/Sorebird-Discord-Bot/master/emote/noice.png']});
+	}else if(message.content == ';pantsoff'){
+		message.channel.send({files: ['https://raw.githubusercontent.com/sorebird/Sorebird-Discord-Bot/master/emote/pants off.jpg']});
+	}else if(message.content == ';pantsoff'){
+		message.channel.send({files: ['https://raw.githubusercontent.com/sorebird/Sorebird-Discord-Bot/master/emote/pants off.png']});
+	}else if(message.content == ';salt'){
+		message.channel.send({files: ['https://raw.githubusercontent.com/sorebird/Sorebird-Discord-Bot/master/emote/salt and betrayal.png']});
+	}else if(message.content == ';screams'){
+		message.channel.send({files: ['https://raw.githubusercontent.com/sorebird/Sorebird-Discord-Bot/master/emote/scream internally.png']});
+	}else if(message.content == ';whaletears'){
+		message.channel.send({files: ['https://raw.githubusercontent.com/sorebird/Sorebird-Discord-Bot/master/emote/whale tears.png']});
+	}else if(message.content == ';wisheyes'){
+		message.channel.send({files: ['https://raw.githubusercontent.com/sorebird/Sorebird-Discord-Bot/master/emote/wish eyes.png']});
+	}else if(message.content == ';zlheh'){
+		message.channel.send({files: ['https://raw.githubusercontent.com/sorebird/Sorebird-Discord-Bot/master/emote/zhongli heh.png']});
+	}else if(message.content == ';zlstonks'){
+		message.channel.send({files: ['https://raw.githubusercontent.com/sorebird/Sorebird-Discord-Bot/master/emote/zl stonks.png']});
+	}else if(message.content == ';ambulance'){
+		message.channel.send({files: ['https://raw.githubusercontent.com/sorebird/Sorebird-Discord-Bot/master/emote/ambulance.png']});
+	}else if(message.content == ';averteyes'){
+		message.channel.send({files: ['https://raw.githubusercontent.com/sorebird/Sorebird-Discord-Bot/master/emote/avert eyes.png']});
+	}else if(message.content == ';blackcard'){
+		message.channel.send({files: ['https://raw.githubusercontent.com/sorebird/Sorebird-Discord-Bot/master/emote/black card.png']});
+	}else if(message.content == ';blushzl'){
+		message.channel.send({files: ['https://raw.githubusercontent.com/sorebird/Sorebird-Discord-Bot/master/emote/blush zl.png']});
+	}else if(message.content == ';childe3'){
+		message.channel.send({files: ['https://raw.githubusercontent.com/sorebird/Sorebird-Discord-Bot/master/emote/childe 3.png']});
+	}else if(message.content == ';childeheh'){
+		message.channel.send({files: ['https://raw.githubusercontent.com/sorebird/Sorebird-Discord-Bot/master/emote/childe heh.png']});
+	}else if(message.content == ';childelove'){
+		message.channel.send({files: ['https://raw.githubusercontent.com/sorebird/Sorebird-Discord-Bot/master/emote/childe love.png']});
+	}else if(message.content == ';cholde'){
+		message.channel.send({files: ['https://raw.githubusercontent.com/sorebird/Sorebird-Discord-Bot/master/emote/cholde.png']});
+	}else if(message.content == ';concern'){
+		message.channel.send({files: ['https://raw.githubusercontent.com/sorebird/Sorebird-Discord-Bot/master/emote/concern.png']});
+	}else if(message.content == ';dead inside'){
+		message.channel.send({files: ['https://raw.githubusercontent.com/sorebird/Sorebird-Discord-Bot/master/emote/dead inside.png']});
+	}else if(message.content == ';funeral'){
+		message.channel.send({files: ['https://raw.githubusercontent.com/sorebird/Sorebird-Discord-Bot/master/emote/funeral.png']});
+	}else if(message.content == ';hnngh'){
+		message.channel.send({files: ['https://raw.githubusercontent.com/sorebird/Sorebird-Discord-Bot/master/emote/hnngh.png']});
+	}else if(message.content == ';hornygrip'){	
+		message.channel.send({files: ['https://raw.githubusercontent.com/sorebird/Sorebird-Discord-Bot/master/emote/horny grip.png']});
+	}else if(message.content == ';idonotsee'){
+		message.channel.send({files: ['https://raw.githubusercontent.com/sorebird/Sorebird-Discord-Bot/master/emote/i do not see.png']});
+	}else if(message.content == ';haveorder'){
+		message.channel.send({files: ['https://raw.githubusercontent.com/sorebird/Sorebird-Discord-Bot/master/emote/i will have order.png']});
+	}else if(message.content == ';imretiredbut'){
+		message.channel.send({files: ['https://raw.githubusercontent.com/sorebird/Sorebird-Discord-Bot/master/emote/im retired but.png']});
+	}else if(message.content == ';man1'){
+		message.channel.send({files: ['https://raw.githubusercontent.com/sorebird/Sorebird-Discord-Bot/master/emote/man1.png']});
 	}
 });
 
