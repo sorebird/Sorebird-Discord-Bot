@@ -978,7 +978,7 @@ bot.on('message', message => {
 	}else if(message.content == '!beastop'){
 		//message.channel.send({files: ['https://cdn.discordapp.com/attachments/482826784627359744/508650985883959306/cbcd666b7241b09260718128c8aa5d61.png']});
 	}else if(message.content == '!viranosebleed'){
-		//message.channel.send({files: ['https://raw.githubusercontent.com/sorebird/Sorebird-Discord-Bot/master/emote/viranosebleed.png']});
+		message.channel.send({files: ['https://raw.githubusercontent.com/sorebird/Sorebird-Discord-Bot/master/emote/viranosebleed.png']});
 	}else if(message.content == '!elmottgrin'){
 		message.channel.send({files: ['https://orig00.deviantart.net/5642/f/2018/308/5/6/3c1ed9d2081128f52d4926ed3dc4c99f_by_sorebird-dcr5p1s.png']});
 	}else if(message.content == '!yuelok'){
