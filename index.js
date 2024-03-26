@@ -209,6 +209,14 @@ bot.on('message', message => {
        message.channel.send({files: ['https://gbf.wiki/images/a/a4/Stamp15.png']});
     }else if(message.content == '!letmeleech'){
        message.channel.send({files: ['https://raw.githubusercontent.com/sorebird/Sorebird-Discord-Bot/master/emote/letmeleech.jpg']});
+    }else if(message.content == '!phasmobear'){
+       message.channel.send({files: ['https://raw.githubusercontent.com/sorebird/Sorebird-Discord-Bot/master/emote/phasmobear.png']});
+    }else if(message.content == '!skillissue'){
+       message.channel.send({files: ['https://raw.githubusercontent.com/sorebird/Sorebird-Discord-Bot/master/emote/skillissue.jfif']});
+    }else if(message.content == '!justwhale'){
+       message.channel.send({files: ['https://raw.githubusercontent.com/sorebird/Sorebird-Discord-Bot/master/emote/justwhale.jpg']});
+    }else if(message.content == '!bottoms'){
+       message.channel.send({files: ['https://raw.githubusercontent.com/sorebird/Sorebird-Discord-Bot/master/emote/bottoms.png']});
     }else if(message.content == '!inhale'){
        message.channel.send({files: ['https://raw.githubusercontent.com/sorebird/Sorebird-Discord-Bot/master/emote/unknown__1__by_sorebird-dbs7e5c.png']});
     }else if(message.content == '!pleaseunderstand'){
