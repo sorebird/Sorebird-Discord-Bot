@@ -208,7 +208,7 @@ bot.on('message', message => {
     }else if(message.content == '!soiya3'){
        message.channel.send({files: ['https://gbf.wiki/images/a/a4/Stamp15.png']});
     }else if(message.content == '!letmeleech'){
-       //message.channel.send({files: ['https://cdn.discordapp.com/attachments/345648178147753986/609752873638559785/1502383454766_by_sorebird-dbs7e4m.jpg']});
+       message.channel.send({files: ['https://github.com/sorebird/Sorebird-Discord-Bot/blob/master/emote/letmeleech.jpg']});
     }else if(message.content == '!inhale'){
        message.channel.send({files: ['https://github.com/sorebird/Sorebird-Discord-Bot/blob/master/emote/unknown__1__by_sorebird-dbs7e5c.png']});
     }else if(message.content == '!pleaseunderstand'){
@@ -1275,7 +1275,7 @@ bot.on('message', message => {
 		//message.channel.send({files: ['https://cdn.discordapp.com/attachments/482826784627359744/602031209924788224/unknown.png']});
 	}
 	else if(message.content == '!phosphorus'){
-		//message.channel.send({files: ['https://cdn.discordapp.com/attachments/544576495595683861/630117715893551114/phosphorus.gif']});
+		message.channel.send({files: ['https://github.com/sorebird/Sorebird-Discord-Bot/blob/master/emote/phosphorus.gif']});
 	}
 	else if(message.content == '!lokismile'){
 		//message.channel.send({files: ['https://cdn.discordapp.com/attachments/482826784627359744/605338817641054233/54564b09-cf2e-4001-b9f4-42ae7b95ffeb.png']});
