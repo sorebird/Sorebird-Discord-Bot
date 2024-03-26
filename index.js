@@ -3,7 +3,7 @@ const bot = new Discord.Client();
 
 //bot.setGame('!help for list of commands');
 bot.on('ready', () => {
-  bot.user.setActivity("!help for commands ovo");
+  bot.user.setActivity("help me I'm stuck");
 });
 
 bot.on('message', message => {
@@ -733,7 +733,7 @@ bot.on('message', message => {
 	}else if(message.content == '!bealaugh'){
 	message.channel.send({files: ['https://orig00.deviantart.net/6d0b/f/2018/099/0/3/385836621288964099_by_sorebird-dc8d8n3.png']});
 	}else if (String(s).match(/sorebird.*/)) {
-	  var choice = "Hello I'm "+n+", chirp, ovo, I'm not a Bot!, please be nice to me, I like to bath, please feed me cookies, how are you today";
+	  var choice = "Hello I'm "+n+", chirp, ovo, give me a sign, I'm not a Bot!, please be nice to me, I like to bath, please feed me cookies, how are you today, yakuman when, where are my sands, gae bulge ist best weapon ovob";
 		var selections = choice.split(',');
 		var n = selections.length;
 		var random = Math.round(Math.random() * (n - 1)) + 1;
