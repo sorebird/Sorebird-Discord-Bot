@@ -212,7 +212,7 @@ bot.on('message', message => {
     }else if(message.content == '!phasmobear'){
        message.channel.send({files: ['https://raw.githubusercontent.com/sorebird/Sorebird-Discord-Bot/master/emote/phasmobear.png']});
     }else if(message.content == '!skillissue'){
-       message.channel.send({files: ['https://raw.githubusercontent.com/sorebird/Sorebird-Discord-Bot/master/emote/skillissue.jfif']});
+       message.channel.send({files: ['https://raw.githubusercontent.com/sorebird/Sorebird-Discord-Bot/master/emote/skillissue.jpg']});
     }else if(message.content == '!justwhale'){
        message.channel.send({files: ['https://raw.githubusercontent.com/sorebird/Sorebird-Discord-Bot/master/emote/justwhale.jpg']});
     }else if(message.content == '!bottoms'){
