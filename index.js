@@ -300,7 +300,7 @@ bot.on('message', message => {
 	}else if(message.content == '!pholia'){
 	//message.channel.send({files: ['https://cdn.discordapp.com/attachments/364174595961389086/473701134322892813/pholia_by_sorebird-dc1axay.png']});
 	}else if(message.content == '!djyes'){
-	//message.channel.send({files: ['https://cdn.discordapp.com/attachments/364174595961389086/528135557025497109/djyes_by_sorebird-dc1axat.png']});
+		message.channel.send({files: ['https://raw.githubusercontent.com/sorebird/Sorebird-Discord-Bot/master/emote/djyes.png']});
 	}else if(message.content == '!nio'){
 	//message.channel.send({files: ['https://cdn.discordapp.com/attachments/364174595961389086/558060717006127106/naniong_by_sorebird-dc1axap.png']});
 	}else if(message.content == '!whylive'){
