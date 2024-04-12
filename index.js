@@ -609,7 +609,7 @@ bot.on('message', message => {
 	}else if(message.content == '!good'){
 	message.channel.send({files: ['https://orig00.deviantart.net/651f/f/2018/067/3/6/stamp214_by_sorebird-dc5b0ua.png']});
 	}else if(message.content == '!nod'){
-	//message.channel.send({files: ['https://cdn.discordapp.com/attachments/345648178147753986/662433002583883786/stamp213_by_sorebird-dc5b0um.png']});
+	 message.channel.send({files: ['https://raw.githubusercontent.com/sorebird/Sorebird-Discord-Bot/master/emote/stamp213_by_sorebird-dc5b0um.png']});
 	}else if(message.content == '!geeh' || message.content == '!mugeeh'){
 	//message.channel.send({files: ['https://cdn.discordapp.com/attachments/345648178147753986/482919506620973076/stamp195_by_sorebird-dc5b0v0.png']});
 	}else if(message.content == '!beawink'){
@@ -924,7 +924,7 @@ bot.on('message', message => {
 	}else if(message.content == '!danterose'){
 		message.channel.send({files: ['https://orig00.deviantart.net/6c76/f/2018/265/9/9/tumblr_nfv411sgm61syag2xo1_r4_400_by_sorebird-dcnikm0.gif']});
 	}else if(message.content == '!coverears'){
-		//message.channel.send({files: ['https://cdn.discordapp.com/attachments/482826784627359744/491864486249234433/FB_IMG_1537340062745.jpg']});
+		message.channel.send({files: ['https://raw.githubusercontent.com/sorebird/Sorebird-Discord-Bot/master/emote/coverears.jpg']});
 	}else if(message.content == '!leciaok'){
 		//message.channel.send({files: ['https://cdn.discordapp.com/attachments/482826784627359744/491840385203699713/image0.png']});
 	}else if(message.content == '!cucomg'){
@@ -952,7 +952,7 @@ bot.on('message', message => {
 	}else if(message.content == '!europasmug'){
 		//message.channel.send({files: ['https://cdn.discordapp.com/attachments/482826784627359744/502321019030077453/Screen_Shot_2018-10-18_at_2.23.53_pm.png']});
 	}else if(message.content == '!lyriaded'){
-		//message.channel.send({files: ['https://cdn.discordapp.com/attachments/482826784627359744/503866642510643200/image0.png']});
+		message.channel.send({files: ['https://raw.githubusercontent.com/sorebird/Sorebird-Discord-Bot/master/emote/lyriaded.jpg']});
 	}else if(message.content == '!aglovale'){
 		message.channel.send({files: ['https://pbs.twimg.com/media/DqHodWnV4AAS1BU.png']});
 	}else if(message.content == '!gooddeal'){
@@ -962,9 +962,9 @@ bot.on('message', message => {
 	}else if(message.content == '!lancelotwelcome'){
 		//message.channel.send({files: ['https://cdn.discordapp.com/attachments/482826784627359744/506363796298924043/image0.jpg']});
 	}else if(message.content == '!timetoscum'){
-		//message.channel.send({files: ['https://cdn.discordapp.com/attachments/482826784627359744/506438511751331870/unknown-3.png']});
+		message.channel.send({files: ['https://raw.githubusercontent.com/sorebird/Sorebird-Discord-Bot/master/emote/timetoscum.png']});
 	}else if(message.content == '!derpyheles'){
-		//message.channel.send({files: ['https://cdn.discordapp.com/attachments/482826784627359744/506589023582552064/image0.jpg']});
+		message.channel.send({files: ['https://raw.githubusercontent.com/sorebird/Sorebird-Discord-Bot/master/emote/derpyheles.jpg']});
 	}else if(message.content == '!vyrnsweat'){
 		//message.channel.send({files: ['https://cdn.discordapp.com/attachments/482826784627359744/507141839737061376/Screen_Shot_2018-10-31_at_9.38.08_pm.png']});
 	}else if(message.content == '!freesalt'){
@@ -984,7 +984,7 @@ bot.on('message', message => {
 	}else if(message.content == '!yuelok'){
 		message.channel.send({files: ['https://orig00.deviantart.net/d0c8/f/2018/308/8/3/24b8a22b31edca653674b7ae1e0c7ee3_by_sorebird-dcr5p20.png']});
 	}else if(message.content == '!lilysmile'){
-		//message.channel.send({files: ['https://cdn.discordapp.com/attachments/482826784627359744/512314829801783326/image0.jpg']});
+		message.channel.send({files: ['https://raw.githubusercontent.com/sorebird/Sorebird-Discord-Bot/master/emote/lilysmile.jpg']});
 	}else if(message.content == '!alexwhy'){
 		message.channel.send({files: ['https://media.discordapp.net/attachments/482826784627359744/514058775401988137/alexwhattt.png']});
 	}else if(message.content == '!whythis'){
@@ -996,9 +996,9 @@ bot.on('message', message => {
 	}else if(message.content == '!happydrang'){
 		//message.channel.send({files: ['https://cdn.discordapp.com/attachments/482826784627359744/516581689976160256/unknown.png']});
 	}else if(message.content == '!uwu'){
-		//message.channel.send({files: ['https://cdn.discordapp.com/attachments/482826784627359744/517277281119371284/unknown-1.png']});
+		message.channel.send({files: ['https://raw.githubusercontent.com/sorebird/Sorebird-Discord-Bot/master/emote/uwu.png']});
 	}else if(message.content == '!uwusun'){
-		//message.channel.send({files: ['https://cdn.discordapp.com/attachments/482826784627359744/517509608114487296/Screenshot_20181129-091745_Discord.jpg']});
+	    message.channel.send({files: ['https://raw.githubusercontent.com/sorebird/Sorebird-Discord-Bot/master/emote/uwusun.jpg']});
 	}else if(message.content == '!quatresigh'){
 		//message.channel.send({files: ['https://cdn.discordapp.com/attachments/482826784627359744/517587451510915072/4.png']});
 	}else if(message.content == '!spankins'){
@@ -1096,7 +1096,7 @@ bot.on('message', message => {
 	}else if(message.content == '!socieshock'){
 	//message.channel.send({files: ['https://cdn.discordapp.com/attachments/544576495595683861/556480369017487394/image0.png']});
 	}else if(message.content == '!6m'){
-	//message.channel.send({files: ['https://cdn.discordapp.com/attachments/544576495595683861/556480402777440258/Sdjeeta.png']});
+	message.channel.send({files: ['https://raw.githubusercontent.com/sorebird/Sorebird-Discord-Bot/master/emote/6m.png']});
 	}else if(message.content == '!smugsiero'){
 	//message.channel.send({files: ['https://cdn.discordapp.com/attachments/544576495595683861/556480543844335656/unknown_1.png']});
 	}else if(message.content == '!sandalshock'){
