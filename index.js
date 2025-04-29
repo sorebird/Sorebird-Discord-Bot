@@ -659,7 +659,7 @@ bot.on('message', message => {
 	}else if(message.content == '!bea'){
 	message.channel.send({files: ['https://orig00.deviantart.net/1c8a/f/2018/072/2/7/407159398058819594_by_sorebird-dc5sk66.png']});
 	}else if(message.content == '!lucilike'){
-	//message.channel.send({files: ['https://cdn.discordapp.com/attachments/345648178147753986/649489857089110029/1519856366773_by_sorebird-dc5sk6f.jpg']});
+	message.channel.send({files: ['https://raw.githubusercontent.com/sorebird/Sorebird-Discord-Bot/master/emote/1519856366773_by_sorebird-dc5sk6f.jpg']});
 	}else if(message.content == '!relax'){
 	message.channel.send({files: ['https://orig00.deviantart.net/c392/f/2018/072/e/3/relax_by_sorebird-dc5slrr.png']});
 	}else if(message.content == '!twirl'){
